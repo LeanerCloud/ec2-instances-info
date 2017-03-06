@@ -60,7 +60,7 @@ type regionPrices struct {
 }
 
 type linuxPricing struct {
-	OnDemand float32 `json:"ondemand,string"`
+	OnDemand float64 `json:"ondemand,string"`
 	// ignored for now
 	// Reserved interface{} `json:"reserved"`
 }
