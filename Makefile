@@ -28,3 +28,4 @@ generate-bindata: check_deps instances.json ## Convert instance data into go fil
 
 clean:
 	rm -f instances.json generated_bindata.go
+.PHONY: clean
