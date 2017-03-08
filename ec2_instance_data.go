@@ -81,12 +81,12 @@ func Data() (*InstanceData, error) {
 
 	raw, err := Asset("instances.json")
 	if err != nil {
-		return nil, errors.Errorf("couldn't read the data asset:", err.Error())
+		return nil, errors.Errorf("couldn't read the data asset: %s", err.Error())
 	}
 
 	err = json.Unmarshal(raw, &data)
 	if err != nil {
-		return nil, errors.Errorf("couldn't read the data asset", err.Error())
+		return nil, errors.Errorf("couldn't read the data asset: %s", err.Error())
 	}
 
 	return &data, nil
