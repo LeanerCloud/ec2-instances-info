@@ -1,6 +1,7 @@
 # ec2-instances-info
 [![Build Status](https://travis-ci.org/cristim/ec2-instances-info.svg?branch=master)](https://travis-ci.org/cristim/ec2-instances-info)
 [![Go Report Card](https://goreportcard.com/badge/github.com/cristim/ec2-instances-info)](https://goreportcard.com/report/github.com/cristim/ec2-instances-info)
+[![GoDoc](https://godoc.org/github.com/cristim/ec2-instances-info?status.svg)](http://godoc.org/github.com/cristim/ec2-instances-info)
 
 Golang library providing specs and pricing information about AWS EC2 instances,
 based on the data that is also powering the comprehensive
