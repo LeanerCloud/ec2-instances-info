@@ -17,11 +17,11 @@ check_deps:                                 ## Verify the system has all depende
 	@echo "all dependencies satisifed: $(DEPS)"
 .PHONY: check_deps
 
-instances.json:
+data/instances.json:
 	mkdir -p data
 	wget --quiet -nv $(INSTANCES_URL) -O data/instances.json
 
-generate-bindata: check_deps instances.json ## Convert instance data into go file
+generate-bindata: check_deps data/instances.json ## Convert instance data into go file
 	@type go-bindata || go get -u github.com/jteeuwen/go-bindata/...
 	go-bindata -o $(BINDATA_FILE) -nometadata -pkg data instances.json
 	gofmt -l -s -w $(BINDATA_FILE)
@@ -31,5 +31,5 @@ run-example:
 	go run examples/instances/instances.go
 
 clean:
-	rm -f instances.json generated_bindata.go
+	rm -rf data
 .PHONY: clean
