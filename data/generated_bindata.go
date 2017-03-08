@@ -3,7 +3,7 @@
 // instances.json
 // DO NOT EDIT!
 
-package ec2instancesinfo
+package data
 
 import (
 	"bytes"

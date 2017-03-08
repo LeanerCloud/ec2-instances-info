@@ -7,6 +7,7 @@ package ec2instancesinfo
 import (
 	"encoding/json"
 
+	"github.com/cristim/ec2-instances-info/data"
 	"github.com/pkg/errors"
 )
 
@@ -77,17 +78,17 @@ type InstanceData []jsonInstance
 // a golang data structure by this library.
 func Data() (*InstanceData, error) {
 
-	var data InstanceData
+	var d InstanceData
 
-	raw, err := Asset("instances.json")
+	raw, err := data.Asset("instances.json")
 	if err != nil {
 		return nil, errors.Errorf("couldn't read the data asset: %s", err.Error())
 	}
 
-	err = json.Unmarshal(raw, &data)
+	err = json.Unmarshal(raw, &d)
 	if err != nil {
 		return nil, errors.Errorf("couldn't read the data asset: %s", err.Error())
 	}
 
-	return &data, nil
+	return &d, nil
 }
