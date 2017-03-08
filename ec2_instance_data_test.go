@@ -15,8 +15,8 @@ func TestData(t *testing.T) {
 			Pricing: map[string]regionPrices{
 
 				"us-east-1": {
-					Linux{
-						OnDemand: "0.0059"},
+					linuxPricing{
+						OnDemand: 0.0059},
 				},
 			},
 		},
