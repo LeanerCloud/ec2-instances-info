@@ -80,7 +80,7 @@ func Data() (*InstanceData, error) {
 
 	var d InstanceData
 
-	raw, err := data.Asset("instances.json")
+	raw, err := data.Asset("data/instances.json")
 	if err != nil {
 		return nil, errors.Errorf("couldn't read the data asset: %s", err.Error())
 	}
