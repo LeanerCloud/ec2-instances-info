@@ -28,6 +28,7 @@ generate-bindata: check_deps data/instances.json ## Convert instance data into g
 .PHONY: prepare_bindata
 
 run-example:
+	go get ./...
 	go run examples/instances/instances.go
 
 clean:
