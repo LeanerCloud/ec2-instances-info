@@ -54,7 +54,7 @@ type storageConfiguration struct {
 
 type regionPrices struct {
 	Linux        linuxPricing `json:"linux"`
-	EBSSurcharge float64      `json:"ebs"`
+	EBSSurcharge float64      `json:"ebs,string"`
 	// ignored for now
 	// Mswinsqlweb interface{}  `json:"mswinSQLWeb"`
 	// Mswinsql    interface{}  `json:"mswinSQL"`
