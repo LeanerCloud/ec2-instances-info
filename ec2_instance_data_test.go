@@ -7,21 +7,39 @@ func TestData(t *testing.T) {
 		name     string
 		instance jsonInstance
 		wantErr  bool
-	}{{
-		name: "Parsing t2.nano memory and price",
-		instance: jsonInstance{
-			InstanceType: "t2.nano",
-			Memory:       0.5,
-			Pricing: map[string]regionPrices{
-
-				"us-east-1": {
-					linuxPricing{
-						OnDemand: 0.0059},
+	}{
+		{
+			name: "Parsing t2.nano memory, price, and ebs surcharge",
+			instance: jsonInstance{
+				InstanceType: "t2.nano",
+				Memory:       0.5,
+				Pricing: map[string]regionPrices{
+					"us-east-1": {
+						Linux: linuxPricing{
+							OnDemand: 0.0059,
+						},
+						EBSSurcharge: 0.0,
+					},
 				},
 			},
+			wantErr: false,
 		},
-		wantErr: false,
-	},
+		{
+			name: "Parsing m3.2xlarge memory, price, and ebs surcharge",
+			instance: jsonInstance{
+				InstanceType: "m3.2xlarge",
+				Memory:       30.0,
+				Pricing: map[string]regionPrices{
+					"us-east-1": {
+						Linux: linuxPricing{
+							OnDemand: 0.532,
+						},
+						EBSSurcharge: 0.050,
+					},
+				},
+			},
+			wantErr: false,
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
@@ -45,6 +63,13 @@ func TestData(t *testing.T) {
 						tt.instance.InstanceType,
 						tt.instance.Pricing["us-east-1"].Linux.OnDemand,
 						i.Pricing["us-east-1"].Linux.OnDemand)
+				}
+
+				if i.Pricing["us-east-1"].EBSSurcharge != tt.instance.Pricing["us-east-1"].EBSSurcharge {
+					t.Errorf("Data(): %v, want ebs cost %v, got %v",
+						tt.instance.InstanceType,
+						tt.instance.Pricing["us-east-1"].EBSSurcharge,
+						i.Pricing["us-east-1"].EBSSurcharge)
 				}
 			}
 		})
