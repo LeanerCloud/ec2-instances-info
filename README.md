@@ -42,3 +42,5 @@ See the examples directory for a working code example.
 ## Contributing
 
 Pull requests and feedback are welcome.
+
+The data can be updated for new instance type coverage using `make update-data`.
