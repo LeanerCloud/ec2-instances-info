@@ -37,3 +37,7 @@ clean:
 
 update-data: clean all
 .PHONY: update-data
+
+test:
+	@go test
+.PHONY: test
