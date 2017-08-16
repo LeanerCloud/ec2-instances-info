@@ -21,6 +21,7 @@ type jsonInstance struct {
 	NetworkPerformance string                  `json:"network_performance"`
 	EBSThroughput      float32                 `json:"ebs_throughput"`
 	PrettyName         string                  `json:"pretty_name"`
+	GPU                int                     `json:"GPU"`
 	Pricing            map[string]regionPrices `json:"pricing"`
 
 	Storage *storageConfiguration `json:"storage"`

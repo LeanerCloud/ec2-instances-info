@@ -40,6 +40,23 @@ func TestData(t *testing.T) {
 			},
 			wantErr: false,
 		},
+		{
+			name: "Parsing p2.16xlarge memory, price, GPUs and EBS surcharge",
+			instance: jsonInstance{
+				InstanceType: "p2.16xlarge",
+				Memory:       732.0,
+				GPU:          16,
+				Pricing: map[string]regionPrices{
+					"us-east-1": {
+						Linux: linuxPricing{
+							OnDemand: 14.4,
+						},
+						EBSSurcharge: 0,
+					},
+				},
+			},
+			wantErr: false,
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
