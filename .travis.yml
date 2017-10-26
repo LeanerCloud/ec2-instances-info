@@ -1,7 +1,7 @@
 language: go
 
 go:
-- 1.8
+- 1.9
 
 after_success:
   - curl --request POST "https://goreportcard.com/checks" --data "repo=github.com/cristim/ec2-instances-info"
