@@ -1,8 +1,7 @@
 BINDATA_FILE := data/generated_bindata.go
 
 # upstream data
-EC2_INSTANCES_INFO_COMMIT_SHA := $(shell wget --quiet https://api.github.com/repos/powdahound/ec2instances.info/commits/master -O - | jq -r .sha)
-INSTANCES_URL := "https://raw.githubusercontent.com/powdahound/ec2instances.info/$(EC2_INSTANCES_INFO_COMMIT_SHA)/www/instances.json"
+INSTANCES_URL := "https://ec2instances.info/instances.json"
 
 DEPS := "wget git jq"
 
