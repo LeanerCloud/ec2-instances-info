@@ -32,7 +32,7 @@ import "github.com/cristim/ec2-instances-info"
 data, err := ec2instancesinfo.Data() // only needed once
 
 // This would print all the available instance type names:
-for _, i := range data{
+for _, i := range *data {
   fmt.Println("Instance type", i.InstanceType)
 }
 ```
