@@ -16,7 +16,7 @@ func TestData(t *testing.T) {
 				Pricing: map[string]regionPrices{
 					"us-east-1": {
 						Linux: linuxPricing{
-							OnDemand: 0.0059,
+							OnDemand: 0.0058,
 						},
 						EBSSurcharge: 0.0,
 					},
