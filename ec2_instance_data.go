@@ -22,9 +22,9 @@ type jsonInstance struct {
 	EBSThroughput      float32                 `json:"ebs_throughput"`
 	PrettyName         string                  `json:"pretty_name"`
 	GPU                int                     `json:"GPU"`
-	Pricing            map[string]regionPrices `json:"pricing"`
+	Pricing            map[string]RegionPrices `json:"pricing"`
 
-	Storage *storageConfiguration `json:"storage"`
+	Storage *StorageConfiguration `json:"storage"`
 
 	VPC struct {
 		//    IPsPerENI int `json:"ips_per_eni"`
@@ -47,14 +47,14 @@ type jsonInstance struct {
 	EBSMaxBandwidth float32 `json:"ebs_max_bandwidth"`
 }
 
-type storageConfiguration struct {
+type StorageConfiguration struct {
 	SSD     bool    `json:"ssd"`
 	Devices int     `json:"devices"`
 	Size    float32 `json:"size"`
 }
 
-type regionPrices struct {
-	Linux        linuxPricing `json:"linux"`
+type RegionPrices struct {
+	Linux        LinuxPricing `json:"linux"`
 	EBSSurcharge float64      `json:"ebs,string"`
 	// ignored for now
 	// Mswinsqlweb interface{}  `json:"mswinSQLWeb"`
@@ -62,7 +62,7 @@ type regionPrices struct {
 	// Mswin       interface{}  `json:"mswin"`
 }
 
-type linuxPricing struct {
+type LinuxPricing struct {
 	OnDemand float64 `json:"ondemand,string"`
 	// ignored for now
 	// Reserved interface{} `json:"reserved"`

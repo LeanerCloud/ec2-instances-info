@@ -13,10 +13,10 @@ func TestData(t *testing.T) {
 			instance: jsonInstance{
 				InstanceType: "t2.nano",
 				Memory:       0.5,
-				Pricing: map[string]regionPrices{
+				Pricing: map[string]RegionPrices{
 					"us-east-1": {
-						Linux: linuxPricing{
-							OnDemand: 0.0059,
+						Linux: LinuxPricing{
+							OnDemand: 0.0058,
 						},
 						EBSSurcharge: 0.0,
 					},
@@ -29,9 +29,9 @@ func TestData(t *testing.T) {
 			instance: jsonInstance{
 				InstanceType: "m3.2xlarge",
 				Memory:       30.0,
-				Pricing: map[string]regionPrices{
+				Pricing: map[string]RegionPrices{
 					"us-east-1": {
-						Linux: linuxPricing{
+						Linux: LinuxPricing{
 							OnDemand: 0.532,
 						},
 						EBSSurcharge: 0.050,
@@ -46,9 +46,9 @@ func TestData(t *testing.T) {
 				InstanceType: "p2.16xlarge",
 				Memory:       732.0,
 				GPU:          16,
-				Pricing: map[string]regionPrices{
+				Pricing: map[string]RegionPrices{
 					"us-east-1": {
-						Linux: linuxPricing{
+						Linux: LinuxPricing{
 							OnDemand: 14.4,
 						},
 						EBSSurcharge: 0,
