@@ -32,6 +32,12 @@ func main() {
 			fmt.Print(p)
 		}
 
+		if i.Storage != nil {
+			fmt.Print(",\tLocal storage volume size(GB): ", i.Storage.Size,
+				",\tLocal storage volumes: ", i.Storage.Devices,
+				",\tLocal storage SSD: ", i.Storage.SSD)
+		}
+
 		fmt.Println(",\tEBS surcharge: ", i.Pricing["us-east-1"].EBSSurcharge)
 	}
 
