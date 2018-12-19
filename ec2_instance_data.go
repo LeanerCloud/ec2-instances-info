@@ -52,6 +52,7 @@ type StorageConfiguration struct {
 	SSD     bool    `json:"ssd"`
 	Devices int     `json:"devices"`
 	Size    float32 `json:"size"`
+	NVMeSSD bool    `json:"nvme_ssd"`
 }
 
 type RegionPrices struct {
