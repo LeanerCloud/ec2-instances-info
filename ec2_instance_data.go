@@ -17,6 +17,7 @@ type jsonInstance struct {
 	EnhancedNetworking bool            `json:"enhanced_networking"`
 	VCPURaw            json.RawMessage `json:"vCPU"`
 	VCPU               int
+	PhysicalProcessor  string                  `json:"physical_processor"`
 	Generation         string                  `json:"generation"`
 	EBSIOPS            float32                 `json:"ebs_iops"`
 	NetworkPerformance string                  `json:"network_performance"`

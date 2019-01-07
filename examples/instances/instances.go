@@ -19,6 +19,7 @@ func main() {
 	for _, i := range *data {
 		fmt.Print(
 			"Instance type: ", i.InstanceType,
+			",\tCPU: ", i.PhysicalProcessor,
 			",\tCPU cores: ", i.VCPU,
 			",\tMemory(GB): ", i.Memory,
 			",\tcost in us-east-1: ", i.Pricing["us-east-1"].Linux.OnDemand,
