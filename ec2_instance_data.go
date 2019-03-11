@@ -15,6 +15,7 @@ import (
 type jsonInstance struct {
 	Family             string          `json:"family"`
 	EnhancedNetworking bool            `json:"enhanced_networking"`
+	ECU                string          `json:"ECU"`
 	VCPURaw            json.RawMessage `json:"vCPU"`
 	VCPU               int
 	PhysicalProcessor  string                  `json:"physical_processor"`
