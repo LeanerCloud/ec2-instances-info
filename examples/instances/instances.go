@@ -22,6 +22,7 @@ func main() {
 			",\tCPU: ", i.PhysicalProcessor,
 			",\tCPU cores: ", i.VCPU,
 			",\tMemory(GB): ", i.Memory,
+			",\tEBS Throughput(MB/s): ", i.EBSThroughput,
 			",\tcost in us-east-1: ", i.Pricing["us-east-1"].Linux.OnDemand,
 			",\tcost in eu-central-1: ")
 
