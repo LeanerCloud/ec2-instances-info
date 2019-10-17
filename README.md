@@ -44,3 +44,9 @@ See the examples directory for a working code example.
 Pull requests and feedback are welcome.
 
 The data can be updated for new instance type coverage using `make update-data`.
+
+## Try it out
+
+[![Open in Cloud Shell](http://gstatic.com/cloudssh/images/open-btn.svg)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/cristim/ec2-instances-info.git)
+
+## History
