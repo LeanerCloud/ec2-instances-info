@@ -24,9 +24,9 @@ func main() {
 			",\tMemory(GB): ", i.Memory,
 			",\tEBS Throughput(MB/s): ", i.EBSThroughput,
 			",\tcost in us-east-1: ", i.Pricing["us-east-1"].Linux.OnDemand,
-			",\tcost in eu-central-1: ")
+			",\tcost in af-south-1: ")
 
-		p := i.Pricing["eu-central-1"].Linux.OnDemand
+		p := i.Pricing["af-south-1"].Linux.OnDemand
 
 		if p == 0 {
 			fmt.Print("UNAVAILABLE")

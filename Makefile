@@ -37,6 +37,10 @@ clean:
 update-data: clean all
 .PHONY: update-data
 
+update-data-from-local-file: all
+.PHONY: update-data-from-local-file
+
+
 test:
 	@go test
 .PHONY: test
