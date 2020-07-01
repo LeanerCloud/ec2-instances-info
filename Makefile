@@ -21,7 +21,7 @@ data/instances.json:
 	@wget --quiet -nv $(INSTANCES_URL) -O data/instances.json
 
 generate-bindata: check_deps data/instances.json ## Convert instance data into go file
-	@type go-bindata || go get -u github.com/jteeuwen/go-bindata/...
+	@type go-bindata || go get -u github.com/go-bindata/go-bindata/...
 	@go-bindata -o $(BINDATA_FILE) -nometadata -pkg data data/instances.json
 	@gofmt -l -s -w $(BINDATA_FILE) >/dev/null
 .PHONY: prepare_bindata
