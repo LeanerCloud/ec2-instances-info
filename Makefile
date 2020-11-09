@@ -18,7 +18,7 @@ check_deps:                                 ## Verify the system has all depende
 
 data/instances.json:
 	@mkdir -p data
-	@wget --quiet -nv $(INSTANCES_URL) -O data/instances.json
+	@wget --quiet -nv $(INSTANCES_URL) -O - | jq 'map(. | del(.pricing["cn-north-1"]) | del(.pricing["cn-northwest-1"]))' > data/instances.json
 
 generate-bindata: check_deps data/instances.json ## Convert instance data into go file
 	@type go-bindata || go get -u github.com/go-bindata/go-bindata/...
