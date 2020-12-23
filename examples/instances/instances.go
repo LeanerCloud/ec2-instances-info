@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cristim/ec2-instances-info"
+	ec2instancesinfo "github.com/cristim/ec2-instances-info"
 )
 
 func main() {
@@ -20,6 +20,7 @@ func main() {
 		fmt.Print(
 			"Instance type: ", i.InstanceType,
 			",\tCPU: ", i.PhysicalProcessor,
+			",\t Arch: ", i.Arch[0],
 			",\tCPU cores: ", i.VCPU,
 			",\tMemory(GB): ", i.Memory,
 			",\tEBS Throughput(MB/s): ", i.EBSThroughput,
