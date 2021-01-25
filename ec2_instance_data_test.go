@@ -16,8 +16,11 @@ func TestData(t *testing.T) {
 				VCPU:         1,
 				Pricing: map[string]RegionPrices{
 					"us-east-1": {
-						Linux: LinuxPricing{
+						Linux: Pricing{
 							OnDemand: 0.0058,
+						},
+						MSWin: Pricing{
+							OnDemand: 0.0081,
 						},
 						EBSSurcharge: 0.0,
 					},
@@ -33,10 +36,13 @@ func TestData(t *testing.T) {
 				VCPU:         8,
 				Pricing: map[string]RegionPrices{
 					"us-east-1": {
-						Linux: LinuxPricing{
+						Linux: Pricing{
 							OnDemand: 0.532,
 						},
-						EBSSurcharge: 0.050,
+						MSWin: Pricing{
+							OnDemand: 1.036,
+						},
+						EBSSurcharge: 0.0,
 					},
 				},
 			},
@@ -51,8 +57,11 @@ func TestData(t *testing.T) {
 				GPU:          16,
 				Pricing: map[string]RegionPrices{
 					"us-east-1": {
-						Linux: LinuxPricing{
+						Linux: Pricing{
 							OnDemand: 14.4,
+						},
+						MSWin: Pricing{
+							OnDemand: 17.344,
 						},
 						EBSSurcharge: 0,
 					},
@@ -88,6 +97,13 @@ func TestData(t *testing.T) {
 						tt.instance.InstanceType,
 						tt.instance.Pricing["us-east-1"].Linux.OnDemand,
 						i.Pricing["us-east-1"].Linux.OnDemand)
+				}
+
+				if i.Pricing["us-east-1"].MSWin.OnDemand != tt.instance.Pricing["us-east-1"].MSWin.OnDemand {
+					t.Errorf("Data(): %v, want MSWin price %v, got %v",
+						tt.instance.InstanceType,
+						tt.instance.Pricing["us-east-1"].MSWin.OnDemand,
+						i.Pricing["us-east-1"].MSWin.OnDemand)
 				}
 
 				if i.Pricing["us-east-1"].EBSSurcharge != tt.instance.Pricing["us-east-1"].EBSSurcharge {

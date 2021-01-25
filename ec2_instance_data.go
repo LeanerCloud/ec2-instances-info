@@ -60,15 +60,20 @@ type StorageConfiguration struct {
 }
 
 type RegionPrices struct {
-	Linux        LinuxPricing `json:"linux"`
-	EBSSurcharge float64      `json:"ebs,string"`
-	// ignored for now
-	// Mswinsqlweb interface{}  `json:"mswinSQLWeb"`
-	// Mswinsql    interface{}  `json:"mswinSQL"`
-	// Mswin       interface{}  `json:"mswin"`
+	Linux              Pricing `json:"linux"`
+	LinuxSQL           Pricing `json:"linuxSQL"`
+	LinuxSQLEnterprise Pricing `json:"linuxSQLEnterprise"`
+	LinuxSQLWeb        Pricing `json:"linuxSQLWeb"`
+	MSWin              Pricing `json:"mswin"`
+	MSWinSQL           Pricing `json:"mswinSQL"`
+	MSWinSQLEnterprise Pricing `json:"mswinSQLEnterprise"`
+	MSWinSQLWeb        Pricing `json:"mswinSQLWeb"`
+	RHEL               Pricing `json:"rhel"`
+	SLES               Pricing `json:"sles"`
+	EBSSurcharge       float64 `json:"ebs,string"`
 }
 
-type LinuxPricing struct {
+type Pricing struct {
 	OnDemand float64 `json:"ondemand,string"`
 	// ignored for now
 	// Reserved interface{} `json:"reserved"`
