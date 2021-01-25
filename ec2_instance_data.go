@@ -60,17 +60,17 @@ type StorageConfiguration struct {
 }
 
 type RegionPrices struct {
-	Linux        				Pricing `json:"linux"`
-	LinuxSQL        		Pricing `json:"linuxSQL"`
-	LinuxSQLEnterprise  Pricing `json:"linuxSQLEnterprise"`
-	LinuxSQLWeb        	Pricing `json:"linuxSQLWeb"`
-	MSWin        				Pricing `json:"mswin"`
-	MSWinSQL        		Pricing `json:"mswinSQL"`
-	MSWinSQLEnterprise  Pricing `json:"mswinSQLEnterprise"`
-	MSWinSQLWeb        	Pricing `json:"mswinSQLWeb"`
-	RHEL        				Pricing `json:"rhel"`
-	SLES        				Pricing `json:"sles"`
-	EBSSurcharge 				float64 `json:"ebs,string"`
+	Linux              Pricing `json:"linux"`
+	LinuxSQL           Pricing `json:"linuxSQL"`
+	LinuxSQLEnterprise Pricing `json:"linuxSQLEnterprise"`
+	LinuxSQLWeb        Pricing `json:"linuxSQLWeb"`
+	MSWin              Pricing `json:"mswin"`
+	MSWinSQL           Pricing `json:"mswinSQL"`
+	MSWinSQLEnterprise Pricing `json:"mswinSQLEnterprise"`
+	MSWinSQLWeb        Pricing `json:"mswinSQLWeb"`
+	RHEL               Pricing `json:"rhel"`
+	SLES               Pricing `json:"sles"`
+	EBSSurcharge       float64 `json:"ebs,string"`
 }
 
 type Pricing struct {
