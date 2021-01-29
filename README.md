@@ -1,5 +1,5 @@
 # ec2-instances-info
-[![Build Status](https://travis-ci.org/cristim/ec2-instances-info.svg?branch=master)](https://travis-ci.org/cristim/ec2-instances-info)
+![Build Status](https://github.com/cristim/ec2-instances-info/workflows/Test/badge.svg)
 [![Go Report Card](https://goreportcard.com/badge/github.com/cristim/ec2-instances-info)](https://goreportcard.com/report/github.com/cristim/ec2-instances-info)
 [![GoDoc](https://godoc.org/github.com/cristim/ec2-instances-info?status.svg)](http://godoc.org/github.com/cristim/ec2-instances-info)
 
