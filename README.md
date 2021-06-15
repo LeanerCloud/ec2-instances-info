@@ -1,4 +1,5 @@
 # ec2-instances-info
+
 ![Build Status](https://github.com/cristim/ec2-instances-info/workflows/Test/badge.svg)
 [![Go Report Card](https://goreportcard.com/badge/github.com/cristim/ec2-instances-info)](https://goreportcard.com/report/github.com/cristim/ec2-instances-info)
 [![GoDoc](https://godoc.org/github.com/cristim/ec2-instances-info?status.svg)](http://godoc.org/github.com/cristim/ec2-instances-info)
@@ -12,7 +13,7 @@ website.
 
 This used to be a part of my other project
 [AutoSpotting](https://github.com/cristim/autospotting) which uses it
-intensively, but I decided to extract it into a dedicated project sice it may be
+intensively, but I decided to extract it into a dedicated project since it may be
 useful to someone else out there.
 
 Some data fields that were not needed in AutoSpotting may not yet be exposed but
@@ -48,5 +49,3 @@ The data can be updated for new instance type coverage using `make update-data`.
 ## Try it out
 
 [![Open in Cloud Shell](http://gstatic.com/cloudssh/images/open-btn.svg)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/cristim/ec2-instances-info.git)
-
-## History
