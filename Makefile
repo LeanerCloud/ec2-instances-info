@@ -1,9 +1,9 @@
 BINDATA_FILE := data/generated_bindata.go
 
 # upstream data
-INSTANCES_URL := "https://ec2instances.info/instances.json"
+INSTANCES_URL := "https://instances.vantage.sh/instances.json"
 
-DEPS := "wget git jq"
+DEPS := "curl git jq"
 
 all: generate-bindata run-example
 .PHONY: all
@@ -18,7 +18,7 @@ check_deps:                                 ## Verify the system has all depende
 
 data/instances.json:
 	@mkdir -p data
-	@wget --quiet -nv $(INSTANCES_URL) -O - | jq 'map(. | del(.pricing["cn-north-1"]) | del(.pricing["cn-northwest-1"]))' > data/instances.json
+	@curl $(INSTANCES_URL) | jq 'map(. | del(.pricing["cn-north-1"]) | del(.pricing["cn-northwest-1"]))' > data/instances.json
 
 generate-bindata: check_deps data/instances.json ## Convert instance data into go file
 	@type go-bindata || go get -u github.com/go-bindata/go-bindata/...
@@ -28,7 +28,7 @@ generate-bindata: check_deps data/instances.json ## Convert instance data into g
 
 run-example:
 	@go get ./...
-	@go run examples/instances/instances.go
+	@go run examples/instances/instances.go | less -S
 
 clean:
 	@rm -rf data

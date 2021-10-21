@@ -6,7 +6,9 @@ package ec2instancesinfo
 
 import (
 	"encoding/json"
+	"sort"
 	"strconv"
+	"strings"
 
 	"github.com/cristim/ec2-instances-info/data"
 	"github.com/pkg/errors"
@@ -117,6 +119,23 @@ func Data() (*InstanceData, error) {
 			d[i].ECU = stringECU
 		}
 	}
+
+	sort.Slice(d, func(i, j int) bool {
+		// extract the instance family, such as "c5" for "c5.large"
+		family_i := strings.Split(d[i].InstanceType, ".")[0]
+		family_j := strings.Split(d[j].InstanceType, ".")[0]
+
+		// we first compare only based on the family
+		switch strings.Compare(family_i, family_j) {
+		case -1:
+			return true
+		case 1:
+			return false
+		}
+
+		// within the same family we compare by memory size, but always keeping metal instances last
+		return d[i].Memory < d[j].Memory || strings.HasSuffix(d[j].InstanceType, "metal")
+	})
 
 	return &d, nil
 }
