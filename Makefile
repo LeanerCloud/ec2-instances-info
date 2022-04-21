@@ -28,7 +28,7 @@ generate-bindata: check_deps data/instances.json ## Convert instance data into g
 
 run-example:
 	@go get ./...
-	@go run examples/instances/instances.go | tee generated_instances_data.txt | less -S
+	@go run examples/instances/instances.go | sort | tee generated_instances_data.txt | less -S
 
 clean:
 	@rm -rf data
