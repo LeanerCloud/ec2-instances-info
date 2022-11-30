@@ -5,7 +5,7 @@ INSTANCES_URL := "https://instances.vantage.sh/instances.json"
 
 DEPS := "curl git jq"
 
-all: generate-bindata run-example
+all: update-data run-example
 .PHONY: all
 
 check_deps:                                 ## Verify the system has all dependencies installed
@@ -20,12 +20,6 @@ data/instances.json:
 	@mkdir -p data
 	@curl $(INSTANCES_URL) | jq 'map(. | del(.pricing["cn-north-1"]) | del(.pricing["cn-northwest-1"]))' > data/instances.json
 
-generate-bindata: check_deps data/instances.json ## Convert instance data into go file
-	@type go-bindata || go get -u github.com/go-bindata/go-bindata/...
-	@go-bindata -o $(BINDATA_FILE) -nometadata -pkg data data/instances.json
-	@gofmt -l -s -w $(BINDATA_FILE) >/dev/null
-.PHONY: prepare_bindata
-
 run-example:
 	@go get ./...
 	@go run examples/instances/instances.go | sort | tee generated_instances_data.txt | less -S
@@ -34,7 +28,7 @@ clean:
 	@rm -rf data
 .PHONY: clean
 
-update-data: clean all
+update-data: clean data/instances.json
 .PHONY: update-data
 
 update-data-from-local-file: all

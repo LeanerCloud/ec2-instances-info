@@ -44,8 +44,12 @@ See the examples directory for a working code example.
 
 Pull requests and feedback are welcome.
 
-The data can be updated for new instance type coverage using `make update-data`.
+The data can be updated for new instance type coverage by running `make`.
 
-## Try it out
+## Try it out on GCP Cloud Shell
 
-[![Open in Cloud Shell](http://gstatic.com/cloudssh/images/open-btn.svg)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/cristim/ec2-instances-info.git)
+- [![Open in Cloud Shell](http://gstatic.com/cloudssh/images/open-btn.svg)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/cristim/ec2-instances-info.git)
+
+- Click on the `Terminal` then `New Terminal` in the top menu
+- In the terminal run `cd ~/cloudshell_open/ec2-instances-info/examples/instances/`
+- `go run .` will run the example code.
