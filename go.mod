@@ -1,6 +1,6 @@
 module github.com/cristim/ec2-instances-info
 
-go 1.14
+go 1.16
 
 require (
 	github.com/go-bindata/go-bindata v3.1.2+incompatible // indirect

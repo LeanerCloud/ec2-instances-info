@@ -5,12 +5,12 @@ package ec2instancesinfo
 // a generated snipped created using the go-bindata tool.
 
 import (
+	_ "embed"
 	"encoding/json"
 	"sort"
 	"strconv"
 	"strings"
 
-	"github.com/cristim/ec2-instances-info/data"
 	"github.com/pkg/errors"
 )
 
@@ -81,6 +81,9 @@ type Pricing struct {
 	// Reserved interface{} `json:"reserved"`
 }
 
+//go:embed data/instances.json
+var dataFile []byte
+
 //------------------------------------------------------------------------------
 
 // InstanceData is a large data structure containing pricing and specs
@@ -95,12 +98,7 @@ func Data() (*InstanceData, error) {
 
 	var d InstanceData
 
-	raw, err := data.Asset("data/instances.json")
-	if err != nil {
-		return nil, errors.Errorf("couldn't read the data asset: %s", err.Error())
-	}
-
-	err = json.Unmarshal(raw, &d)
+	err := json.Unmarshal(dataFile, &d)
 	if err != nil {
 		return nil, errors.Errorf("couldn't read the data asset: %s", err.Error())
 	}
