@@ -76,9 +76,25 @@ type RegionPrices struct {
 }
 
 type Pricing struct {
-	OnDemand float64 `json:"ondemand,string"`
-	// ignored for now
-	// Reserved interface{} `json:"reserved"`
+	OnDemand float64  `json:"ondemand,string"`
+	SpotMin  float64  `json:"spot_min,string"`
+	SpotMax  float64  `json:"spot_max,string"`
+	Reserved Reserved `json:"reserved"`
+}
+
+type Reserved struct {
+	StandardNoUpfront1Year          float64 `json:"yrTerm1Standard.noUpfront,string"`
+	StandardNoUpfront3Years         float64 `json:"yrTerm3Standard.noUpfront,string"`
+	StandardPartiallUpfront1Year    float64 `json:"yrTerm1Standard.partialUpfront,string"`
+	StandardPartialUpfront3Years    float64 `json:"yrTerm3Standard.partialUpfront,string"`
+	StandardAllUpfront1Year         float64 `json:"yrTerm1Standard.allUpfront,string"`
+	StandardAllUpfront3Years        float64 `json:"yrTerm3Standard.allUpfront,string"`
+	ConvertibleNoUpfront1Year       float64 `json:"yrTerm1Convertible.noUpfront,string"`
+	ConvertibleNoUpfront3Years      float64 `json:"yrTerm3Convertible.noUpfront,string"`
+	ConvertiblePartiallUpfront1Year float64 `json:"yrTerm1Convertible.partialUpfront,string"`
+	ConvertiblePartialUpfront3Years float64 `json:"yrTerm3Convertible.partialUpfront,string"`
+	ConvertibleAllUpfront1Year      float64 `json:"yrTerm1Convertible.allUpfront,string"`
+	ConvertibleAllUpfront3Years     float64 `json:"yrTerm3Convertible.allUpfront,string"`
 }
 
 //go:embed data/instances.json

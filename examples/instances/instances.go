@@ -24,17 +24,9 @@ func main() {
 			",\tCPU cores: ", i.VCPU,
 			",\tMemory(GB): ", i.Memory,
 			",\tEBS Throughput(MB/s): ", i.EBSThroughput,
-			",\tcost in us-east-1: ", i.Pricing["us-east-1"].Linux.OnDemand,
-			",\tcost in af-south-1: ")
-
-		p := i.Pricing["af-south-1"].Linux.OnDemand
-
-		if p == 0 {
-			fmt.Print("UNAVAILABLE")
-		} else {
-			fmt.Print(p)
-		}
-
+			",\tLinux OD cost in us-east-1: ", i.Pricing["us-east-1"].Linux.OnDemand,
+			",\tLinux Spot cost in us-east-1: ", i.Pricing["us-east-1"].Linux.SpotMin,
+			",\tLinux Standard RI 1y AllUpfront cost in us-east-1: ", i.Pricing["us-east-1"].Linux.Reserved.StandardAllUpfront1Year)
 		if i.Storage != nil {
 			fmt.Print(",\tLocal storage volume size(GB): ", i.Storage.Size,
 				",\tLocal storage volumes: ", i.Storage.Devices,
