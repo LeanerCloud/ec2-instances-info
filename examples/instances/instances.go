@@ -25,6 +25,9 @@ func main() {
 			",\tMemory(GB): ", i.Memory,
 			",\tEBS Throughput(MB/s): ", i.EBSThroughput,
 			",\tLinux OD cost in us-east-1: ", i.Pricing["us-east-1"].Linux.OnDemand,
+			",\tWindows OD cost in us-east-1: ", i.Pricing["us-east-1"].MSWin.OnDemand,
+			",\tRHEL OD cost in us-east-1: ", i.Pricing["us-east-1"].RHEL.OnDemand,
+			",\tSLES OD cost in us-east-1: ", i.Pricing["us-east-1"].SLES.OnDemand,
 			",\tLinux Spot cost in us-east-1: ", i.Pricing["us-east-1"].Linux.SpotMin,
 			",\tLinux Standard RI 1y AllUpfront cost in us-east-1: ", i.Pricing["us-east-1"].Linux.Reserved.StandardAllUpfront1Year)
 		if i.Storage != nil {
