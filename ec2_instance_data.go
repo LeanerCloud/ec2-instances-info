@@ -34,8 +34,8 @@ type jsonInstance struct {
 	Storage *StorageConfiguration `json:"storage"`
 
 	VPC struct {
-		//    IPsPerENI int `json:"ips_per_eni"`
-		//    MaxENIs   int `json:"max_enis"`
+		IPsPerENI int `json:"ips_per_eni"`
+		MaxENIs   int `json:"max_enis"`
 	} `json:"vpc"`
 
 	Arch                     []string `json:"arch"`
