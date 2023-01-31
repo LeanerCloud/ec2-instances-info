@@ -1,5 +1,4 @@
-github.com/cristim/ec2-instances-info v0.0.0-20230112111652-35a8cfc9500f h1:PGKFbxoyilw7RzyLCfGaYn+yBObE6M3zjCaee2imnVY=
-github.com/cristim/ec2-instances-info v0.0.0-20230112111652-35a8cfc9500f/go.mod h1:4M7u3qpkvUrUEHHKu4VXU/8oCvgSzv+c1ym7lUUY4hA=
+github.com/go-bindata/go-bindata v3.1.2+incompatible h1:5vjJMVhowQdPzjE1LdxyFF7YFTXg5IgGVW4gBr5IbvE=
 github.com/go-bindata/go-bindata v3.1.2+incompatible/go.mod h1:xK8Dsgwmeed+BBsSy2XTopBn/8uK2HWuGSnA11C3Joo=
 github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
 github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
