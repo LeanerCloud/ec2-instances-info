@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	ec2instancesinfo "github.com/yariv-doit/ec2-instances-info"
+	ec2instancesinfo "github.com/cristim/ec2-instances-info"
 )
 
 func main() {
