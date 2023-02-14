@@ -1,4 +1,4 @@
-module github.com/cristim/ec2-instances-info
+module github.com/LeanerCloud/ec2-instances-info
 
 go 1.16
 
