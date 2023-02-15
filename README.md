@@ -29,6 +29,8 @@ go get -u github.com/LeanerCloud/ec2-instances-info/...
 
 ## Usage
 
+### One-off usage, with static data
+
 ```golang
 import "github.com/LeanerCloud/ec2-instances-info"
 
@@ -41,6 +43,42 @@ for _, i := range *data {
 ```
 
 See the examples directory for a working code example.
+
+### One-off usage, with updated instance type data
+
+```golang
+import "github.com/LeanerCloud/ec2-instances-info"
+
+key := "API_KEY" // API keys are available upon demand from contact@leanercloud.com, free of charge for personal use
+
+err:= ec2instancesinfo.UpdateData(nil, &key);
+if err!= nil{
+   fmt.Println("Couldn't update instance type data, reverting to static compile-time data", err.Error())
+}
+
+data, err := ec2instancesinfo.Data() // needs to be called once after data updates
+
+// This would print all the available instance type names:
+for _, i := range *data {
+  fmt.Println("Instance type", i.InstanceType)
+}
+```
+
+### Continuous usage, with instance type data updated every 2 days
+
+```golang
+import "github.com/LeanerCloud/ec2-instances-info"
+
+key := "API_KEY"
+go ec2instancesinfo.Updater(2, nil, &key); // use 0 or negative values for weekly updates
+
+data, err := ec2instancesinfo.Data() // only needed once
+
+// This would print all the available instance type names:
+for _, i := range *data {
+  fmt.Println("Instance type", i.InstanceType)
+}
+```
 
 ## Contributing
 

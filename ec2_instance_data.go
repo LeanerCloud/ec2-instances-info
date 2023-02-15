@@ -7,6 +7,7 @@ package ec2instancesinfo
 import (
 	_ "embed"
 	"encoding/json"
+	"log"
 	"sort"
 	"strconv"
 	"strings"
@@ -45,13 +46,9 @@ type jsonInstance struct {
 	MaxBandwidth float32 `json:"max_bandwidth"`
 	InstanceType string  `json:"instance_type"`
 
-	// ECU is ignored because it's useless and also unreliable when parsing the
-	// data structure: usually it's a number, but it can also be the string
-	// "variable"
-	// ECU float32 `json:"ECU"`
-
-	Memory          float32 `json:"memory"`
-	EBSMaxBandwidth float32 `json:"ebs_max_bandwidth"`
+	Memory          float32
+	MemoryRaw       json.RawMessage `json:"memory"`
+	EBSMaxBandwidth float32         `json:"ebs_max_bandwidth"`
 }
 
 type StorageConfiguration struct {
@@ -98,7 +95,9 @@ type Reserved struct {
 }
 
 //go:embed data/instances.json
-var dataFile []byte
+var staticDataBody []byte
+
+var dataBody, backupDataBody []byte
 
 //------------------------------------------------------------------------------
 
@@ -114,9 +113,24 @@ func Data() (*InstanceData, error) {
 
 	var d InstanceData
 
-	err := json.Unmarshal(dataFile, &d)
-	if err != nil {
-		return nil, errors.Errorf("couldn't read the data asset: %s", err.Error())
+	if len(dataBody) > 0 {
+		log.Println("We have updated data, trying to unmarshal it")
+		err := json.Unmarshal(dataBody, &d)
+		if err != nil {
+			log.Printf("couldn't unmarshal the updated data, reverting to the backup data : %s", err.Error())
+			err := json.Unmarshal(backupDataBody, &d)
+			if err != nil {
+				return nil, errors.Errorf("couldn't unmarshal backup data: %s", err.Error())
+			}
+			backupDataBody = []byte{}
+		}
+	} else {
+		log.Println("Using the static instance type data")
+		err := json.Unmarshal(staticDataBody, &d)
+		if err != nil {
+			return nil, errors.Errorf("couldn't unmarshal data: %s", err.Error())
+		}
+
 	}
 
 	// Handle "N/A" values in the VCPU field for i3.metal instance type and
@@ -124,10 +138,17 @@ func Data() (*InstanceData, error) {
 	for i := range d {
 		var vcpu, intECU int
 		var stringECU string
-		if err = json.Unmarshal(d[i].VCPURaw, &vcpu); err == nil {
+		var memory float32
+
+		if err := json.Unmarshal(d[i].VCPURaw, &vcpu); err == nil {
 			d[i].VCPU = vcpu
 		}
-		if err = json.Unmarshal(d[i].ECURaw, &intECU); err == nil {
+
+		if err := json.Unmarshal(d[i].MemoryRaw, &memory); err == nil {
+			d[i].Memory = memory
+		}
+
+		if err := json.Unmarshal(d[i].ECURaw, &intECU); err == nil {
 			d[i].ECU = strconv.Itoa(intECU)
 		} else if err = json.Unmarshal(d[i].ECURaw, &stringECU); err == nil {
 			d[i].ECU = stringECU
