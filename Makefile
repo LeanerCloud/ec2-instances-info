@@ -18,7 +18,7 @@ check_deps:                                 ## Verify the system has all depende
 
 data/instances.json:
 	@mkdir -p data
-	@curl $(INSTANCES_URL) | jq 'map(. | del(.pricing["cn-north-1"]) | del(.pricing["cn-northwest-1"]))' > data/instances.json
+	@curl $(INSTANCES_URL) -o data/instances.json
 
 run-example:
 	@go get ./...
