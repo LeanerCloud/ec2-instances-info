@@ -2,6 +2,7 @@ BINDATA_FILE := data/generated_bindata.go
 
 # upstream data
 INSTANCES_URL := "https://instances.vantage.sh/instances.json"
+RDS_INSTANCES_URL := "https://instances.vantage.sh/rds/instances.json"
 
 DEPS := "curl git jq"
 
@@ -19,6 +20,8 @@ check_deps:                                 ## Verify the system has all depende
 data/instances.json:
 	@mkdir -p data
 	@curl $(INSTANCES_URL) -o data/instances.json
+	@curl $(RDS_INSTANCES_URL) -o data/rds-instances.json
+
 
 run-example:
 	@go get ./...
