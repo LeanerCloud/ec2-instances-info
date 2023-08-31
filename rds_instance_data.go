@@ -26,12 +26,10 @@ type RDSInstance struct {
 	EnhancedNetworkingSupported string                     `json:"enhancedNetworkingSupported,omitempty"`
 	Family                      string                     `json:"family,omitempty"`
 	InstanceFamily              string                     `json:"instanceFamily,omitempty"`
-	InstanceType                string                     `json:"instanceType,omitempty"`
-	InstanceType0               string                     `json:"instance_type,omitempty"`
+	InstanceType                string                     `json:"instance_type,omitempty"`
 	InstanceTypeFamily          string                     `json:"instanceTypeFamily,omitempty"`
 	Memory                      float32                    `json:"memory,omitempty,string"`
-	NetworkPerformance          string                     `json:"networkPerformance,omitempty"`
-	NetworkPerformance0         string                     `json:"network_performance,omitempty"`
+	NetworkPerformance          string                     `json:"network_performance,omitempty"`
 	NormalizationSizeFactor     string                     `json:"normalizationSizeFactor,omitempty"`
 	PhysicalProcessor           string                     `json:"physicalProcessor,omitempty"`
 	PrettyName                  string                     `json:"pretty_name,omitempty"`
@@ -42,7 +40,7 @@ type RDSInstance struct {
 	Servicecode                 string                     `json:"servicecode,omitempty"`
 	Servicename                 string                     `json:"servicename,omitempty"`
 	Storage                     string                     `json:"storage,omitempty"`
-	Vcpu                        string                     `json:"vcpu,omitempty"`
+	Vcpu                        int32                      `json:"vcpu,omitempty,string"`
 }
 
 type RDSRegionPrices struct {
