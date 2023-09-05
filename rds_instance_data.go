@@ -110,9 +110,9 @@ func RDSData() (*RDSInstanceData, error) {
 
 	// Similar to the EC2 instance data code, you can perform sorting and other operations here.
 
-	for _, data := range d {
-		if data.CurrentGenerationRaw == "Yes" {
-			data.CurrentGeneration = true
+	for i := range d {
+		if d[i].CurrentGenerationRaw == "Yes" {
+			d[i].CurrentGeneration = true
 		}
 	}
 
