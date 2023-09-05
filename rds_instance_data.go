@@ -11,9 +11,10 @@ import (
 type RDSInstanceData []RDSInstance
 
 type RDSInstance struct {
-	Arch                        string                     `json:"arch,omitempty"`
-	ClockSpeed                  string                     `json:"clockSpeed,omitempty"`
-	CurrentGeneration           string                     `json:"currentGeneration,omitempty"`
+	Arch                        string `json:"arch,omitempty"`
+	ClockSpeed                  string `json:"clockSpeed,omitempty"`
+	CurrentGenerationRaw        string `json:"currentGeneration,omitempty"`
+	CurrentGeneration           bool
 	DedicatedEbsThroughput      string                     `json:"dedicatedEbsThroughput,omitempty"`
 	EbsBaselineBandwidth        float64                    `json:"ebs_baseline_bandwidth,omitempty"`
 	EbsBaselineIops             float64                    `json:"ebs_baseline_iops,omitempty"`
@@ -108,6 +109,12 @@ func RDSData() (*RDSInstanceData, error) {
 	}
 
 	// Similar to the EC2 instance data code, you can perform sorting and other operations here.
+
+	for _, data := range d {
+		if data.CurrentGenerationRaw == "Yes" {
+			data.CurrentGeneration = true
+		}
+	}
 
 	return &d, nil
 }
