@@ -41,8 +41,8 @@ type ElastiCacheInstance struct {
 	InstanceType                                   string                    `json:"instanceType"`
 	CurrentGeneration                              string                    `json:"currentGeneration"`
 	InstanceFamily                                 string                    `json:"instanceFamily"`
-	Vcpu                                           string                    `json:"vcpu"`
-	Memory                                         string                    `json:"memory"`
+	Vcpu                                           int32                     `json:"vcpu,string"`
+	Memory                                         float64                   `json:"memory,string"`
 	NetworkPerformance                             string                    `json:"networkPerformance"`
 	CacheEngine                                    string                    `json:"cacheEngine"`
 	RegionCode                                     string                    `json:"regionCode"`

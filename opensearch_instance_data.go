@@ -28,8 +28,8 @@ type OpenSearchInstance struct {
 	InstanceType      string                             `json:"instanceType"`
 	CurrentGeneration string                             `json:"currentGeneration"`
 	InstanceFamily    string                             `json:"instanceFamily"`
-	Vcpu              string                             `json:"vcpu"`
-	MemoryGib         string                             `json:"memoryGib"`
+	Vcpu              int32                              `json:"vcpu,string"`
+	MemoryGib         float64                            `json:"memoryGib,string"`
 	RegionCode        string                             `json:"regionCode"`
 	Servicename       string                             `json:"servicename"`
 	Family            string                             `json:"family"`
