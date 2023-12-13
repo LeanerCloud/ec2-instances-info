@@ -4,10 +4,15 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/LeanerCloud/ec2-instances-info)](https://goreportcard.com/report/github.com/LeanerCloud/ec2-instances-info)
 [![GoDoc](https://godoc.org/github.com/LeanerCloud/ec2-instances-info?status.svg)](http://godoc.org/github.com/LeanerCloud/ec2-instances-info)
 
-Golang library providing specs and pricing information about AWS EC2 instances,
-based on the data that is also powering the comprehensive
+Golang library providing specs and pricing information about AWS resources such as EC2 instances, RDS databases, ElastiCache and OpenSearch clusters.
+
+It is based on the data that is also powering the comprehensive
 [www.ec2instances.info](http://www.ec2instances.info) instance comparison
-website.
+website, but made easier to consume from Go software.
+
+This code is offered under the public domain/unlicense, but we also offer an API that automates data updates, available for a monthly subscription that helps support ongoing development of this library.
+
+Reach out to us on [Slack](https://join.slack.com/t/leanercloud/shared_invite/zt-xodcoi9j-1IcxNozXx1OW0gh_N08sjg) if you're interested in API access.
 
 ## History
 
