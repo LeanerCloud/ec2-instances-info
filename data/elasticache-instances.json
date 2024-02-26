@@ -228,6 +228,22 @@
      }
     }
    },
+   "ca-west-1": {
+    "Redis": {
+     "ondemand": 0.325,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 0.2444269406392694,
+      "yrTerm1Standard.noUpfront": 0.257
+     }
+    },
+    "Memcached": {
+     "ondemand": 0.325,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 0.2444269406392694,
+      "yrTerm1Standard.noUpfront": 0.257
+     }
+    }
+   },
    "ap-south-1": {
     "Redis": {
      "ondemand": 0.31,
@@ -498,6 +514,7 @@
    "ap-southeast-2": "Asia Pacific (Sydney)",
    "eu-north-1": "Europe (Stockholm)",
    "eu-central-1": "Europe (Frankfurt)",
+   "ca-west-1": "Canada West (Calgary)",
    "ap-south-1": "Asia Pacific (Mumbai)",
    "us-gov-east-1": "AWS GovCloud (US-East)",
    "ca-central-1": "Canada (Central)",
@@ -1333,6 +1350,18 @@
      }
     }
    },
+   "ca-west-1": {
+    "Redis": {
+     "ondemand": 0.018,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 0.013708333333333333,
+      "yrTerm1Standard.noUpfront": 0.014
+     }
+    },
+    "Memcached": {
+     "ondemand": 0.018
+    }
+   },
    "eu-west-1": {
     "Memcached": {
      "ondemand": 0.017,
@@ -1649,6 +1678,7 @@
    "us-east-2": "US East (Ohio)",
    "eu-north-1": "Europe (Stockholm)",
    "ap-southeast-2": "Asia Pacific (Sydney)",
+   "ca-west-1": "Canada West (Calgary)",
    "eu-west-1": "Europe (Ireland)",
    "us-east-1": "US East (N. Virginia)",
    "ca-central-1": "Canada (Central)",
@@ -2233,6 +2263,22 @@
      }
     }
    },
+   "ca-west-1": {
+    "Memcached": {
+     "ondemand": 0.019,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 0.014004223744292237,
+      "yrTerm1Standard.noUpfront": 0.015
+     }
+    },
+    "Redis": {
+     "ondemand": 0.019,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 0.014004223744292237,
+      "yrTerm1Standard.noUpfront": 0.015
+     }
+    }
+   },
    "af-south-1": {
     "Redis": {
      "ondemand": 0.021,
@@ -2350,6 +2396,7 @@
    "us-gov-east-1": "AWS GovCloud (US-East)",
    "ap-southeast-1": "Asia Pacific (Singapore)",
    "eu-south-2": "Europe (Spain)",
+   "ca-west-1": "Canada West (Calgary)",
    "af-south-1": "Africa (Cape Town)",
    "sa-east-1": "South America (Sao Paulo)",
    "ap-southeast-2": "Asia Pacific (Sydney)",
@@ -3255,6 +3302,18 @@
      }
     }
    },
+   "ca-west-1": {
+    "Redis": {
+     "ondemand": 0.035,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 0.026197945205479453,
+      "yrTerm1Standard.noUpfront": 0.028
+     }
+    },
+    "Memcached": {
+     "ondemand": 0.035
+    }
+   },
    "eu-south-1": {
     "Memcached": {
      "ondemand": 0.036,
@@ -3498,6 +3557,7 @@
    "ca-central-1": "Canada (Central)",
    "eu-west-2": "Europe (London)",
    "us-east-1": "US East (N. Virginia)",
+   "ca-west-1": "Canada West (Calgary)",
    "eu-south-1": "Europe (Milan)",
    "eu-west-3": "Europe (Paris)",
    "ap-east-1": "Asia Pacific (Hong Kong)",
@@ -3777,7 +3837,7 @@
     "Redis": {
      "ondemand": 5.184,
      "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.6587260273972602,
+      "yrTerm3Standard.partialUpfront": 2.488178082191781,
       "yrTerm1Standard.partialUpfront": 3.3698173515981735,
       "yrTerm3Standard.allUpfront": 2.3390030441400307,
       "yrTerm1Standard.noUpfront": 3.538,
@@ -5361,6 +5421,22 @@
      }
     }
    },
+   "ca-west-1": {
+    "Memcached": {
+     "ondemand": 1.794,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 1.3399535388127854,
+      "yrTerm1Standard.noUpfront": 1.41
+     }
+    },
+    "Redis": {
+     "ondemand": 1.794,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 1.3399535388127854,
+      "yrTerm1Standard.noUpfront": 1.41
+     }
+    }
+   },
    "ap-southeast-1": {
     "Redis": {
      "ondemand": 1.969,
@@ -5406,6 +5482,7 @@
    "ap-south-1": "Asia Pacific (Mumbai)",
    "eu-central-1": "Europe (Frankfurt)",
    "ap-northeast-2": "Asia Pacific (Seoul)",
+   "ca-west-1": "Canada West (Calgary)",
    "ap-southeast-1": "Asia Pacific (Singapore)"
   },
   "pretty_name": "R6g Memory optimized Quadruple Extra Large",
@@ -5959,6 +6036,22 @@
      }
     }
    },
+   "ca-west-1": {
+    "Redis": {
+     "ondemand": 0.074,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 0.05579337899543379,
+      "yrTerm1Standard.noUpfront": 0.058
+     }
+    },
+    "Memcached": {
+     "ondemand": 0.074,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 0.05579337899543379,
+      "yrTerm1Standard.noUpfront": 0.058
+     }
+    }
+   },
    "me-central-1": {
     "Redis": {
      "ondemand": 0.0792,
@@ -6090,6 +6183,7 @@
    "me-south-1": "Middle East (Bahrain)",
    "eu-west-3": "Europe (Paris)",
    "ap-south-2": "Asia Pacific (Hyderabad)",
+   "ca-west-1": "Canada West (Calgary)",
    "me-central-1": "Middle East (UAE)",
    "us-gov-east-1": "AWS GovCloud (US-East)",
    "ap-northeast-1": "Asia Pacific (Tokyo)",
@@ -6139,6 +6233,22 @@
       "yrTerm3Standard.allUpfront": 0.07975646879756469,
       "yrTerm1Standard.noUpfront": 0.121,
       "yrTerm3Standard.noUpfront": 0.092
+     }
+    }
+   },
+   "ca-west-1": {
+    "Memcached": {
+     "ondemand": 0.162,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 0.1221884703196347,
+      "yrTerm1Standard.noUpfront": 0.128
+     }
+    },
+    "Redis": {
+     "ondemand": 0.162,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 0.1221884703196347,
+      "yrTerm1Standard.noUpfront": 0.128
      }
     }
    },
@@ -6594,6 +6704,7 @@
    }
   },
   "regions": {
+   "ca-west-1": "Canada West (Calgary)",
    "eu-central-1": "Europe (Frankfurt)",
    "us-east-1": "US East (N. Virginia)",
    "ap-northeast-1": "Asia Pacific (Tokyo)",
@@ -8478,6 +8589,22 @@
      }
     }
    },
+   "ca-west-1": {
+    "Memcached": {
+     "ondemand": 5.381,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 4.020010958904109,
+      "yrTerm1Standard.noUpfront": 4.232
+     }
+    },
+    "Redis": {
+     "ondemand": 5.381,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 4.020010958904109,
+      "yrTerm1Standard.noUpfront": 4.232
+     }
+    }
+   },
    "us-west-1": {
     "Memcached": {
      "ondemand": 4.925,
@@ -8684,6 +8811,7 @@
    "ap-southeast-1": "Asia Pacific (Singapore)",
    "eu-west-3": "Europe (Paris)",
    "sa-east-1": "South America (Sao Paulo)",
+   "ca-west-1": "Canada West (Calgary)",
    "us-west-1": "US West (N. California)",
    "us-gov-east-1": "AWS GovCloud (US-East)",
    "us-west-2": "US West (Oregon)",
@@ -9189,6 +9317,22 @@
       "yrTerm3Standard.noUpfront": 0.38
      }
     }
+   },
+   "ca-west-1": {
+    "Redis": {
+     "ondemand": 0.65,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 0.4909003424657534,
+      "yrTerm1Standard.noUpfront": 0.513
+     }
+    },
+    "Memcached": {
+     "ondemand": 0.65,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 0.4909003424657534,
+      "yrTerm1Standard.noUpfront": 0.513
+     }
+    }
    }
   },
   "regions": {
@@ -9213,7 +9357,8 @@
    "us-gov-east-1": "AWS GovCloud (US-East)",
    "eu-west-3": "Europe (Paris)",
    "ap-south-1": "Asia Pacific (Mumbai)",
-   "ap-northeast-2": "Asia Pacific (Seoul)"
+   "ap-northeast-2": "Asia Pacific (Seoul)",
+   "ca-west-1": "Canada West (Calgary)"
   },
   "pretty_name": "M6g General Purpose Graviton Double Extra Large",
   "memcached1.6-max_cache_memory": "26671",
@@ -9449,6 +9594,22 @@
      "reserved": {
       "yrTerm1Standard.partialUpfront": 0.1591271689497717,
       "yrTerm1Standard.noUpfront": 0.165
+     }
+    }
+   },
+   "ca-west-1": {
+    "Memcached": {
+     "ondemand": 0.224,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 0.1670953196347032,
+      "yrTerm1Standard.noUpfront": 0.176
+     }
+    },
+    "Redis": {
+     "ondemand": 0.224,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 0.1670953196347032,
+      "yrTerm1Standard.noUpfront": 0.176
      }
     }
    },
@@ -9721,6 +9882,7 @@
    "ca-central-1": "Canada (Central)",
    "eu-west-2": "Europe (London)",
    "ap-south-2": "Asia Pacific (Hyderabad)",
+   "ca-west-1": "Canada West (Calgary)",
    "il-central-1": "Israel (Tel Aviv)",
    "ap-northeast-2": "Asia Pacific (Seoul)",
    "us-west-2": "US West (Oregon)",
@@ -10434,6 +10596,661 @@
  },
  {
   "servicecode": "AmazonElastiCache",
+  "instanceType": "cache.c7gn.16xlarge",
+  "currentGeneration": "Yes",
+  "instanceFamily": "Network optimized",
+  "vcpu": "64",
+  "memory": "105.81",
+  "networkPerformance": "200 Gigabit",
+  "cacheEngine": "Memcached",
+  "regionCode": "us-east-2",
+  "servicename": "Amazon ElastiCache",
+  "network_performance": "200 Gigabit",
+  "family": "Network optimized",
+  "instance_type": "cache.c7gn.16xlarge",
+  "pricing": {
+   "us-east-2": {
+    "Memcached": {
+     "ondemand": 8.147,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 3.9102799847793,
+      "yrTerm1Standard.partialUpfront": 5.295775,
+      "yrTerm3Standard.allUpfront": 3.66615,
+      "yrTerm1Standard.noUpfront": 5.54,
+      "yrTerm3Standard.noUpfront": 4.236
+     }
+    },
+    "Redis": {
+     "ondemand": 8.147,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 3.9102799847793,
+      "yrTerm1Standard.partialUpfront": 5.295775,
+      "yrTerm3Standard.allUpfront": 3.66615,
+      "yrTerm1Standard.noUpfront": 5.54,
+      "yrTerm3Standard.noUpfront": 4.236
+     }
+    }
+   },
+   "us-east-1": {
+    "Memcached": {
+     "ondemand": 8.147,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 3.9102799847793,
+      "yrTerm1Standard.partialUpfront": 5.295775,
+      "yrTerm3Standard.allUpfront": 3.66615,
+      "yrTerm1Standard.noUpfront": 5.54,
+      "yrTerm3Standard.noUpfront": 4.236
+     }
+    },
+    "Redis": {
+     "ondemand": 8.147,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 3.9102799847793,
+      "yrTerm1Standard.partialUpfront": 5.295775,
+      "yrTerm3Standard.allUpfront": 3.66615,
+      "yrTerm1Standard.noUpfront": 5.54,
+      "yrTerm3Standard.noUpfront": 4.236
+     }
+    }
+   },
+   "us-west-2": {
+    "Memcached": {
+     "ondemand": 8.147,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 3.9102799847793,
+      "yrTerm1Standard.partialUpfront": 5.295775,
+      "yrTerm3Standard.allUpfront": 3.66615,
+      "yrTerm1Standard.noUpfront": 5.54,
+      "yrTerm3Standard.noUpfront": 4.236
+     }
+    },
+    "Redis": {
+     "ondemand": 8.147,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 3.9102799847793,
+      "yrTerm1Standard.partialUpfront": 5.295775,
+      "yrTerm3Standard.allUpfront": 3.66615,
+      "yrTerm1Standard.noUpfront": 5.54,
+      "yrTerm3Standard.noUpfront": 4.236
+     }
+    }
+   },
+   "eu-west-1": {
+    "Redis": {
+     "ondemand": 9.204,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 4.4179600076103505,
+      "yrTerm1Standard.partialUpfront": 5.9823,
+      "yrTerm3Standard.allUpfront": 4.1418,
+      "yrTerm1Standard.noUpfront": 6.259,
+      "yrTerm3Standard.noUpfront": 4.786
+     }
+    },
+    "Memcached": {
+     "ondemand": 9.204,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 4.4179600076103505,
+      "yrTerm1Standard.partialUpfront": 5.9823,
+      "yrTerm3Standard.allUpfront": 4.1418,
+      "yrTerm1Standard.noUpfront": 6.259,
+      "yrTerm3Standard.noUpfront": 4.786
+     }
+    }
+   }
+  },
+  "regions": {
+   "us-east-1": "US East (N. Virginia)",
+   "us-east-2": "US East (Ohio)",
+   "us-west-2": "US West (Oregon)",
+   "eu-west-1": "Europe (Ireland)"
+  },
+  "pretty_name": "C7GN 16xlarge",
+  "memcached1.6-max_cache_memory": "108346",
+  "memcached1.6-num_threads": "64",
+  "redis6.x-client-output-buffer-limit-replica-hard-limit": "11360986522",
+  "redis6.x-client-output-buffer-limit-replica-soft-limit": "11360986522",
+  "redis6.x-maxmemory": "113609865216",
+  "max_clients": "65000"
+ },
+ {
+  "servicecode": "AmazonElastiCache",
+  "instanceType": "cache.r6g.8xlarge",
+  "currentGeneration": "Yes",
+  "instanceFamily": "Memory optimized",
+  "vcpu": "32",
+  "memory": "209.55",
+  "networkPerformance": "12 Gigabit",
+  "cacheEngine": "Redis",
+  "regionCode": "ca-west-1",
+  "servicename": "Amazon ElastiCache",
+  "network_performance": "12 Gigabit",
+  "family": "Memory optimized",
+  "instance_type": "cache.r6g.8xlarge",
+  "pricing": {
+   "ca-west-1": {
+    "Memcached": {
+     "ondemand": 3.587,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 2.680057420091324,
+      "yrTerm1Standard.noUpfront": 2.821
+     }
+    },
+    "Redis": {
+     "ondemand": 3.587,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 2.680057420091324,
+      "yrTerm1Standard.noUpfront": 2.821
+     }
+    }
+   },
+   "il-central-1": {
+    "Redis": {
+     "ondemand": 3.8472,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 2.8855020547945207,
+      "yrTerm1Standard.noUpfront": 3.011
+     }
+    },
+    "Memcached": {
+     "ondemand": 3.8472,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 2.8855020547945207,
+      "yrTerm1Standard.noUpfront": 3.011
+     }
+    }
+   },
+   "us-east-1": {
+    "Redis": {
+     "ondemand": 3.284,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.5759756468797566,
+      "yrTerm1Standard.partialUpfront": 2.1351232876712327,
+      "yrTerm3Standard.allUpfront": 1.4813926940639268,
+      "yrTerm1Standard.noUpfront": 2.241,
+      "yrTerm3Standard.noUpfront": 1.703
+     }
+    },
+    "Memcached": {
+     "ondemand": 3.284,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.5759756468797566,
+      "yrTerm1Standard.partialUpfront": 2.1351232876712327,
+      "yrTerm3Standard.allUpfront": 1.4813926940639268,
+      "yrTerm1Standard.noUpfront": 2.241,
+      "yrTerm3Standard.noUpfront": 1.703
+     }
+    }
+   },
+   "eu-west-3": {
+    "Redis": {
+     "ondemand": 3.832,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.8358462709284629,
+      "yrTerm1Standard.partialUpfront": 2.4983150684931505,
+      "yrTerm3Standard.allUpfront": 1.7842846270928463,
+      "yrTerm1Standard.noUpfront": 2.581,
+      "yrTerm3Standard.noUpfront": 1.909
+     }
+    },
+    "Memcached": {
+     "ondemand": 3.832,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.8358462709284629,
+      "yrTerm1Standard.partialUpfront": 2.4983150684931505,
+      "yrTerm3Standard.allUpfront": 1.7842846270928463,
+      "yrTerm1Standard.noUpfront": 2.581,
+      "yrTerm3Standard.noUpfront": 1.909
+     }
+    }
+   },
+   "ap-south-2": {
+    "Memcached": {
+     "ondemand": 3.375,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 2.5314156392694063,
+      "yrTerm1Standard.noUpfront": 2.641
+     }
+    },
+    "Redis": {
+     "ondemand": 3.375,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 2.5314156392694063,
+      "yrTerm1Standard.noUpfront": 2.641
+     }
+    }
+   },
+   "ap-east-1": {
+    "Memcached": {
+     "ondemand": 4.324,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 2.0720898021308978,
+      "yrTerm1Standard.partialUpfront": 2.803593607305936,
+      "yrTerm3Standard.allUpfront": 1.9515220700152207,
+      "yrTerm1Standard.noUpfront": 2.949,
+      "yrTerm3Standard.noUpfront": 2.25
+     }
+    },
+    "Redis": {
+     "ondemand": 4.324,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 2.0720898021308978,
+      "yrTerm1Standard.partialUpfront": 2.803593607305936,
+      "yrTerm3Standard.allUpfront": 1.9515220700152207,
+      "yrTerm1Standard.noUpfront": 2.949,
+      "yrTerm3Standard.noUpfront": 2.25
+     }
+    }
+   },
+   "ca-central-1": {
+    "Memcached": {
+     "ondemand": 3.587,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.711806697108067,
+      "yrTerm1Standard.partialUpfront": 2.3208675799086755,
+      "yrTerm3Standard.allUpfront": 1.6183789954337902,
+      "yrTerm1Standard.noUpfront": 2.462,
+      "yrTerm3Standard.noUpfront": 1.854
+     }
+    },
+    "Redis": {
+     "ondemand": 3.587,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.711806697108067,
+      "yrTerm1Standard.partialUpfront": 2.3208675799086755,
+      "yrTerm3Standard.allUpfront": 1.6183789954337902,
+      "yrTerm1Standard.noUpfront": 2.462,
+      "yrTerm3Standard.noUpfront": 1.854
+     }
+    }
+   },
+   "eu-west-1": {
+    "Redis": {
+     "ondemand": 3.664,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.7591856925418567,
+      "yrTerm1Standard.partialUpfront": 2.381639269406393,
+      "yrTerm3Standard.allUpfront": 1.6528538812785387,
+      "yrTerm1Standard.noUpfront": 2.501,
+      "yrTerm3Standard.noUpfront": 1.9
+     }
+    },
+    "Memcached": {
+     "ondemand": 3.664,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.7591856925418567,
+      "yrTerm1Standard.partialUpfront": 2.381639269406393,
+      "yrTerm3Standard.allUpfront": 1.6528538812785387,
+      "yrTerm1Standard.noUpfront": 2.501,
+      "yrTerm3Standard.noUpfront": 1.9
+     }
+    }
+   },
+   "us-west-1": {
+    "Memcached": {
+     "ondemand": 3.284,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.5759756468797566,
+      "yrTerm1Standard.partialUpfront": 2.1351232876712327,
+      "yrTerm3Standard.allUpfront": 1.4813926940639268,
+      "yrTerm1Standard.noUpfront": 2.241,
+      "yrTerm3Standard.noUpfront": 1.703
+     }
+    },
+    "Redis": {
+     "ondemand": 3.284,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.5759756468797566,
+      "yrTerm1Standard.partialUpfront": 2.1351232876712327,
+      "yrTerm3Standard.allUpfront": 1.4813926940639268,
+      "yrTerm1Standard.noUpfront": 2.241,
+      "yrTerm3Standard.noUpfront": 1.703
+     }
+    }
+   },
+   "ap-south-1": {
+    "Redis": {
+     "ondemand": 3.375,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.6198934550989348,
+      "yrTerm1Standard.partialUpfront": 2.1936894977168953,
+      "yrTerm3Standard.allUpfront": 1.522564687975647,
+      "yrTerm1Standard.noUpfront": 2.304,
+      "yrTerm3Standard.noUpfront": 1.75
+     }
+    },
+    "Memcached": {
+     "ondemand": 3.375,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.6198934550989348,
+      "yrTerm1Standard.partialUpfront": 2.1936894977168953,
+      "yrTerm3Standard.allUpfront": 1.522564687975647,
+      "yrTerm1Standard.noUpfront": 2.304,
+      "yrTerm3Standard.noUpfront": 1.75
+     }
+    }
+   },
+   "us-gov-west-1": {
+    "Redis": {
+     "ondemand": 3.931,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.8854550989345509,
+      "yrTerm1Standard.partialUpfront": 2.556337899543379,
+      "yrTerm3Standard.allUpfront": 1.7762557077625571,
+      "yrTerm1Standard.noUpfront": 2.675,
+      "yrTerm3Standard.noUpfront": 2.037
+     }
+    },
+    "Memcached": {
+     "ondemand": 3.931,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.8854550989345509,
+      "yrTerm1Standard.partialUpfront": 2.556337899543379,
+      "yrTerm3Standard.allUpfront": 1.7762557077625571,
+      "yrTerm1Standard.noUpfront": 2.675,
+      "yrTerm3Standard.noUpfront": 2.037
+     }
+    }
+   },
+   "ap-southeast-1": {
+    "Memcached": {
+     "ondemand": 3.937,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.88986301369863,
+      "yrTerm1Standard.partialUpfront": 2.559566210045662,
+      "yrTerm3Standard.allUpfront": 1.7762937595129376,
+      "yrTerm1Standard.noUpfront": 2.687,
+      "yrTerm3Standard.noUpfront": 2.041
+     }
+    },
+    "Redis": {
+     "ondemand": 3.937,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.88986301369863,
+      "yrTerm1Standard.partialUpfront": 2.559566210045662,
+      "yrTerm3Standard.allUpfront": 1.7762937595129376,
+      "yrTerm1Standard.noUpfront": 2.687,
+      "yrTerm3Standard.noUpfront": 2.041
+     }
+    }
+   },
+   "ap-southeast-2": {
+    "Redis": {
+     "ondemand": 3.937,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.88986301369863,
+      "yrTerm1Standard.partialUpfront": 2.559566210045662,
+      "yrTerm3Standard.allUpfront": 1.7762937595129376,
+      "yrTerm1Standard.noUpfront": 2.687,
+      "yrTerm3Standard.noUpfront": 2.041
+     }
+    },
+    "Memcached": {
+     "ondemand": 3.937,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.88986301369863,
+      "yrTerm1Standard.partialUpfront": 2.559566210045662,
+      "yrTerm3Standard.allUpfront": 1.7762937595129376,
+      "yrTerm1Standard.noUpfront": 2.687,
+      "yrTerm3Standard.noUpfront": 2.041
+     }
+    }
+   },
+   "eu-north-1": {
+    "Redis": {
+     "ondemand": 3.474,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.6563500761035006,
+      "yrTerm1Standard.partialUpfront": 2.256050228310502,
+      "yrTerm3Standard.allUpfront": 1.570509893455099,
+      "yrTerm1Standard.noUpfront": 2.371,
+      "yrTerm3Standard.noUpfront": 1.794
+     }
+    },
+    "Memcached": {
+     "ondemand": 3.474,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.6563500761035006,
+      "yrTerm1Standard.partialUpfront": 2.256050228310502,
+      "yrTerm3Standard.allUpfront": 1.570509893455099,
+      "yrTerm1Standard.noUpfront": 2.371,
+      "yrTerm3Standard.noUpfront": 1.794
+     }
+    }
+   },
+   "sa-east-1": {
+    "Memcached": {
+     "ondemand": 6.566,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 3.1569893455098934,
+      "yrTerm1Standard.partialUpfront": 4.262132420091325,
+      "yrTerm3Standard.allUpfront": 3.088926940639269,
+      "yrTerm1Standard.noUpfront": 4.469,
+      "yrTerm3Standard.noUpfront": 3.314
+     }
+    },
+    "Redis": {
+     "ondemand": 6.566,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 3.1569893455098934,
+      "yrTerm1Standard.partialUpfront": 4.262132420091325,
+      "yrTerm3Standard.allUpfront": 3.088926940639269,
+      "yrTerm1Standard.noUpfront": 4.469,
+      "yrTerm3Standard.noUpfront": 3.314
+     }
+    }
+   },
+   "us-gov-east-1": {
+    "Memcached": {
+     "ondemand": 3.931,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.8868630136986302,
+      "yrTerm1Standard.partialUpfront": 2.556337899543379,
+      "yrTerm3Standard.allUpfront": 1.7762557077625571,
+      "yrTerm1Standard.noUpfront": 2.675,
+      "yrTerm3Standard.noUpfront": 2.037
+     }
+    },
+    "Redis": {
+     "ondemand": 3.931,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.8868630136986302,
+      "yrTerm1Standard.partialUpfront": 2.556337899543379,
+      "yrTerm3Standard.allUpfront": 1.7762557077625571,
+      "yrTerm1Standard.noUpfront": 2.675,
+      "yrTerm3Standard.noUpfront": 2.037
+     }
+    }
+   },
+   "eu-central-1": {
+    "Memcached": {
+     "ondemand": 3.952,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.8975159817351597,
+      "yrTerm1Standard.partialUpfront": 2.5694748858447487,
+      "yrTerm3Standard.allUpfront": 1.7831430745814307,
+      "yrTerm1Standard.noUpfront": 2.698,
+      "yrTerm3Standard.noUpfront": 2.049
+     }
+    },
+    "Redis": {
+     "ondemand": 3.952,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.8975159817351597,
+      "yrTerm1Standard.partialUpfront": 2.5694748858447487,
+      "yrTerm3Standard.allUpfront": 1.7831430745814307,
+      "yrTerm1Standard.noUpfront": 2.698,
+      "yrTerm3Standard.noUpfront": 2.049
+     }
+    }
+   },
+   "ap-northeast-1": {
+    "Memcached": {
+     "ondemand": 3.937,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.88986301369863,
+      "yrTerm1Standard.partialUpfront": 2.559566210045662,
+      "yrTerm3Standard.allUpfront": 1.7762937595129376,
+      "yrTerm1Standard.noUpfront": 2.687,
+      "yrTerm3Standard.noUpfront": 2.041
+     }
+    },
+    "Redis": {
+     "ondemand": 3.937,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.88986301369863,
+      "yrTerm1Standard.partialUpfront": 2.559566210045662,
+      "yrTerm3Standard.allUpfront": 1.7762937595129376,
+      "yrTerm1Standard.noUpfront": 2.687,
+      "yrTerm3Standard.noUpfront": 2.041
+     }
+    }
+   },
+   "ap-northeast-2": {
+    "Redis": {
+     "ondemand": 3.931,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.8854550989345509,
+      "yrTerm1Standard.partialUpfront": 2.5546255707762557,
+      "yrTerm3Standard.allUpfront": 1.7737823439878235,
+      "yrTerm1Standard.noUpfront": 2.675,
+      "yrTerm3Standard.noUpfront": 2.037
+     }
+    },
+    "Memcached": {
+     "ondemand": 3.931,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.8854550989345509,
+      "yrTerm1Standard.partialUpfront": 2.5546255707762557,
+      "yrTerm3Standard.allUpfront": 1.7737823439878235,
+      "yrTerm1Standard.noUpfront": 2.675,
+      "yrTerm3Standard.noUpfront": 2.037
+     }
+    }
+   },
+   "eu-west-2": {
+    "Redis": {
+     "ondemand": 3.845,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.834716894977169,
+      "yrTerm1Standard.partialUpfront": 2.4955433789954338,
+      "yrTerm3Standard.allUpfront": 1.7347412480974125,
+      "yrTerm1Standard.noUpfront": 2.614,
+      "yrTerm3Standard.noUpfront": 2.006
+     }
+    },
+    "Memcached": {
+     "ondemand": 3.845,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.834716894977169,
+      "yrTerm1Standard.partialUpfront": 2.4955433789954338,
+      "yrTerm3Standard.allUpfront": 1.7347412480974125,
+      "yrTerm1Standard.noUpfront": 2.614,
+      "yrTerm3Standard.noUpfront": 2.006
+     }
+    }
+   },
+   "us-west-2": {
+    "Redis": {
+     "ondemand": 3.284,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.5759756468797566,
+      "yrTerm1Standard.partialUpfront": 2.1351232876712327,
+      "yrTerm3Standard.allUpfront": 1.4813926940639268,
+      "yrTerm1Standard.noUpfront": 2.241,
+      "yrTerm3Standard.noUpfront": 1.703
+     }
+    },
+    "Memcached": {
+     "ondemand": 3.284,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.5759756468797566,
+      "yrTerm1Standard.partialUpfront": 2.1351232876712327,
+      "yrTerm3Standard.allUpfront": 1.4813926940639268,
+      "yrTerm1Standard.noUpfront": 2.241,
+      "yrTerm3Standard.noUpfront": 1.703
+     }
+    }
+   },
+   "us-east-2": {
+    "Redis": {
+     "ondemand": 3.284,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.5759756468797566,
+      "yrTerm1Standard.partialUpfront": 2.1351232876712327,
+      "yrTerm3Standard.allUpfront": 1.4813926940639268,
+      "yrTerm1Standard.noUpfront": 2.241,
+      "yrTerm3Standard.noUpfront": 1.703
+     }
+    },
+    "Memcached": {
+     "ondemand": 3.284,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.5759756468797566,
+      "yrTerm1Standard.partialUpfront": 2.1351232876712327,
+      "yrTerm3Standard.allUpfront": 1.4813926940639268,
+      "yrTerm1Standard.noUpfront": 2.241,
+      "yrTerm3Standard.noUpfront": 1.703
+     }
+    }
+   },
+   "eu-south-1": {
+    "Memcached": {
+     "ondemand": 3.832,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.8397488584474886,
+      "yrTerm1Standard.partialUpfront": 2.494374429223744,
+      "yrTerm3Standard.allUpfront": 1.7843226788432267,
+      "yrTerm1Standard.noUpfront": 2.575,
+      "yrTerm3Standard.noUpfront": 1.909
+     }
+    },
+    "Redis": {
+     "ondemand": 3.832,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.8397488584474886,
+      "yrTerm1Standard.partialUpfront": 2.494374429223744,
+      "yrTerm3Standard.allUpfront": 1.7843226788432267,
+      "yrTerm1Standard.noUpfront": 2.575,
+      "yrTerm3Standard.noUpfront": 1.909
+     }
+    }
+   }
+  },
+  "regions": {
+   "il-central-1": "Israel (Tel Aviv)",
+   "us-east-1": "US East (N. Virginia)",
+   "eu-west-3": "Europe (Paris)",
+   "ap-south-2": "Asia Pacific (Hyderabad)",
+   "ap-east-1": "Asia Pacific (Hong Kong)",
+   "ca-west-1": "Canada West (Calgary)",
+   "ca-central-1": "Canada (Central)",
+   "eu-west-1": "Europe (Ireland)",
+   "us-west-1": "US West (N. California)",
+   "ap-south-1": "Asia Pacific (Mumbai)",
+   "us-gov-west-1": "AWS GovCloud (US-West)",
+   "ap-southeast-1": "Asia Pacific (Singapore)",
+   "ap-southeast-2": "Asia Pacific (Sydney)",
+   "eu-north-1": "Europe (Stockholm)",
+   "sa-east-1": "South America (Sao Paulo)",
+   "us-gov-east-1": "AWS GovCloud (US-East)",
+   "eu-central-1": "Europe (Frankfurt)",
+   "ap-northeast-1": "Asia Pacific (Tokyo)",
+   "ap-northeast-2": "Asia Pacific (Seoul)",
+   "eu-west-2": "Europe (London)",
+   "us-west-2": "US West (Oregon)",
+   "us-east-2": "US East (Ohio)",
+   "eu-south-1": "Europe (Milan)"
+  },
+  "pretty_name": "R6g Memory optimized Eight Extra Large",
+  "memcached1.6-max_cache_memory": "214577",
+  "memcached1.6-num_threads": "32",
+  "redis6.x-client-output-buffer-limit-replica-hard-limit": "22500037523",
+  "redis6.x-client-output-buffer-limit-replica-soft-limit": "22500037523",
+  "redis6.x-maxmemory": "225000375228",
+  "max_clients": "65000"
+ },
+ {
+  "servicecode": "AmazonElastiCache",
   "instanceType": "cache.r6gd.4xlarge",
   "currentGeneration": "Yes",
   "instanceFamily": "Memory optimized",
@@ -10942,6 +11759,18 @@
      }
     }
    },
+   "ca-west-1": {
+    "Memcached": {
+     "ondemand": 0.07
+    },
+    "Redis": {
+     "ondemand": 0.07,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 0.05319520547945206,
+      "yrTerm1Standard.noUpfront": 0.055
+     }
+    }
+   },
    "ap-northeast-2": {
     "Memcached": {
      "ondemand": 0.094,
@@ -11090,6 +11919,7 @@
    "ap-south-1": "Asia Pacific (Mumbai)",
    "sa-east-1": "South America (Sao Paulo)",
    "eu-west-1": "Europe (Ireland)",
+   "ca-west-1": "Canada West (Calgary)",
    "ap-northeast-2": "Asia Pacific (Seoul)",
    "us-east-2": "US East (Ohio)",
    "ap-southeast-2": "Asia Pacific (Sydney)",
@@ -11518,6 +12348,22 @@
       "yrTerm3Standard.allUpfront": 0.022640791476407917,
       "yrTerm1Standard.noUpfront": 0.034,
       "yrTerm3Standard.noUpfront": 0.026
+     }
+    }
+   },
+   "ca-west-1": {
+    "Memcached": {
+     "ondemand": 0.037,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 0.027835273972602742,
+      "yrTerm1Standard.noUpfront": 0.029
+     }
+    },
+    "Redis": {
+     "ondemand": 0.037,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 0.027835273972602742,
+      "yrTerm1Standard.noUpfront": 0.029
      }
     }
    },
@@ -11970,6 +12816,7 @@
    "us-east-1": "US East (N. Virginia)",
    "eu-west-2": "Europe (London)",
    "ap-southeast-1": "Asia Pacific (Singapore)",
+   "ca-west-1": "Canada West (Calgary)",
    "ap-northeast-1": "Asia Pacific (Tokyo)",
    "me-central-1": "Middle East (UAE)",
    "us-west-2": "US West (Oregon)",
@@ -12466,6 +13313,22 @@
      }
     }
    },
+   "ca-west-1": {
+    "Redis": {
+     "ondemand": 5.198,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 3.9211327625570775,
+      "yrTerm1Standard.noUpfront": 4.107
+     }
+    },
+    "Memcached": {
+     "ondemand": 5.198,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 3.9211327625570775,
+      "yrTerm1Standard.noUpfront": 4.107
+     }
+    }
+   },
    "eu-central-1": {
     "Memcached": {
      "ondemand": 5.655,
@@ -12511,6 +13374,7 @@
    "eu-north-1": "Europe (Stockholm)",
    "us-gov-east-1": "AWS GovCloud (US-East)",
    "il-central-1": "Israel (Tel Aviv)",
+   "ca-west-1": "Canada West (Calgary)",
    "eu-central-1": "Europe (Frankfurt)"
   },
   "pretty_name": "M6g General Purpose Graviton 16xlarge",
@@ -14342,6 +15206,22 @@
      }
     }
    },
+   "ca-west-1": {
+    "Redis": {
+     "ondemand": 7.174,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 5.358991894977169,
+      "yrTerm1Standard.noUpfront": 5.642
+     }
+    },
+    "Memcached": {
+     "ondemand": 7.174,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 5.358991894977169,
+      "yrTerm1Standard.noUpfront": 5.642
+     }
+    }
+   },
    "sa-east-1": {
     "Redis": {
      "ondemand": 13.133,
@@ -14408,6 +15288,7 @@
    "eu-south-1": "Europe (Milan)",
    "eu-central-1": "Europe (Frankfurt)",
    "ap-south-1": "Asia Pacific (Mumbai)",
+   "ca-west-1": "Canada West (Calgary)",
    "sa-east-1": "South America (Sao Paulo)",
    "us-gov-west-1": "AWS GovCloud (US-West)"
   },
@@ -14417,6 +15298,124 @@
   "redis6.x-client-output-buffer-limit-replica-hard-limit": "45000075046",
   "redis6.x-client-output-buffer-limit-replica-soft-limit": "45000075046",
   "redis6.x-maxmemory": "450000750456",
+  "max_clients": "65000"
+ },
+ {
+  "servicecode": "AmazonElastiCache",
+  "instanceType": "cache.c7gn.12xlarge",
+  "currentGeneration": "Yes",
+  "instanceFamily": "Network optimized",
+  "vcpu": "48",
+  "memory": "78.56",
+  "networkPerformance": "150 Gigabit",
+  "cacheEngine": "Redis",
+  "regionCode": "us-east-2",
+  "servicename": "Amazon ElastiCache",
+  "network_performance": "150 Gigabit",
+  "family": "Network optimized",
+  "instance_type": "cache.c7gn.12xlarge",
+  "pricing": {
+   "us-east-2": {
+    "Redis": {
+     "ondemand": 6.11,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 2.9324,
+      "yrTerm1Standard.partialUpfront": 3.9717499999999997,
+      "yrTerm3Standard.allUpfront": 2.7495,
+      "yrTerm1Standard.noUpfront": 4.155,
+      "yrTerm3Standard.noUpfront": 3.177
+     }
+    },
+    "Memcached": {
+     "ondemand": 6.11,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 2.9324,
+      "yrTerm1Standard.partialUpfront": 3.9717499999999997,
+      "yrTerm3Standard.allUpfront": 2.7495,
+      "yrTerm1Standard.noUpfront": 4.155,
+      "yrTerm3Standard.noUpfront": 3.177
+     }
+    }
+   },
+   "us-east-1": {
+    "Redis": {
+     "ondemand": 6.11,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 2.9324,
+      "yrTerm1Standard.partialUpfront": 3.9717499999999997,
+      "yrTerm3Standard.allUpfront": 2.7495,
+      "yrTerm1Standard.noUpfront": 4.155,
+      "yrTerm3Standard.noUpfront": 3.177
+     }
+    },
+    "Memcached": {
+     "ondemand": 6.11,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 2.9324,
+      "yrTerm1Standard.partialUpfront": 3.9717499999999997,
+      "yrTerm3Standard.allUpfront": 2.7495,
+      "yrTerm1Standard.noUpfront": 4.155,
+      "yrTerm3Standard.noUpfront": 3.177
+     }
+    }
+   },
+   "eu-west-1": {
+    "Redis": {
+     "ondemand": 6.903,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 3.3137200152207003,
+      "yrTerm1Standard.partialUpfront": 4.486475,
+      "yrTerm3Standard.allUpfront": 3.1063499999999995,
+      "yrTerm1Standard.noUpfront": 4.694,
+      "yrTerm3Standard.noUpfront": 3.59
+     }
+    },
+    "Memcached": {
+     "ondemand": 6.903,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 3.3137200152207003,
+      "yrTerm1Standard.partialUpfront": 4.486475,
+      "yrTerm3Standard.allUpfront": 3.1063499999999995,
+      "yrTerm1Standard.noUpfront": 4.694,
+      "yrTerm3Standard.noUpfront": 3.59
+     }
+    }
+   },
+   "us-west-2": {
+    "Memcached": {
+     "ondemand": 6.11,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 2.9324,
+      "yrTerm1Standard.partialUpfront": 3.9717499999999997,
+      "yrTerm3Standard.allUpfront": 2.7495,
+      "yrTerm1Standard.noUpfront": 4.155,
+      "yrTerm3Standard.noUpfront": 3.177
+     }
+    },
+    "Redis": {
+     "ondemand": 6.11,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 2.9324,
+      "yrTerm1Standard.partialUpfront": 3.9717499999999997,
+      "yrTerm3Standard.allUpfront": 2.7495,
+      "yrTerm1Standard.noUpfront": 4.155,
+      "yrTerm3Standard.noUpfront": 3.177
+     }
+    }
+   }
+  },
+  "regions": {
+   "us-east-1": "US East (N. Virginia)",
+   "us-east-2": "US East (Ohio)",
+   "eu-west-1": "Europe (Ireland)",
+   "us-west-2": "US West (Oregon)"
+  },
+  "pretty_name": "C7GN 12xlarge",
+  "memcached1.6-max_cache_memory": "80450",
+  "memcached1.6-num_threads": "48",
+  "redis6.x-client-output-buffer-limit-replica-hard-limit": "8435798600",
+  "redis6.x-client-output-buffer-limit-replica-soft-limit": "8435798600",
+  "redis6.x-maxmemory": "84357985997",
   "max_clients": "65000"
  },
  {
@@ -15749,6 +16748,22 @@
      }
     }
    },
+   "ca-west-1": {
+    "Memcached": {
+     "ondemand": 3.899,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 2.941305707762557,
+      "yrTerm1Standard.noUpfront": 3.08
+     }
+    },
+    "Redis": {
+     "ondemand": 3.899,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 2.941305707762557,
+      "yrTerm1Standard.noUpfront": 3.08
+     }
+    }
+   },
    "sa-east-1": {
     "Memcached": {
      "ondemand": 5.079,
@@ -15983,6 +16998,7 @@
    "eu-south-1": "Europe (Milan)",
    "il-central-1": "Israel (Tel Aviv)",
    "eu-west-1": "Europe (Ireland)",
+   "ca-west-1": "Canada West (Calgary)",
    "sa-east-1": "South America (Sao Paulo)",
    "ap-southeast-1": "Asia Pacific (Singapore)",
    "eu-north-1": "Europe (Stockholm)",
@@ -16654,6 +17670,22 @@
      }
     }
    },
+   "ca-west-1": {
+    "Memcached": {
+     "ondemand": 2.599,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 1.9606278538812787,
+      "yrTerm1Standard.noUpfront": 2.054
+     }
+    },
+    "Redis": {
+     "ondemand": 2.599,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 1.9606278538812787,
+      "yrTerm1Standard.noUpfront": 2.054
+     }
+    }
+   },
    "us-west-2": {
     "Memcached": {
      "ondemand": 2.372,
@@ -16699,6 +17731,7 @@
    "eu-west-1": "Europe (Ireland)",
    "eu-west-3": "Europe (Paris)",
    "ap-northeast-1": "Asia Pacific (Tokyo)",
+   "ca-west-1": "Canada West (Calgary)",
    "us-west-2": "US West (Oregon)"
   },
   "pretty_name": "M6g General Purpose Graviton Eight Extra Large",
@@ -16781,6 +17814,22 @@
       "yrTerm3Standard.allUpfront": 0.6373668188736682,
       "yrTerm1Standard.noUpfront": 0.919,
       "yrTerm3Standard.noUpfront": 0.682
+     }
+    }
+   },
+   "ca-west-1": {
+    "Memcached": {
+     "ondemand": 1.3,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 0.980800684931507,
+      "yrTerm1Standard.noUpfront": 1.027
+     }
+    },
+    "Redis": {
+     "ondemand": 1.3,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 0.980800684931507,
+      "yrTerm1Standard.noUpfront": 1.027
      }
     }
    },
@@ -17201,6 +18250,7 @@
    "ap-south-2": "Asia Pacific (Hyderabad)",
    "eu-west-2": "Europe (London)",
    "eu-west-3": "Europe (Paris)",
+   "ca-west-1": "Canada West (Calgary)",
    "eu-central-1": "Europe (Frankfurt)",
    "eu-south-1": "Europe (Milan)",
    "us-east-2": "US East (Ohio)",
@@ -18967,6 +20017,124 @@
   "redis6.x-client-output-buffer-limit-replica-soft-limit": "58195968",
   "redis6.x-maxmemory": "581959680",
   "max_clients": "20000"
+ },
+ {
+  "servicecode": "AmazonElastiCache",
+  "instanceType": "cache.c7gn.4xlarge",
+  "currentGeneration": "Yes",
+  "instanceFamily": "Network optimized",
+  "vcpu": "16",
+  "memory": "26.05",
+  "networkPerformance": "50 Gigabit",
+  "cacheEngine": "Memcached",
+  "regionCode": "us-east-1",
+  "servicename": "Amazon ElastiCache",
+  "network_performance": "50 Gigabit",
+  "family": "Network optimized",
+  "instance_type": "cache.c7gn.4xlarge",
+  "pricing": {
+   "us-east-1": {
+    "Memcached": {
+     "ondemand": 2.037,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 0.9778799847792998,
+      "yrTerm1Standard.partialUpfront": 1.324025,
+      "yrTerm3Standard.allUpfront": 0.9166500000000001,
+      "yrTerm1Standard.noUpfront": 1.385,
+      "yrTerm3Standard.noUpfront": 1.059
+     }
+    },
+    "Redis": {
+     "ondemand": 2.037,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 0.9778799847792998,
+      "yrTerm1Standard.partialUpfront": 1.324025,
+      "yrTerm3Standard.allUpfront": 0.9166500000000001,
+      "yrTerm1Standard.noUpfront": 1.385,
+      "yrTerm3Standard.noUpfront": 1.059
+     }
+    }
+   },
+   "eu-west-1": {
+    "Redis": {
+     "ondemand": 2.301,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.10423999238965,
+      "yrTerm1Standard.partialUpfront": 1.495825,
+      "yrTerm3Standard.allUpfront": 1.03545,
+      "yrTerm1Standard.noUpfront": 1.565,
+      "yrTerm3Standard.noUpfront": 1.197
+     }
+    },
+    "Memcached": {
+     "ondemand": 2.301,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.10423999238965,
+      "yrTerm1Standard.partialUpfront": 1.495825,
+      "yrTerm3Standard.allUpfront": 1.03545,
+      "yrTerm1Standard.noUpfront": 1.565,
+      "yrTerm3Standard.noUpfront": 1.197
+     }
+    }
+   },
+   "us-east-2": {
+    "Memcached": {
+     "ondemand": 2.037,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 0.9778799847792998,
+      "yrTerm1Standard.partialUpfront": 1.324025,
+      "yrTerm3Standard.allUpfront": 0.9166500000000001,
+      "yrTerm1Standard.noUpfront": 1.385,
+      "yrTerm3Standard.noUpfront": 1.059
+     }
+    },
+    "Redis": {
+     "ondemand": 2.037,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 0.9778799847792998,
+      "yrTerm1Standard.partialUpfront": 1.324025,
+      "yrTerm3Standard.allUpfront": 0.9166500000000001,
+      "yrTerm1Standard.noUpfront": 1.385,
+      "yrTerm3Standard.noUpfront": 1.059
+     }
+    }
+   },
+   "us-west-2": {
+    "Memcached": {
+     "ondemand": 2.037,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 0.9778799847792998,
+      "yrTerm1Standard.partialUpfront": 1.324025,
+      "yrTerm3Standard.allUpfront": 0.9166500000000001,
+      "yrTerm1Standard.noUpfront": 1.385,
+      "yrTerm3Standard.noUpfront": 1.059
+     }
+    },
+    "Redis": {
+     "ondemand": 2.037,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 0.9778799847792998,
+      "yrTerm1Standard.partialUpfront": 1.324025,
+      "yrTerm3Standard.allUpfront": 0.9166500000000001,
+      "yrTerm1Standard.noUpfront": 1.385,
+      "yrTerm3Standard.noUpfront": 1.059
+     }
+    }
+   }
+  },
+  "regions": {
+   "eu-west-1": "Europe (Ireland)",
+   "us-east-1": "US East (N. Virginia)",
+   "us-east-2": "US East (Ohio)",
+   "us-west-2": "US West (Oregon)"
+  },
+  "pretty_name": "C7GN Quadruple Extra Large",
+  "memcached1.6-max_cache_memory": "26671",
+  "memcached1.6-num_threads": "16",
+  "redis6.x-client-output-buffer-limit-replica-hard-limit": "2796666921",
+  "redis6.x-client-output-buffer-limit-replica-soft-limit": "2796666921",
+  "redis6.x-maxmemory": "27966669210",
+  "max_clients": "65000"
  },
  {
   "servicecode": "AmazonElastiCache",
@@ -20877,6 +22045,22 @@
      }
     }
    },
+   "ca-west-1": {
+    "Memcached": {
+     "ondemand": 0.448,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 0.33431358447488585,
+      "yrTerm1Standard.noUpfront": 0.353
+     }
+    },
+    "Redis": {
+     "ondemand": 0.448,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 0.33431358447488585,
+      "yrTerm1Standard.noUpfront": 0.353
+     }
+    }
+   },
    "eu-west-1": {
     "Redis": {
      "ondemand": 0.458,
@@ -21230,6 +22414,7 @@
    "us-gov-east-1": "AWS GovCloud (US-East)",
    "ap-southeast-1": "Asia Pacific (Singapore)",
    "us-east-2": "US East (Ohio)",
+   "ca-west-1": "Canada West (Calgary)",
    "eu-west-1": "Europe (Ireland)",
    "ap-east-1": "Asia Pacific (Hong Kong)",
    "ap-south-2": "Asia Pacific (Hyderabad)",
@@ -22176,526 +23361,6 @@
   "redis6.x-client-output-buffer-limit-replica-hard-limit": "685454275",
   "redis6.x-client-output-buffer-limit-replica-soft-limit": "685454275",
   "redis6.x-maxmemory": "6854542746",
-  "max_clients": "65000"
- },
- {
-  "servicecode": "AmazonElastiCache",
-  "instanceType": "cache.r6g.8xlarge",
-  "currentGeneration": "Yes",
-  "instanceFamily": "Memory optimized",
-  "vcpu": "32",
-  "memory": "209.55",
-  "networkPerformance": "12 Gigabit",
-  "cacheEngine": "Redis",
-  "regionCode": "ap-south-2",
-  "servicename": "Amazon ElastiCache",
-  "network_performance": "12 Gigabit",
-  "family": "Memory optimized",
-  "instance_type": "cache.r6g.8xlarge",
-  "pricing": {
-   "ap-south-2": {
-    "Memcached": {
-     "ondemand": 3.375,
-     "reserved": {
-      "yrTerm1Standard.partialUpfront": 2.5314156392694063,
-      "yrTerm1Standard.noUpfront": 2.641
-     }
-    },
-    "Redis": {
-     "ondemand": 3.375,
-     "reserved": {
-      "yrTerm1Standard.partialUpfront": 2.5314156392694063,
-      "yrTerm1Standard.noUpfront": 2.641
-     }
-    }
-   },
-   "il-central-1": {
-    "Redis": {
-     "ondemand": 3.8472,
-     "reserved": {
-      "yrTerm1Standard.partialUpfront": 2.8855020547945207,
-      "yrTerm1Standard.noUpfront": 3.011
-     }
-    },
-    "Memcached": {
-     "ondemand": 3.8472,
-     "reserved": {
-      "yrTerm1Standard.partialUpfront": 2.8855020547945207,
-      "yrTerm1Standard.noUpfront": 3.011
-     }
-    }
-   },
-   "us-east-1": {
-    "Redis": {
-     "ondemand": 3.284,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.5759756468797566,
-      "yrTerm1Standard.partialUpfront": 2.1351232876712327,
-      "yrTerm3Standard.allUpfront": 1.4813926940639268,
-      "yrTerm1Standard.noUpfront": 2.241,
-      "yrTerm3Standard.noUpfront": 1.703
-     }
-    },
-    "Memcached": {
-     "ondemand": 3.284,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.5759756468797566,
-      "yrTerm1Standard.partialUpfront": 2.1351232876712327,
-      "yrTerm3Standard.allUpfront": 1.4813926940639268,
-      "yrTerm1Standard.noUpfront": 2.241,
-      "yrTerm3Standard.noUpfront": 1.703
-     }
-    }
-   },
-   "eu-west-3": {
-    "Redis": {
-     "ondemand": 3.832,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.8358462709284629,
-      "yrTerm1Standard.partialUpfront": 2.4983150684931505,
-      "yrTerm3Standard.allUpfront": 1.7842846270928463,
-      "yrTerm1Standard.noUpfront": 2.581,
-      "yrTerm3Standard.noUpfront": 1.909
-     }
-    },
-    "Memcached": {
-     "ondemand": 3.832,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.8358462709284629,
-      "yrTerm1Standard.partialUpfront": 2.4983150684931505,
-      "yrTerm3Standard.allUpfront": 1.7842846270928463,
-      "yrTerm1Standard.noUpfront": 2.581,
-      "yrTerm3Standard.noUpfront": 1.909
-     }
-    }
-   },
-   "ap-east-1": {
-    "Memcached": {
-     "ondemand": 4.324,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 2.0720898021308978,
-      "yrTerm1Standard.partialUpfront": 2.803593607305936,
-      "yrTerm3Standard.allUpfront": 1.9515220700152207,
-      "yrTerm1Standard.noUpfront": 2.949,
-      "yrTerm3Standard.noUpfront": 2.25
-     }
-    },
-    "Redis": {
-     "ondemand": 4.324,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 2.0720898021308978,
-      "yrTerm1Standard.partialUpfront": 2.803593607305936,
-      "yrTerm3Standard.allUpfront": 1.9515220700152207,
-      "yrTerm1Standard.noUpfront": 2.949,
-      "yrTerm3Standard.noUpfront": 2.25
-     }
-    }
-   },
-   "ca-central-1": {
-    "Memcached": {
-     "ondemand": 3.587,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.711806697108067,
-      "yrTerm1Standard.partialUpfront": 2.3208675799086755,
-      "yrTerm3Standard.allUpfront": 1.6183789954337902,
-      "yrTerm1Standard.noUpfront": 2.462,
-      "yrTerm3Standard.noUpfront": 1.854
-     }
-    },
-    "Redis": {
-     "ondemand": 3.587,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.711806697108067,
-      "yrTerm1Standard.partialUpfront": 2.3208675799086755,
-      "yrTerm3Standard.allUpfront": 1.6183789954337902,
-      "yrTerm1Standard.noUpfront": 2.462,
-      "yrTerm3Standard.noUpfront": 1.854
-     }
-    }
-   },
-   "eu-west-1": {
-    "Redis": {
-     "ondemand": 3.664,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.7591856925418567,
-      "yrTerm1Standard.partialUpfront": 2.381639269406393,
-      "yrTerm3Standard.allUpfront": 1.6528538812785387,
-      "yrTerm1Standard.noUpfront": 2.501,
-      "yrTerm3Standard.noUpfront": 1.9
-     }
-    },
-    "Memcached": {
-     "ondemand": 3.664,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.7591856925418567,
-      "yrTerm1Standard.partialUpfront": 2.381639269406393,
-      "yrTerm3Standard.allUpfront": 1.6528538812785387,
-      "yrTerm1Standard.noUpfront": 2.501,
-      "yrTerm3Standard.noUpfront": 1.9
-     }
-    }
-   },
-   "us-west-1": {
-    "Memcached": {
-     "ondemand": 3.284,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.5759756468797566,
-      "yrTerm1Standard.partialUpfront": 2.1351232876712327,
-      "yrTerm3Standard.allUpfront": 1.4813926940639268,
-      "yrTerm1Standard.noUpfront": 2.241,
-      "yrTerm3Standard.noUpfront": 1.703
-     }
-    },
-    "Redis": {
-     "ondemand": 3.284,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.5759756468797566,
-      "yrTerm1Standard.partialUpfront": 2.1351232876712327,
-      "yrTerm3Standard.allUpfront": 1.4813926940639268,
-      "yrTerm1Standard.noUpfront": 2.241,
-      "yrTerm3Standard.noUpfront": 1.703
-     }
-    }
-   },
-   "ap-south-1": {
-    "Redis": {
-     "ondemand": 3.375,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.6198934550989348,
-      "yrTerm1Standard.partialUpfront": 2.1936894977168953,
-      "yrTerm3Standard.allUpfront": 1.522564687975647,
-      "yrTerm1Standard.noUpfront": 2.304,
-      "yrTerm3Standard.noUpfront": 1.75
-     }
-    },
-    "Memcached": {
-     "ondemand": 3.375,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.6198934550989348,
-      "yrTerm1Standard.partialUpfront": 2.1936894977168953,
-      "yrTerm3Standard.allUpfront": 1.522564687975647,
-      "yrTerm1Standard.noUpfront": 2.304,
-      "yrTerm3Standard.noUpfront": 1.75
-     }
-    }
-   },
-   "us-gov-west-1": {
-    "Redis": {
-     "ondemand": 3.931,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.8854550989345509,
-      "yrTerm1Standard.partialUpfront": 2.556337899543379,
-      "yrTerm3Standard.allUpfront": 1.7762557077625571,
-      "yrTerm1Standard.noUpfront": 2.675,
-      "yrTerm3Standard.noUpfront": 2.037
-     }
-    },
-    "Memcached": {
-     "ondemand": 3.931,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.8854550989345509,
-      "yrTerm1Standard.partialUpfront": 2.556337899543379,
-      "yrTerm3Standard.allUpfront": 1.7762557077625571,
-      "yrTerm1Standard.noUpfront": 2.675,
-      "yrTerm3Standard.noUpfront": 2.037
-     }
-    }
-   },
-   "ap-southeast-1": {
-    "Memcached": {
-     "ondemand": 3.937,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.88986301369863,
-      "yrTerm1Standard.partialUpfront": 2.559566210045662,
-      "yrTerm3Standard.allUpfront": 1.7762937595129376,
-      "yrTerm1Standard.noUpfront": 2.687,
-      "yrTerm3Standard.noUpfront": 2.041
-     }
-    },
-    "Redis": {
-     "ondemand": 3.937,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.88986301369863,
-      "yrTerm1Standard.partialUpfront": 2.559566210045662,
-      "yrTerm3Standard.allUpfront": 1.7762937595129376,
-      "yrTerm1Standard.noUpfront": 2.687,
-      "yrTerm3Standard.noUpfront": 2.041
-     }
-    }
-   },
-   "ap-southeast-2": {
-    "Redis": {
-     "ondemand": 3.937,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.88986301369863,
-      "yrTerm1Standard.partialUpfront": 2.559566210045662,
-      "yrTerm3Standard.allUpfront": 1.7762937595129376,
-      "yrTerm1Standard.noUpfront": 2.687,
-      "yrTerm3Standard.noUpfront": 2.041
-     }
-    },
-    "Memcached": {
-     "ondemand": 3.937,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.88986301369863,
-      "yrTerm1Standard.partialUpfront": 2.559566210045662,
-      "yrTerm3Standard.allUpfront": 1.7762937595129376,
-      "yrTerm1Standard.noUpfront": 2.687,
-      "yrTerm3Standard.noUpfront": 2.041
-     }
-    }
-   },
-   "eu-north-1": {
-    "Redis": {
-     "ondemand": 3.474,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.6563500761035006,
-      "yrTerm1Standard.partialUpfront": 2.256050228310502,
-      "yrTerm3Standard.allUpfront": 1.570509893455099,
-      "yrTerm1Standard.noUpfront": 2.371,
-      "yrTerm3Standard.noUpfront": 1.794
-     }
-    },
-    "Memcached": {
-     "ondemand": 3.474,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.6563500761035006,
-      "yrTerm1Standard.partialUpfront": 2.256050228310502,
-      "yrTerm3Standard.allUpfront": 1.570509893455099,
-      "yrTerm1Standard.noUpfront": 2.371,
-      "yrTerm3Standard.noUpfront": 1.794
-     }
-    }
-   },
-   "sa-east-1": {
-    "Memcached": {
-     "ondemand": 6.566,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 3.1569893455098934,
-      "yrTerm1Standard.partialUpfront": 4.262132420091325,
-      "yrTerm3Standard.allUpfront": 3.088926940639269,
-      "yrTerm1Standard.noUpfront": 4.469,
-      "yrTerm3Standard.noUpfront": 3.314
-     }
-    },
-    "Redis": {
-     "ondemand": 6.566,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 3.1569893455098934,
-      "yrTerm1Standard.partialUpfront": 4.262132420091325,
-      "yrTerm3Standard.allUpfront": 3.088926940639269,
-      "yrTerm1Standard.noUpfront": 4.469,
-      "yrTerm3Standard.noUpfront": 3.314
-     }
-    }
-   },
-   "us-gov-east-1": {
-    "Memcached": {
-     "ondemand": 3.931,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.8868630136986302,
-      "yrTerm1Standard.partialUpfront": 2.556337899543379,
-      "yrTerm3Standard.allUpfront": 1.7762557077625571,
-      "yrTerm1Standard.noUpfront": 2.675,
-      "yrTerm3Standard.noUpfront": 2.037
-     }
-    },
-    "Redis": {
-     "ondemand": 3.931,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.8868630136986302,
-      "yrTerm1Standard.partialUpfront": 2.556337899543379,
-      "yrTerm3Standard.allUpfront": 1.7762557077625571,
-      "yrTerm1Standard.noUpfront": 2.675,
-      "yrTerm3Standard.noUpfront": 2.037
-     }
-    }
-   },
-   "eu-central-1": {
-    "Memcached": {
-     "ondemand": 3.952,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.8975159817351597,
-      "yrTerm1Standard.partialUpfront": 2.5694748858447487,
-      "yrTerm3Standard.allUpfront": 1.7831430745814307,
-      "yrTerm1Standard.noUpfront": 2.698,
-      "yrTerm3Standard.noUpfront": 2.049
-     }
-    },
-    "Redis": {
-     "ondemand": 3.952,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.8975159817351597,
-      "yrTerm1Standard.partialUpfront": 2.5694748858447487,
-      "yrTerm3Standard.allUpfront": 1.7831430745814307,
-      "yrTerm1Standard.noUpfront": 2.698,
-      "yrTerm3Standard.noUpfront": 2.049
-     }
-    }
-   },
-   "ap-northeast-1": {
-    "Memcached": {
-     "ondemand": 3.937,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.88986301369863,
-      "yrTerm1Standard.partialUpfront": 2.559566210045662,
-      "yrTerm3Standard.allUpfront": 1.7762937595129376,
-      "yrTerm1Standard.noUpfront": 2.687,
-      "yrTerm3Standard.noUpfront": 2.041
-     }
-    },
-    "Redis": {
-     "ondemand": 3.937,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.88986301369863,
-      "yrTerm1Standard.partialUpfront": 2.559566210045662,
-      "yrTerm3Standard.allUpfront": 1.7762937595129376,
-      "yrTerm1Standard.noUpfront": 2.687,
-      "yrTerm3Standard.noUpfront": 2.041
-     }
-    }
-   },
-   "ap-northeast-2": {
-    "Redis": {
-     "ondemand": 3.931,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.8854550989345509,
-      "yrTerm1Standard.partialUpfront": 2.5546255707762557,
-      "yrTerm3Standard.allUpfront": 1.7737823439878235,
-      "yrTerm1Standard.noUpfront": 2.675,
-      "yrTerm3Standard.noUpfront": 2.037
-     }
-    },
-    "Memcached": {
-     "ondemand": 3.931,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.8854550989345509,
-      "yrTerm1Standard.partialUpfront": 2.5546255707762557,
-      "yrTerm3Standard.allUpfront": 1.7737823439878235,
-      "yrTerm1Standard.noUpfront": 2.675,
-      "yrTerm3Standard.noUpfront": 2.037
-     }
-    }
-   },
-   "eu-west-2": {
-    "Redis": {
-     "ondemand": 3.845,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.834716894977169,
-      "yrTerm1Standard.partialUpfront": 2.4955433789954338,
-      "yrTerm3Standard.allUpfront": 1.7347412480974125,
-      "yrTerm1Standard.noUpfront": 2.614,
-      "yrTerm3Standard.noUpfront": 2.006
-     }
-    },
-    "Memcached": {
-     "ondemand": 3.845,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.834716894977169,
-      "yrTerm1Standard.partialUpfront": 2.4955433789954338,
-      "yrTerm3Standard.allUpfront": 1.7347412480974125,
-      "yrTerm1Standard.noUpfront": 2.614,
-      "yrTerm3Standard.noUpfront": 2.006
-     }
-    }
-   },
-   "us-west-2": {
-    "Redis": {
-     "ondemand": 3.284,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.5759756468797566,
-      "yrTerm1Standard.partialUpfront": 2.1351232876712327,
-      "yrTerm3Standard.allUpfront": 1.4813926940639268,
-      "yrTerm1Standard.noUpfront": 2.241,
-      "yrTerm3Standard.noUpfront": 1.703
-     }
-    },
-    "Memcached": {
-     "ondemand": 3.284,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.5759756468797566,
-      "yrTerm1Standard.partialUpfront": 2.1351232876712327,
-      "yrTerm3Standard.allUpfront": 1.4813926940639268,
-      "yrTerm1Standard.noUpfront": 2.241,
-      "yrTerm3Standard.noUpfront": 1.703
-     }
-    }
-   },
-   "us-east-2": {
-    "Redis": {
-     "ondemand": 3.284,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.5759756468797566,
-      "yrTerm1Standard.partialUpfront": 2.1351232876712327,
-      "yrTerm3Standard.allUpfront": 1.4813926940639268,
-      "yrTerm1Standard.noUpfront": 2.241,
-      "yrTerm3Standard.noUpfront": 1.703
-     }
-    },
-    "Memcached": {
-     "ondemand": 3.284,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.5759756468797566,
-      "yrTerm1Standard.partialUpfront": 2.1351232876712327,
-      "yrTerm3Standard.allUpfront": 1.4813926940639268,
-      "yrTerm1Standard.noUpfront": 2.241,
-      "yrTerm3Standard.noUpfront": 1.703
-     }
-    }
-   },
-   "eu-south-1": {
-    "Memcached": {
-     "ondemand": 3.832,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.8397488584474886,
-      "yrTerm1Standard.partialUpfront": 2.494374429223744,
-      "yrTerm3Standard.allUpfront": 1.7843226788432267,
-      "yrTerm1Standard.noUpfront": 2.575,
-      "yrTerm3Standard.noUpfront": 1.909
-     }
-    },
-    "Redis": {
-     "ondemand": 3.832,
-     "reserved": {
-      "yrTerm3Standard.partialUpfront": 1.8397488584474886,
-      "yrTerm1Standard.partialUpfront": 2.494374429223744,
-      "yrTerm3Standard.allUpfront": 1.7843226788432267,
-      "yrTerm1Standard.noUpfront": 2.575,
-      "yrTerm3Standard.noUpfront": 1.909
-     }
-    }
-   }
-  },
-  "regions": {
-   "il-central-1": "Israel (Tel Aviv)",
-   "us-east-1": "US East (N. Virginia)",
-   "eu-west-3": "Europe (Paris)",
-   "ap-south-2": "Asia Pacific (Hyderabad)",
-   "ap-east-1": "Asia Pacific (Hong Kong)",
-   "ca-central-1": "Canada (Central)",
-   "eu-west-1": "Europe (Ireland)",
-   "us-west-1": "US West (N. California)",
-   "ap-south-1": "Asia Pacific (Mumbai)",
-   "us-gov-west-1": "AWS GovCloud (US-West)",
-   "ap-southeast-1": "Asia Pacific (Singapore)",
-   "ap-southeast-2": "Asia Pacific (Sydney)",
-   "eu-north-1": "Europe (Stockholm)",
-   "sa-east-1": "South America (Sao Paulo)",
-   "us-gov-east-1": "AWS GovCloud (US-East)",
-   "eu-central-1": "Europe (Frankfurt)",
-   "ap-northeast-1": "Asia Pacific (Tokyo)",
-   "ap-northeast-2": "Asia Pacific (Seoul)",
-   "eu-west-2": "Europe (London)",
-   "us-west-2": "US West (Oregon)",
-   "us-east-2": "US East (Ohio)",
-   "eu-south-1": "Europe (Milan)"
-  },
-  "pretty_name": "R6g Memory optimized Eight Extra Large",
-  "memcached1.6-max_cache_memory": "214577",
-  "memcached1.6-num_threads": "32",
-  "redis6.x-client-output-buffer-limit-replica-hard-limit": "22500037523",
-  "redis6.x-client-output-buffer-limit-replica-soft-limit": "22500037523",
-  "redis6.x-maxmemory": "225000375228",
   "max_clients": "65000"
  },
  {
@@ -24293,6 +24958,22 @@
       "yrTerm3Standard.noUpfront": 0.511
      }
     }
+   },
+   "ca-west-1": {
+    "Memcached": {
+     "ondemand": 0.897,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 0.6704767123287672,
+      "yrTerm1Standard.noUpfront": 0.706
+     }
+    },
+    "Redis": {
+     "ondemand": 0.897,
+     "reserved": {
+      "yrTerm1Standard.partialUpfront": 0.6704767123287672,
+      "yrTerm1Standard.noUpfront": 0.706
+     }
+    }
    }
   },
   "regions": {
@@ -24317,7 +24998,8 @@
    "us-west-1": "US West (N. California)",
    "us-east-1": "US East (N. Virginia)",
    "ap-south-2": "Asia Pacific (Hyderabad)",
-   "ap-northeast-1": "Asia Pacific (Tokyo)"
+   "ap-northeast-1": "Asia Pacific (Tokyo)",
+   "ca-west-1": "Canada West (Calgary)"
   },
   "pretty_name": "R6g Memory optimized Double Extra Large",
   "memcached1.6-max_cache_memory": "54084",
@@ -24509,6 +25191,242 @@
   "pretty_name": "M7G Extra Large",
   "memcached1.6-max_cache_memory": "13248",
   "memcached1.6-num_threads": "4",
+  "redis6.x-client-output-buffer-limit-replica-hard-limit": "1389192172",
+  "redis6.x-client-output-buffer-limit-replica-soft-limit": "1389192172",
+  "redis6.x-maxmemory": "13891921715",
+  "max_clients": "65000"
+ },
+ {
+  "servicecode": "AmazonElastiCache",
+  "instanceType": "cache.c7gn.8xlarge",
+  "currentGeneration": "Yes",
+  "instanceFamily": "Network optimized",
+  "vcpu": "32",
+  "memory": "52.26",
+  "networkPerformance": "100 Gigabit",
+  "cacheEngine": "Memcached",
+  "regionCode": "us-east-2",
+  "servicename": "Amazon ElastiCache",
+  "network_performance": "100 Gigabit",
+  "family": "Network optimized",
+  "instance_type": "cache.c7gn.8xlarge",
+  "pricing": {
+   "us-east-2": {
+    "Redis": {
+     "ondemand": 4.073,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.9555200152207002,
+      "yrTerm1Standard.partialUpfront": 2.6477250000000003,
+      "yrTerm3Standard.allUpfront": 1.8328500000000003,
+      "yrTerm1Standard.noUpfront": 2.77,
+      "yrTerm3Standard.noUpfront": 2.118
+     }
+    },
+    "Memcached": {
+     "ondemand": 4.073,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.9555200152207002,
+      "yrTerm1Standard.partialUpfront": 2.6477250000000003,
+      "yrTerm3Standard.allUpfront": 1.8328500000000003,
+      "yrTerm1Standard.noUpfront": 2.77,
+      "yrTerm3Standard.noUpfront": 2.118
+     }
+    }
+   },
+   "eu-west-1": {
+    "Memcached": {
+     "ondemand": 4.602,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 2.2084799847793,
+      "yrTerm1Standard.partialUpfront": 2.99165,
+      "yrTerm3Standard.allUpfront": 2.0709,
+      "yrTerm1Standard.noUpfront": 3.129,
+      "yrTerm3Standard.noUpfront": 2.393
+     }
+    },
+    "Redis": {
+     "ondemand": 4.602,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 2.2084799847793,
+      "yrTerm1Standard.partialUpfront": 2.99165,
+      "yrTerm3Standard.allUpfront": 2.0709,
+      "yrTerm1Standard.noUpfront": 3.129,
+      "yrTerm3Standard.noUpfront": 2.393
+     }
+    }
+   },
+   "us-east-1": {
+    "Redis": {
+     "ondemand": 4.073,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.9555200152207002,
+      "yrTerm1Standard.partialUpfront": 2.6477250000000003,
+      "yrTerm3Standard.allUpfront": 1.8328500000000003,
+      "yrTerm1Standard.noUpfront": 2.77,
+      "yrTerm3Standard.noUpfront": 2.118
+     }
+    },
+    "Memcached": {
+     "ondemand": 4.073,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.9555200152207002,
+      "yrTerm1Standard.partialUpfront": 2.6477250000000003,
+      "yrTerm3Standard.allUpfront": 1.8328500000000003,
+      "yrTerm1Standard.noUpfront": 2.77,
+      "yrTerm3Standard.noUpfront": 2.118
+     }
+    }
+   },
+   "us-west-2": {
+    "Redis": {
+     "ondemand": 4.073,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.9555200152207002,
+      "yrTerm1Standard.partialUpfront": 2.6477250000000003,
+      "yrTerm3Standard.allUpfront": 1.8328500000000003,
+      "yrTerm1Standard.noUpfront": 2.77,
+      "yrTerm3Standard.noUpfront": 2.118
+     }
+    },
+    "Memcached": {
+     "ondemand": 4.073,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 1.9555200152207002,
+      "yrTerm1Standard.partialUpfront": 2.6477250000000003,
+      "yrTerm3Standard.allUpfront": 1.8328500000000003,
+      "yrTerm1Standard.noUpfront": 2.77,
+      "yrTerm3Standard.noUpfront": 2.118
+     }
+    }
+   }
+  },
+  "regions": {
+   "eu-west-1": "Europe (Ireland)",
+   "us-east-1": "US East (N. Virginia)",
+   "us-east-2": "US East (Ohio)",
+   "us-west-2": "US West (Oregon)"
+  },
+  "pretty_name": "C7GN Eight Extra Large",
+  "memcached1.6-max_cache_memory": "53516",
+  "memcached1.6-num_threads": "32",
+  "redis6.x-client-output-buffer-limit-replica-hard-limit": "5611617812",
+  "redis6.x-client-output-buffer-limit-replica-soft-limit": "5611617812",
+  "redis6.x-maxmemory": "56116178125",
+  "max_clients": "65000"
+ },
+ {
+  "servicecode": "AmazonElastiCache",
+  "instanceType": "cache.c7gn.2xlarge",
+  "currentGeneration": "Yes",
+  "instanceFamily": "Network optimized",
+  "vcpu": "8",
+  "memory": "12.94",
+  "networkPerformance": "Up to 50 Gigabit",
+  "cacheEngine": "Redis",
+  "regionCode": "us-west-2",
+  "servicename": "Amazon ElastiCache",
+  "network_performance": "Up to 50 Gigabit",
+  "family": "Network optimized",
+  "instance_type": "cache.c7gn.2xlarge",
+  "pricing": {
+   "us-west-2": {
+    "Memcached": {
+     "ondemand": 1.018,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 0.4883200152207001,
+      "yrTerm1Standard.partialUpfront": 0.66185,
+      "yrTerm3Standard.allUpfront": 0.4581,
+      "yrTerm1Standard.noUpfront": 0.692,
+      "yrTerm3Standard.noUpfront": 0.529
+     }
+    },
+    "Redis": {
+     "ondemand": 1.018,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 0.4883200152207001,
+      "yrTerm1Standard.partialUpfront": 0.66185,
+      "yrTerm3Standard.allUpfront": 0.4581,
+      "yrTerm1Standard.noUpfront": 0.692,
+      "yrTerm3Standard.noUpfront": 0.529
+     }
+    }
+   },
+   "eu-west-1": {
+    "Memcached": {
+     "ondemand": 1.151,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 0.5522399923896499,
+      "yrTerm1Standard.partialUpfront": 0.748075,
+      "yrTerm3Standard.allUpfront": 0.51795,
+      "yrTerm1Standard.noUpfront": 0.783,
+      "yrTerm3Standard.noUpfront": 0.599
+     }
+    },
+    "Redis": {
+     "ondemand": 1.151,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 0.5522399923896499,
+      "yrTerm1Standard.partialUpfront": 0.748075,
+      "yrTerm3Standard.allUpfront": 0.51795,
+      "yrTerm1Standard.noUpfront": 0.783,
+      "yrTerm3Standard.noUpfront": 0.599
+     }
+    }
+   },
+   "us-east-1": {
+    "Memcached": {
+     "ondemand": 1.018,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 0.4883200152207001,
+      "yrTerm1Standard.partialUpfront": 0.66185,
+      "yrTerm3Standard.allUpfront": 0.4581,
+      "yrTerm1Standard.noUpfront": 0.692,
+      "yrTerm3Standard.noUpfront": 0.529
+     }
+    },
+    "Redis": {
+     "ondemand": 1.018,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 0.4883200152207001,
+      "yrTerm1Standard.partialUpfront": 0.66185,
+      "yrTerm3Standard.allUpfront": 0.4581,
+      "yrTerm1Standard.noUpfront": 0.692,
+      "yrTerm3Standard.noUpfront": 0.529
+     }
+    }
+   },
+   "us-east-2": {
+    "Memcached": {
+     "ondemand": 1.018,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 0.4883200152207001,
+      "yrTerm1Standard.partialUpfront": 0.66185,
+      "yrTerm3Standard.allUpfront": 0.4581,
+      "yrTerm1Standard.noUpfront": 0.692,
+      "yrTerm3Standard.noUpfront": 0.529
+     }
+    },
+    "Redis": {
+     "ondemand": 1.018,
+     "reserved": {
+      "yrTerm3Standard.partialUpfront": 0.4883200152207001,
+      "yrTerm1Standard.partialUpfront": 0.66185,
+      "yrTerm3Standard.allUpfront": 0.4581,
+      "yrTerm1Standard.noUpfront": 0.692,
+      "yrTerm3Standard.noUpfront": 0.529
+     }
+    }
+   }
+  },
+  "regions": {
+   "eu-west-1": "Europe (Ireland)",
+   "us-west-2": "US West (Oregon)",
+   "us-east-1": "US East (N. Virginia)",
+   "us-east-2": "US East (Ohio)"
+  },
+  "pretty_name": "C7GN Double Extra Large",
+  "memcached1.6-max_cache_memory": "13248",
+  "memcached1.6-num_threads": "8",
   "redis6.x-client-output-buffer-limit-replica-hard-limit": "1389192172",
   "redis6.x-client-output-buffer-limit-replica-soft-limit": "1389192172",
   "redis6.x-maxmemory": "13891921715",

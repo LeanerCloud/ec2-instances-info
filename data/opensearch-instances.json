@@ -36,6 +36,17 @@
      "yrTerm3Standard.noUpfront": 0.522
     }
    },
+   "ca-west-1": {
+    "ondemand": 1.097,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.548,
+     "yrTerm1Standard.partialUpfront": 0.734,
+     "yrTerm3Standard.allUpfront": 0.52656000761035,
+     "yrTerm1Standard.allUpfront": 0.71305,
+     "yrTerm1Standard.noUpfront": 0.757,
+     "yrTerm3Standard.noUpfront": 0.57
+    }
+   },
    "eu-central-1": {
     "ondemand": 1.145,
     "reserved": {
@@ -347,6 +358,7 @@
   },
   "regions": {
    "us-east-1": "US East (N. Virginia)",
+   "ca-west-1": "Canada West (Calgary)",
    "eu-central-1": "Europe (Frankfurt)",
    "ap-south-1": "Asia Pacific (Mumbai)",
    "us-east-2": "US East (Ohio)",
@@ -385,6 +397,390 @@
  },
  {
   "servicecode": "AmazonES",
+  "instanceType": "r6g.2xlarge.search",
+  "currentGeneration": "Yes",
+  "instanceFamily": "Memory optimized",
+  "vcpu": "8",
+  "storage": "EBS Only",
+  "ecu": "variable",
+  "memoryGib": "64",
+  "regionCode": "ap-northeast-3",
+  "servicename": "Amazon OpenSearch Service",
+  "memory": "64",
+  "family": "Memory optimized",
+  "instance_type": "r6g.2xlarge.search",
+  "pricing": {
+   "ap-northeast-3": {
+    "ondemand": 0.778,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.39,
+     "yrTerm1Standard.partialUpfront": 0.522,
+     "yrTerm3Standard.allUpfront": 0.3734399923896499,
+     "yrTerm1Standard.allUpfront": 0.5056999999999999,
+     "yrTerm1Standard.noUpfront": 0.537,
+     "yrTerm3Standard.noUpfront": 0.405
+    }
+   },
+   "us-east-2": {
+    "ondemand": 0.669,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.33425000000000005,
+     "yrTerm1Standard.partialUpfront": 0.44811495433789955,
+     "yrTerm3Standard.allUpfront": 0.32112001522070016,
+     "yrTerm1Standard.allUpfront": 0.43485,
+     "yrTerm1Standard.noUpfront": 0.462,
+     "yrTerm3Standard.noUpfront": 0.348
+    }
+   },
+   "ap-northeast-1": {
+    "ondemand": 0.807,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.40375,
+     "yrTerm1Standard.partialUpfront": 0.5403449771689498,
+     "yrTerm3Standard.allUpfront": 0.38736000761035005,
+     "yrTerm1Standard.allUpfront": 0.52455,
+     "yrTerm1Standard.noUpfront": 0.557,
+     "yrTerm3Standard.noUpfront": 0.42
+    }
+   },
+   "ap-east-1": {
+    "ondemand": 0.89,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.4455,
+     "yrTerm1Standard.partialUpfront": 0.59615,
+     "yrTerm3Standard.allUpfront": 0.4272,
+     "yrTerm1Standard.allUpfront": 0.5785,
+     "yrTerm1Standard.noUpfront": 0.614,
+     "yrTerm3Standard.noUpfront": 0.463
+    }
+   },
+   "ca-central-1": {
+    "ondemand": 0.733,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.36625,
+     "yrTerm1Standard.partialUpfront": 0.49155502283105024,
+     "yrTerm3Standard.allUpfront": 0.35183999238964986,
+     "yrTerm1Standard.allUpfront": 0.47645000000000004,
+     "yrTerm1Standard.noUpfront": 0.506,
+     "yrTerm3Standard.noUpfront": 0.381
+    }
+   },
+   "us-west-2": {
+    "ondemand": 0.669,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.33425000000000005,
+     "yrTerm1Standard.partialUpfront": 0.44811495433789955,
+     "yrTerm3Standard.allUpfront": 0.32112001522070016,
+     "yrTerm1Standard.allUpfront": 0.43485,
+     "yrTerm1Standard.noUpfront": 0.462,
+     "yrTerm3Standard.noUpfront": 0.348
+    }
+   },
+   "il-central-1": {
+    "ondemand": 0.786,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.373563875,
+     "yrTerm1Standard.partialUpfront": 0.5005757125570777,
+     "yrTerm3Standard.allUpfront": 0.3586212,
+     "yrTerm1Standard.allUpfront": 0.485632875,
+     "yrTerm1Standard.noUpfront": 0.515518,
+     "yrTerm3Standard.noUpfront": 0.388506
+    }
+   },
+   "ap-southeast-2": {
+    "ondemand": 0.802,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.4015,
+     "yrTerm1Standard.partialUpfront": 0.5376699771689497,
+     "yrTerm3Standard.allUpfront": 0.3849600076103501,
+     "yrTerm1Standard.allUpfront": 0.5213,
+     "yrTerm1Standard.noUpfront": 0.553,
+     "yrTerm3Standard.noUpfront": 0.417
+    }
+   },
+   "ap-south-1": {
+    "ondemand": 0.432,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.21599999999999997,
+     "yrTerm1Standard.partialUpfront": 0.28971997716894976,
+     "yrTerm3Standard.allUpfront": 0.2073600076103501,
+     "yrTerm1Standard.allUpfront": 0.2808,
+     "yrTerm1Standard.noUpfront": 0.298,
+     "yrTerm3Standard.noUpfront": 0.225
+    }
+   },
+   "me-central-1": {
+    "ondemand": 0.8389,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.4187200152207001,
+     "yrTerm1Standard.partialUpfront": 0.5620247716894977,
+     "yrTerm3Standard.allUpfront": 0.40266240487062405,
+     "yrTerm1Standard.allUpfront": 0.5452720319634703,
+     "yrTerm1Standard.noUpfront": 0.579,
+     "yrTerm3Standard.noUpfront": 0.436
+    }
+   },
+   "eu-south-2": {
+    "ondemand": 0.749,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.37425,
+     "yrTerm1Standard.partialUpfront": 0.5019149543378996,
+     "yrTerm3Standard.allUpfront": 0.35952001522070015,
+     "yrTerm1Standard.allUpfront": 0.48684999999999995,
+     "yrTerm1Standard.noUpfront": 0.517,
+     "yrTerm3Standard.noUpfront": 0.389
+    }
+   },
+   "eu-south-1": {
+    "ondemand": 0.786,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.3935,
+     "yrTerm1Standard.partialUpfront": 0.5263105022831049,
+     "yrTerm3Standard.allUpfront": 0.37728006088280064,
+     "yrTerm1Standard.allUpfront": 0.5108995433789955,
+     "yrTerm1Standard.noUpfront": 0.542,
+     "yrTerm3Standard.noUpfront": 0.409
+    }
+   },
+   "eu-west-1": {
+    "ondemand": 0.749,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.37425,
+     "yrTerm1Standard.partialUpfront": 0.5019149543378996,
+     "yrTerm3Standard.allUpfront": 0.35952001522070015,
+     "yrTerm1Standard.allUpfront": 0.48684999999999995,
+     "yrTerm1Standard.noUpfront": 0.517,
+     "yrTerm3Standard.noUpfront": 0.389
+    }
+   },
+   "ap-south-2": {
+    "ondemand": 0.432,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.21599999999999997,
+     "yrTerm1Standard.partialUpfront": 0.28971997716894976,
+     "yrTerm3Standard.allUpfront": 0.2073600076103501,
+     "yrTerm1Standard.allUpfront": 0.2808,
+     "yrTerm1Standard.noUpfront": 0.298,
+     "yrTerm3Standard.noUpfront": 0.225
+    }
+   },
+   "eu-central-2": {
+    "ondemand": 0.856,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.428,
+     "yrTerm1Standard.partialUpfront": 0.574,
+     "yrTerm3Standard.allUpfront": 0.4108799847792998,
+     "yrTerm1Standard.allUpfront": 0.5564,
+     "yrTerm1Standard.noUpfront": 0.591,
+     "yrTerm3Standard.noUpfront": 0.445
+    }
+   },
+   "ap-southeast-1": {
+    "ondemand": 0.807,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.40375,
+     "yrTerm1Standard.partialUpfront": 0.5403449771689498,
+     "yrTerm3Standard.allUpfront": 0.38736000761035005,
+     "yrTerm1Standard.allUpfront": 0.52455,
+     "yrTerm1Standard.noUpfront": 0.557,
+     "yrTerm3Standard.noUpfront": 0.42
+    }
+   },
+   "eu-west-3": {
+    "ondemand": 0.784,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.392,
+     "yrTerm1Standard.partialUpfront": 0.5256404109589041,
+     "yrTerm3Standard.allUpfront": 0.3763200152207002,
+     "yrTerm1Standard.allUpfront": 0.5096004566210046,
+     "yrTerm1Standard.noUpfront": 0.541,
+     "yrTerm3Standard.noUpfront": 0.408
+    }
+   },
+   "eu-central-1": {
+    "ondemand": 0.807,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.40375,
+     "yrTerm1Standard.partialUpfront": 0.5403449771689498,
+     "yrTerm3Standard.allUpfront": 0.38736000761035005,
+     "yrTerm1Standard.allUpfront": 0.52455,
+     "yrTerm1Standard.noUpfront": 0.557,
+     "yrTerm3Standard.noUpfront": 0.42
+    }
+   },
+   "eu-north-1": {
+    "ondemand": 0.71,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.3555,
+     "yrTerm1Standard.partialUpfront": 0.47585,
+     "yrTerm3Standard.allUpfront": 0.3408,
+     "yrTerm1Standard.allUpfront": 0.46149999999999997,
+     "yrTerm1Standard.noUpfront": 0.49,
+     "yrTerm3Standard.noUpfront": 0.369
+    }
+   },
+   "ap-northeast-2": {
+    "ondemand": 0.81,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.40549999999999997,
+     "yrTerm1Standard.partialUpfront": 0.54235,
+     "yrTerm3Standard.allUpfront": 0.38880000000000003,
+     "yrTerm1Standard.allUpfront": 0.5265000000000001,
+     "yrTerm1Standard.noUpfront": 0.559,
+     "yrTerm3Standard.noUpfront": 0.421
+    }
+   },
+   "ap-southeast-4": {
+    "ondemand": 0.802,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.4015,
+     "yrTerm1Standard.partialUpfront": 0.5376699771689497,
+     "yrTerm3Standard.allUpfront": 0.3849600076103501,
+     "yrTerm1Standard.allUpfront": 0.5213,
+     "yrTerm1Standard.noUpfront": 0.553,
+     "yrTerm3Standard.noUpfront": 0.417
+    }
+   },
+   "eu-west-2": {
+    "ondemand": 0.786,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.3935,
+     "yrTerm1Standard.partialUpfront": 0.5263100456621004,
+     "yrTerm3Standard.allUpfront": 0.3772799847792998,
+     "yrTerm1Standard.allUpfront": 0.5109,
+     "yrTerm1Standard.noUpfront": 0.542,
+     "yrTerm3Standard.noUpfront": 0.409
+    }
+   },
+   "me-south-1": {
+    "ondemand": 0.794,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.398,
+     "yrTerm1Standard.partialUpfront": 0.532,
+     "yrTerm3Standard.allUpfront": 0.38112001522070016,
+     "yrTerm1Standard.allUpfront": 0.5161,
+     "yrTerm1Standard.noUpfront": 0.548,
+     "yrTerm3Standard.noUpfront": 0.413
+    }
+   },
+   "us-west-1": {
+    "ondemand": 0.744,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.372,
+     "yrTerm1Standard.partialUpfront": 0.4982399543378996,
+     "yrTerm3Standard.allUpfront": 0.35712001522070014,
+     "yrTerm1Standard.allUpfront": 0.48360000000000003,
+     "yrTerm1Standard.noUpfront": 0.513,
+     "yrTerm3Standard.noUpfront": 0.387
+    }
+   },
+   "af-south-1": {
+    "ondemand": 0.86,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.43,
+     "yrTerm1Standard.partialUpfront": 0.576,
+     "yrTerm3Standard.allUpfront": 0.4128,
+     "yrTerm1Standard.allUpfront": 0.559,
+     "yrTerm1Standard.noUpfront": 0.593,
+     "yrTerm3Standard.noUpfront": 0.447
+    }
+   },
+   "us-gov-east-1": {
+    "ondemand": 0.802,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.4015,
+     "yrTerm1Standard.partialUpfront": 0.5376699771689497,
+     "yrTerm3Standard.allUpfront": 0.3849600076103501,
+     "yrTerm1Standard.allUpfront": 0.5213,
+     "yrTerm1Standard.noUpfront": 0.553,
+     "yrTerm3Standard.noUpfront": 0.417
+    }
+   },
+   "us-gov-west-1": {
+    "ondemand": 0.802,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.4015,
+     "yrTerm1Standard.partialUpfront": 0.5376699771689497,
+     "yrTerm3Standard.allUpfront": 0.3849600076103501,
+     "yrTerm1Standard.allUpfront": 0.5213,
+     "yrTerm1Standard.noUpfront": 0.553,
+     "yrTerm3Standard.noUpfront": 0.417
+    }
+   },
+   "us-east-1": {
+    "ondemand": 0.669,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.33425000000000005,
+     "yrTerm1Standard.partialUpfront": 0.44811495433789955,
+     "yrTerm3Standard.allUpfront": 0.32112001522070016,
+     "yrTerm1Standard.allUpfront": 0.43485,
+     "yrTerm1Standard.noUpfront": 0.462,
+     "yrTerm3Standard.noUpfront": 0.348
+    }
+   },
+   "sa-east-1": {
+    "ondemand": 1.068,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.534,
+     "yrTerm1Standard.partialUpfront": 0.7157800228310502,
+     "yrTerm3Standard.allUpfront": 0.51263999238965,
+     "yrTerm1Standard.allUpfront": 0.6941999999999999,
+     "yrTerm1Standard.noUpfront": 0.737,
+     "yrTerm3Standard.noUpfront": 0.555
+    }
+   },
+   "ap-southeast-3": {
+    "ondemand": 0.807,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.40375,
+     "yrTerm1Standard.partialUpfront": 0.5403447488584474,
+     "yrTerm3Standard.allUpfront": 0.3873599695585997,
+     "yrTerm1Standard.allUpfront": 0.5245502283105024,
+     "yrTerm1Standard.noUpfront": 0.557,
+     "yrTerm3Standard.noUpfront": 0.42
+    }
+   }
+  },
+  "regions": {
+   "us-east-2": "US East (Ohio)",
+   "ap-northeast-1": "Asia Pacific (Tokyo)",
+   "ap-east-1": "Asia Pacific (Hong Kong)",
+   "ca-central-1": "Canada (Central)",
+   "us-west-2": "US West (Oregon)",
+   "il-central-1": "Israel (Tel Aviv)",
+   "ap-southeast-2": "Asia Pacific (Sydney)",
+   "ap-south-1": "Asia Pacific (Mumbai)",
+   "me-central-1": "Middle East (UAE)",
+   "eu-south-2": "Europe (Spain)",
+   "eu-south-1": "Europe (Milan)",
+   "eu-west-1": "Europe (Ireland)",
+   "ap-south-2": "Asia Pacific (Hyderabad)",
+   "eu-central-2": "Europe (Zurich)",
+   "ap-southeast-1": "Asia Pacific (Singapore)",
+   "eu-west-3": "Europe (Paris)",
+   "eu-central-1": "Europe (Frankfurt)",
+   "eu-north-1": "Europe (Stockholm)",
+   "ap-northeast-3": "Asia Pacific (Osaka)",
+   "ap-northeast-2": "Asia Pacific (Seoul)",
+   "ap-southeast-4": "Asia Pacific (Melbourne)",
+   "eu-west-2": "Europe (London)",
+   "me-south-1": "Middle East (Bahrain)",
+   "us-west-1": "US West (N. California)",
+   "af-south-1": "Africa (Cape Town)",
+   "us-gov-east-1": "AWS GovCloud (US-East)",
+   "us-gov-west-1": "AWS GovCloud (US-West)",
+   "us-east-1": "US East (N. Virginia)",
+   "sa-east-1": "South America (Sao Paulo)",
+   "ap-southeast-3": "Asia Pacific (Jakarta)"
+  },
+  "pretty_name": "R6G Memory Optimized Double Extra Large",
+  "min_ebs": "10 GiB",
+  "max_ebs_gp2": "3 TiB",
+  "max_ebs_gp3": "6 TiB",
+  "max_http_payload": "100 MiB"
+ },
+ {
+  "servicecode": "AmazonES",
   "instanceType": "r5.xlarge.search",
   "currentGeneration": "Yes",
   "instanceFamily": "Memory optimized",
@@ -407,6 +803,17 @@
      "yrTerm1Standard.allUpfront": 0.29121004566210046,
      "yrTerm1Standard.noUpfront": 0.309,
      "yrTerm3Standard.noUpfront": 0.233
+    }
+   },
+   "ca-west-1": {
+    "ondemand": 0.407,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.204,
+     "yrTerm1Standard.partialUpfront": 0.272,
+     "yrTerm3Standard.allUpfront": 0.19536000761035008,
+     "yrTerm1Standard.allUpfront": 0.26455,
+     "yrTerm1Standard.noUpfront": 0.281,
+     "yrTerm3Standard.noUpfront": 0.212
     }
    },
    "ap-east-1": {
@@ -730,6 +1137,7 @@
    }
   },
   "regions": {
+   "ca-west-1": "Canada West (Calgary)",
    "ap-east-1": "Asia Pacific (Hong Kong)",
    "us-gov-east-1": "AWS GovCloud (US-East)",
    "ap-northeast-3": "Asia Pacific (Osaka)",
@@ -890,6 +1298,17 @@
      "yrTerm1Standard.allUpfront": 0.10662100456621004,
      "yrTerm1Standard.noUpfront": 0.113,
      "yrTerm3Standard.noUpfront": 0.085
+    }
+   },
+   "ca-west-1": {
+    "ondemand": 0.137,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.068,
+     "yrTerm1Standard.partialUpfront": 0.092,
+     "yrTerm3Standard.allUpfront": 0.06576000761035007,
+     "yrTerm1Standard.allUpfront": 0.08905,
+     "yrTerm1Standard.noUpfront": 0.095,
+     "yrTerm3Standard.noUpfront": 0.071
     }
    },
    "us-gov-west-1": {
@@ -1124,6 +1543,7 @@
    "eu-central-1": "Europe (Frankfurt)",
    "me-central-1": "Middle East (UAE)",
    "ap-southeast-4": "Asia Pacific (Melbourne)",
+   "ca-west-1": "Canada West (Calgary)",
    "us-gov-west-1": "AWS GovCloud (US-West)",
    "us-west-1": "US West (N. California)",
    "eu-west-3": "Europe (Paris)",
@@ -1232,6 +1652,17 @@
      "yrTerm3Standard.noUpfront": 0.154
     }
    },
+   "af-south-1": {
+    "ondemand": 0.325,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.162,
+     "yrTerm1Standard.partialUpfront": 0.218,
+     "yrTerm3Standard.allUpfront": 0.156,
+     "yrTerm1Standard.allUpfront": 0.21125000000000002,
+     "yrTerm1Standard.noUpfront": 0.224,
+     "yrTerm3Standard.noUpfront": 0.169
+    }
+   },
    "ap-southeast-4": {
     "ondemand": 0.319,
     "reserved": {
@@ -1265,6 +1696,28 @@
      "yrTerm3Standard.noUpfront": 0.149
     }
    },
+   "me-south-1": {
+    "ondemand": 0.301,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.15,
+     "yrTerm1Standard.partialUpfront": 0.202,
+     "yrTerm3Standard.allUpfront": 0.14447998477929985,
+     "yrTerm1Standard.allUpfront": 0.19565,
+     "yrTerm1Standard.noUpfront": 0.208,
+     "yrTerm3Standard.noUpfront": 0.157
+    }
+   },
+   "eu-central-2": {
+    "ondemand": 0.324,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.162,
+     "yrTerm1Standard.partialUpfront": 0.218,
+     "yrTerm3Standard.allUpfront": 0.15552001522070014,
+     "yrTerm1Standard.allUpfront": 0.2106,
+     "yrTerm1Standard.noUpfront": 0.224,
+     "yrTerm3Standard.noUpfront": 0.168
+    }
+   },
    "ap-south-1": {
     "ondemand": 0.168,
     "reserved": {
@@ -1276,6 +1729,17 @@
      "yrTerm3Standard.noUpfront": 0.087
     }
    },
+   "ap-northeast-3": {
+    "ondemand": 0.317,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.158,
+     "yrTerm1Standard.partialUpfront": 0.212,
+     "yrTerm3Standard.allUpfront": 0.15216000761035006,
+     "yrTerm1Standard.allUpfront": 0.20604999999999998,
+     "yrTerm1Standard.noUpfront": 0.219,
+     "yrTerm3Standard.noUpfront": 0.165
+    }
+   },
    "sa-east-1": {
     "ondemand": 0.406,
     "reserved": {
@@ -1285,6 +1749,17 @@
      "yrTerm1Standard.allUpfront": 0.2639,
      "yrTerm1Standard.noUpfront": 0.28,
      "yrTerm3Standard.noUpfront": 0.211
+    }
+   },
+   "il-central-1": {
+    "ondemand": 0.3,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.14264224999999997,
+     "yrTerm1Standard.partialUpfront": 0.191140475,
+     "yrTerm3Standard.allUpfront": 0.1369368,
+     "yrTerm1Standard.allUpfront": 0.18543525000000002,
+     "yrTerm1Standard.noUpfront": 0.196847,
+     "yrTerm3Standard.noUpfront": 0.148348
     }
    },
    "ap-southeast-3": {
@@ -1448,12 +1923,17 @@
    "ap-east-1": "Asia Pacific (Hong Kong)",
    "us-west-2": "US West (Oregon)",
    "eu-south-1": "Europe (Milan)",
+   "af-south-1": "Africa (Cape Town)",
    "ap-southeast-4": "Asia Pacific (Melbourne)",
    "eu-west-3": "Europe (Paris)",
    "eu-west-1": "Europe (Ireland)",
    "me-central-1": "Middle East (UAE)",
+   "me-south-1": "Middle East (Bahrain)",
+   "eu-central-2": "Europe (Zurich)",
    "ap-south-1": "Asia Pacific (Mumbai)",
+   "ap-northeast-3": "Asia Pacific (Osaka)",
    "sa-east-1": "South America (Sao Paulo)",
+   "il-central-1": "Israel (Tel Aviv)",
    "ap-southeast-3": "Asia Pacific (Jakarta)",
    "us-west-1": "US West (N. California)",
    "us-east-1": "US East (N. Virginia)",
@@ -1534,6 +2014,17 @@
      "yrTerm3Standard.noUpfront": 0.28
     }
    },
+   "me-south-1": {
+    "ondemand": 0.544,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.272,
+     "yrTerm1Standard.partialUpfront": 0.364,
+     "yrTerm3Standard.allUpfront": 0.26112001522070016,
+     "yrTerm1Standard.allUpfront": 0.35359999999999997,
+     "yrTerm1Standard.noUpfront": 0.375,
+     "yrTerm3Standard.noUpfront": 0.283
+    }
+   },
    "sa-east-1": {
     "ondemand": 0.696,
     "reserved": {
@@ -1565,6 +2056,17 @@
      "yrTerm1Standard.allUpfront": 0.18395000000000003,
      "yrTerm1Standard.noUpfront": 0.195,
      "yrTerm3Standard.noUpfront": 0.147
+    }
+   },
+   "ap-northeast-3": {
+    "ondemand": 0.55,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.276,
+     "yrTerm1Standard.partialUpfront": 0.368,
+     "yrTerm3Standard.allUpfront": 0.264,
+     "yrTerm1Standard.allUpfront": 0.3575,
+     "yrTerm1Standard.noUpfront": 0.38,
+     "yrTerm3Standard.noUpfront": 0.286
     }
    },
    "us-west-1": {
@@ -1710,6 +2212,17 @@
      "yrTerm3Standard.noUpfront": 0.282
     }
    },
+   "eu-central-2": {
+    "ondemand": 0.546,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.274,
+     "yrTerm1Standard.partialUpfront": 0.366,
+     "yrTerm3Standard.allUpfront": 0.2620799847792999,
+     "yrTerm1Standard.allUpfront": 0.3549,
+     "yrTerm1Standard.noUpfront": 0.377,
+     "yrTerm3Standard.noUpfront": 0.284
+    }
+   },
    "ap-southeast-4": {
     "ondemand": 0.59,
     "reserved": {
@@ -1730,6 +2243,17 @@
      "yrTerm1Standard.allUpfront": 0.3211,
      "yrTerm1Standard.noUpfront": 0.341,
      "yrTerm3Standard.noUpfront": 0.257
+    }
+   },
+   "il-central-1": {
+    "ondemand": 0.536,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.25436225,
+     "yrTerm1Standard.partialUpfront": 0.34084587499999996,
+     "yrTerm3Standard.allUpfront": 0.244188,
+     "yrTerm1Standard.allUpfront": 0.33067125,
+     "yrTerm1Standard.noUpfront": 0.35102,
+     "yrTerm3Standard.noUpfront": 0.264537
     }
    },
    "me-central-1": {
@@ -1770,9 +2294,11 @@
    "ap-south-2": "Asia Pacific (Hyderabad)",
    "us-east-1": "US East (N. Virginia)",
    "eu-west-3": "Europe (Paris)",
+   "me-south-1": "Middle East (Bahrain)",
    "sa-east-1": "South America (Sao Paulo)",
    "us-east-2": "US East (Ohio)",
    "ap-south-1": "Asia Pacific (Mumbai)",
+   "ap-northeast-3": "Asia Pacific (Osaka)",
    "us-west-1": "US West (N. California)",
    "eu-west-2": "Europe (London)",
    "eu-central-1": "Europe (Frankfurt)",
@@ -1787,8 +2313,10 @@
    "us-west-2": "US West (Oregon)",
    "us-gov-west-1": "AWS GovCloud (US-West)",
    "us-gov-east-1": "AWS GovCloud (US-East)",
+   "eu-central-2": "Europe (Zurich)",
    "ap-southeast-4": "Asia Pacific (Melbourne)",
    "ca-central-1": "Canada (Central)",
+   "il-central-1": "Israel (Tel Aviv)",
    "me-central-1": "Middle East (UAE)",
    "ap-northeast-1": "Asia Pacific (Tokyo)",
    "eu-north-1": "Europe (Stockholm)"
@@ -1949,7 +2477,11 @@
    "eu-west-3": "Europe (Paris)",
    "ap-southeast-1": "Asia Pacific (Singapore)"
   },
-  "pretty_name": "IM4GN 16xlarge Extra Large"
+  "pretty_name": "IM4GN 16xlarge Extra Large",
+  "min_ebs": "N/A",
+  "max_ebs_gp2": "N/A",
+  "max_ebs_gp3": "N/A",
+  "max_http_payload": "100 MiB"
  },
  {
   "servicecode": "AmazonES",
@@ -2219,6 +2751,17 @@
      "yrTerm3Standard.noUpfront": 0.405
     }
    },
+   "ca-west-1": {
+    "ondemand": 0.631,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.316,
+     "yrTerm1Standard.partialUpfront": 0.422,
+     "yrTerm3Standard.allUpfront": 0.30287998477929984,
+     "yrTerm1Standard.allUpfront": 0.41015,
+     "yrTerm1Standard.noUpfront": 0.435,
+     "yrTerm3Standard.noUpfront": 0.328
+    }
+   },
    "eu-south-2": {
     "ondemand": 0.631,
     "reserved": {
@@ -2321,6 +2864,7 @@
    "me-south-1": "Middle East (Bahrain)",
    "ca-central-1": "Canada (Central)",
    "ap-east-1": "Asia Pacific (Hong Kong)",
+   "ca-west-1": "Canada West (Calgary)",
    "eu-south-2": "Europe (Spain)",
    "ap-southeast-3": "Asia Pacific (Jakarta)",
    "us-west-1": "US West (N. California)",
@@ -2504,6 +3048,17 @@
      "yrTerm3Standard.noUpfront": 0.594
     }
    },
+   "af-south-1": {
+    "ondemand": 1.3,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.65,
+     "yrTerm1Standard.partialUpfront": 0.872,
+     "yrTerm3Standard.allUpfront": 0.624,
+     "yrTerm1Standard.allUpfront": 0.8450000000000001,
+     "yrTerm1Standard.noUpfront": 0.897,
+     "yrTerm3Standard.noUpfront": 0.676
+    }
+   },
    "ap-south-2": {
     "ondemand": 0.672,
     "reserved": {
@@ -2546,6 +3101,28 @@
      "yrTerm1Standard.allUpfront": 0.82875,
      "yrTerm1Standard.noUpfront": 0.88,
      "yrTerm3Standard.noUpfront": 0.663
+    }
+   },
+   "ap-northeast-3": {
+    "ondemand": 1.27,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.636,
+     "yrTerm1Standard.partialUpfront": 0.85,
+     "yrTerm3Standard.allUpfront": 0.6096,
+     "yrTerm1Standard.allUpfront": 0.8255,
+     "yrTerm1Standard.noUpfront": 0.876,
+     "yrTerm3Standard.noUpfront": 0.66
+    }
+   },
+   "eu-central-2": {
+    "ondemand": 1.295,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.648,
+     "yrTerm1Standard.partialUpfront": 0.868,
+     "yrTerm3Standard.allUpfront": 0.6216,
+     "yrTerm1Standard.allUpfront": 0.8417499999999999,
+     "yrTerm1Standard.noUpfront": 0.894,
+     "yrTerm3Standard.noUpfront": 0.673
     }
    },
    "sa-east-1": {
@@ -2592,6 +3169,17 @@
      "yrTerm3Standard.noUpfront": 0.532
     }
    },
+   "il-central-1": {
+    "ondemand": 1.199,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.56957225,
+     "yrTerm1Standard.partialUpfront": 0.763227575,
+     "yrTerm3Standard.allUpfront": 0.5467896000761036,
+     "yrTerm1Standard.allUpfront": 0.7404442499999999,
+     "yrTerm1Standard.noUpfront": 0.78601,
+     "yrTerm3Standard.noUpfront": 0.592355
+    }
+   },
    "eu-west-2": {
     "ondemand": 1.179,
     "reserved": {
@@ -2601,6 +3189,17 @@
      "yrTerm1Standard.allUpfront": 0.76635,
      "yrTerm1Standard.noUpfront": 0.814,
      "yrTerm3Standard.noUpfront": 0.613
+    }
+   },
+   "me-south-1": {
+    "ondemand": 1.203,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.602,
+     "yrTerm1Standard.partialUpfront": 0.806,
+     "yrTerm3Standard.allUpfront": 0.5774399923896499,
+     "yrTerm1Standard.allUpfront": 0.78195,
+     "yrTerm1Standard.noUpfront": 0.83,
+     "yrTerm3Standard.noUpfront": 0.626
     }
    },
    "us-west-1": {
@@ -2641,15 +3240,20 @@
    "eu-south-2": "Europe (Spain)",
    "us-east-2": "US East (Ohio)",
    "eu-west-1": "Europe (Ireland)",
+   "af-south-1": "Africa (Cape Town)",
    "ap-south-2": "Asia Pacific (Hyderabad)",
    "ap-southeast-3": "Asia Pacific (Jakarta)",
    "eu-south-1": "Europe (Milan)",
    "ap-southeast-1": "Asia Pacific (Singapore)",
+   "ap-northeast-3": "Asia Pacific (Osaka)",
+   "eu-central-2": "Europe (Zurich)",
    "sa-east-1": "South America (Sao Paulo)",
    "us-east-1": "US East (N. Virginia)",
    "ap-south-1": "Asia Pacific (Mumbai)",
    "us-west-2": "US West (Oregon)",
+   "il-central-1": "Israel (Tel Aviv)",
    "eu-west-2": "Europe (London)",
+   "me-south-1": "Middle East (Bahrain)",
    "us-west-1": "US West (N. California)",
    "ap-northeast-1": "Asia Pacific (Tokyo)"
   },
@@ -2683,6 +3287,17 @@
      "yrTerm1Standard.allUpfront": 2.1957,
      "yrTerm1Standard.noUpfront": 2.331,
      "yrTerm3Standard.noUpfront": 1.757
+    }
+   },
+   "il-central-1": {
+    "ondemand": 3.213,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.5261755,
+     "yrTerm1Standard.partialUpfront": 2.04507425,
+     "yrTerm3Standard.allUpfront": 1.465128,
+     "yrTerm1Standard.allUpfront": 1.9840275,
+     "yrTerm1Standard.noUpfront": 2.106122,
+     "yrTerm3Standard.noUpfront": 1.587222
     }
    },
    "us-gov-east-1": {
@@ -2806,6 +3421,17 @@
      "yrTerm3Standard.noUpfront": 2.171
     }
    },
+   "eu-central-2": {
+    "ondemand": 3.278,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.64,
+     "yrTerm1Standard.partialUpfront": 2.196,
+     "yrTerm3Standard.allUpfront": 1.5734399923896498,
+     "yrTerm1Standard.allUpfront": 2.1307,
+     "yrTerm1Standard.noUpfront": 2.262,
+     "yrTerm3Standard.noUpfront": 1.705
+    }
+   },
    "ca-central-1": {
     "ondemand": 2.964,
     "reserved": {
@@ -2883,6 +3509,17 @@
      "yrTerm3Standard.noUpfront": 1.678
     }
    },
+   "me-south-1": {
+    "ondemand": 3.264,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.632,
+     "yrTerm1Standard.partialUpfront": 2.186,
+     "yrTerm3Standard.allUpfront": 1.5667200152207004,
+     "yrTerm1Standard.allUpfront": 2.1216,
+     "yrTerm1Standard.noUpfront": 2.252,
+     "yrTerm3Standard.noUpfront": 1.697
+    }
+   },
    "eu-south-1": {
     "ondemand": 3.219,
     "reserved": {
@@ -2903,6 +3540,17 @@
      "yrTerm1Standard.allUpfront": 2.2997,
      "yrTerm1Standard.noUpfront": 2.441,
      "yrTerm3Standard.noUpfront": 1.84
+    }
+   },
+   "ap-northeast-3": {
+    "ondemand": 3.302,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.652,
+     "yrTerm1Standard.partialUpfront": 2.2119999999999997,
+     "yrTerm3Standard.allUpfront": 1.5849600076103503,
+     "yrTerm1Standard.allUpfront": 2.1463,
+     "yrTerm1Standard.noUpfront": 2.278,
+     "yrTerm3Standard.noUpfront": 1.717
     }
    },
    "us-gov-west-1": {
@@ -2951,6 +3599,7 @@
    }
   },
   "regions": {
+   "il-central-1": "Israel (Tel Aviv)",
    "us-gov-east-1": "AWS GovCloud (US-East)",
    "eu-north-1": "Europe (Stockholm)",
    "eu-central-1": "Europe (Frankfurt)",
@@ -2962,6 +3611,7 @@
    "us-east-2": "US East (Ohio)",
    "us-west-2": "US West (Oregon)",
    "sa-east-1": "South America (Sao Paulo)",
+   "eu-central-2": "Europe (Zurich)",
    "ca-central-1": "Canada (Central)",
    "me-central-1": "Middle East (UAE)",
    "ap-southeast-3": "Asia Pacific (Jakarta)",
@@ -2970,8 +3620,10 @@
    "ap-south-1": "Asia Pacific (Mumbai)",
    "us-west-1": "US West (N. California)",
    "eu-west-3": "Europe (Paris)",
+   "me-south-1": "Middle East (Bahrain)",
    "eu-south-1": "Europe (Milan)",
    "ap-southeast-4": "Asia Pacific (Melbourne)",
+   "ap-northeast-3": "Asia Pacific (Osaka)",
    "us-gov-west-1": "AWS GovCloud (US-West)",
    "ap-southeast-2": "Asia Pacific (Sydney)",
    "ap-northeast-1": "Asia Pacific (Tokyo)",
@@ -3040,6 +3692,28 @@
      "yrTerm1Standard.allUpfront": 2.6104,
      "yrTerm1Standard.noUpfront": 2.771,
      "yrTerm3Standard.noUpfront": 2.088
+    }
+   },
+   "af-south-1": {
+    "ondemand": 5.161,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 2.58,
+     "yrTerm1Standard.partialUpfront": 3.458,
+     "yrTerm3Standard.allUpfront": 2.4772799847792997,
+     "yrTerm1Standard.allUpfront": 3.35465,
+     "yrTerm1Standard.noUpfront": 3.561,
+     "yrTerm3Standard.noUpfront": 2.684
+    }
+   },
+   "me-south-1": {
+    "ondemand": 4.765,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 2.382,
+     "yrTerm1Standard.partialUpfront": 3.192,
+     "yrTerm3Standard.allUpfront": 2.2872,
+     "yrTerm1Standard.allUpfront": 3.0972500000000003,
+     "yrTerm1Standard.noUpfront": 3.288,
+     "yrTerm3Standard.noUpfront": 2.478
     }
    },
    "ap-south-2": {
@@ -3207,6 +3881,17 @@
      "yrTerm3Standard.noUpfront": 1.347
     }
    },
+   "ap-northeast-3": {
+    "ondemand": 4.669,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 2.334,
+     "yrTerm1Standard.partialUpfront": 3.128,
+     "yrTerm3Standard.allUpfront": 2.2411200152207003,
+     "yrTerm1Standard.allUpfront": 3.03485,
+     "yrTerm1Standard.noUpfront": 3.222,
+     "yrTerm3Standard.noUpfront": 2.428
+    }
+   },
    "eu-north-1": {
     "ondemand": 4.263,
     "reserved": {
@@ -3238,6 +3923,28 @@
      "yrTerm1Standard.allUpfront": 3.1284500000000004,
      "yrTerm1Standard.noUpfront": 3.321,
      "yrTerm3Standard.noUpfront": 2.503
+    }
+   },
+   "il-central-1": {
+    "ondemand": 4.719,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 2.24138225,
+     "yrTerm1Standard.partialUpfront": 3.0034522751141552,
+     "yrTerm3Standard.allUpfront": 2.151727200152207,
+     "yrTerm1Standard.allUpfront": 2.91379725,
+     "yrTerm1Standard.noUpfront": 3.093108,
+     "yrTerm3Standard.noUpfront": 2.331038
+    }
+   },
+   "eu-central-2": {
+    "ondemand": 5.136,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 2.5679999999999996,
+     "yrTerm1Standard.partialUpfront": 3.442,
+     "yrTerm3Standard.allUpfront": 2.4652799847792997,
+     "yrTerm1Standard.allUpfront": 3.3384,
+     "yrTerm1Standard.noUpfront": 3.544,
+     "yrTerm3Standard.noUpfront": 2.671
     }
    },
    "us-east-1": {
@@ -3279,6 +3986,8 @@
    "us-west-1": "US West (N. California)",
    "me-central-1": "Middle East (UAE)",
    "us-west-2": "US West (Oregon)",
+   "af-south-1": "Africa (Cape Town)",
+   "me-south-1": "Middle East (Bahrain)",
    "ap-south-2": "Asia Pacific (Hyderabad)",
    "ap-southeast-1": "Asia Pacific (Singapore)",
    "ap-southeast-4": "Asia Pacific (Melbourne)",
@@ -3294,9 +4003,12 @@
    "ap-northeast-2": "Asia Pacific (Seoul)",
    "eu-south-1": "Europe (Milan)",
    "ap-south-1": "Asia Pacific (Mumbai)",
+   "ap-northeast-3": "Asia Pacific (Osaka)",
    "eu-north-1": "Europe (Stockholm)",
    "eu-central-1": "Europe (Frankfurt)",
    "us-gov-west-1": "AWS GovCloud (US-West)",
+   "il-central-1": "Israel (Tel Aviv)",
+   "eu-central-2": "Europe (Zurich)",
    "us-east-1": "US East (N. Virginia)",
    "ap-northeast-1": "Asia Pacific (Tokyo)",
    "eu-west-1": "Europe (Ireland)"
@@ -3821,6 +4533,17 @@
      "yrTerm3Standard.noUpfront": 0.052
     }
    },
+   "ca-west-1": {
+    "ondemand": 0.077,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.05399999999999999,
+     "yrTerm1Standard.partialUpfront": 0.062,
+     "yrTerm3Standard.allUpfront": 0.05236000761035007,
+     "yrTerm1Standard.allUpfront": 0.06006004566210046,
+     "yrTerm1Standard.noUpfront": 0.063,
+     "yrTerm3Standard.noUpfront": 0.055
+    }
+   },
    "eu-west-1": {
     "ondemand": 0.078,
     "reserved": {
@@ -3883,6 +4606,7 @@
    "us-east-2": "US East (Ohio)",
    "ap-northeast-2": "Asia Pacific (Seoul)",
    "us-east-1": "US East (N. Virginia)",
+   "ca-west-1": "Canada West (Calgary)",
    "eu-west-1": "Europe (Ireland)",
    "me-south-1": "Middle East (Bahrain)",
    "us-west-2": "US West (Oregon)"
@@ -3892,6 +4616,378 @@
   "max_ebs_gp2": "200 GiB",
   "max_ebs_gp3": "200 GiB",
   "max_http_payload": "10 MiB"
+ },
+ {
+  "servicecode": "AmazonES",
+  "instanceType": "c6g.8xlarge.search",
+  "currentGeneration": "Yes",
+  "instanceFamily": "Compute optimized",
+  "vcpu": "32",
+  "storage": "EBS Only",
+  "ecu": "variable",
+  "memoryGib": "64",
+  "regionCode": "me-south-1",
+  "servicename": "Amazon OpenSearch Service",
+  "memory": "64",
+  "family": "Compute optimized",
+  "instance_type": "c6g.8xlarge.search",
+  "pricing": {
+   "me-south-1": {
+    "ondemand": 2.176,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.088,
+     "yrTerm1Standard.partialUpfront": 1.458,
+     "yrTerm3Standard.allUpfront": 1.0444799847792998,
+     "yrTerm1Standard.allUpfront": 1.4143999999999999,
+     "yrTerm1Standard.noUpfront": 1.501,
+     "yrTerm3Standard.noUpfront": 1.132
+    }
+   },
+   "ap-south-2": {
+    "ondemand": 1.131,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.56575,
+     "yrTerm1Standard.partialUpfront": 0.7578850456621005,
+     "yrTerm3Standard.allUpfront": 0.5428799847792999,
+     "yrTerm1Standard.allUpfront": 0.73515,
+     "yrTerm1Standard.noUpfront": 0.78,
+     "yrTerm3Standard.noUpfront": 0.588
+    }
+   },
+   "ap-southeast-3": {
+    "ondemand": 2.082,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.0415,
+     "yrTerm1Standard.partialUpfront": 1.3944703196347032,
+     "yrTerm3Standard.allUpfront": 0.9993599695585997,
+     "yrTerm1Standard.allUpfront": 1.3533002283105022,
+     "yrTerm1Standard.noUpfront": 1.437,
+     "yrTerm3Standard.noUpfront": 1.083
+    }
+   },
+   "us-gov-west-1": {
+    "ondemand": 2.167,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.0837500000000002,
+     "yrTerm1Standard.partialUpfront": 1.4519449771689499,
+     "yrTerm3Standard.allUpfront": 1.04016000761035,
+     "yrTerm1Standard.allUpfront": 1.40855,
+     "yrTerm1Standard.noUpfront": 1.495,
+     "yrTerm3Standard.noUpfront": 1.127
+    }
+   },
+   "me-central-1": {
+    "ondemand": 2.2848,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.1421999999999999,
+     "yrTerm1Standard.partialUpfront": 1.5304079908675798,
+     "yrTerm3Standard.allUpfront": 1.09670399543379,
+     "yrTerm1Standard.allUpfront": 1.4851199771689496,
+     "yrTerm1Standard.noUpfront": 1.577,
+     "yrTerm3Standard.noUpfront": 1.188
+    }
+   },
+   "ap-northeast-1": {
+    "ondemand": 2.274,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.1375,
+     "yrTerm1Standard.partialUpfront": 1.5237899543378997,
+     "yrTerm3Standard.allUpfront": 1.0915200152207,
+     "yrTerm1Standard.allUpfront": 1.4781000000000002,
+     "yrTerm1Standard.noUpfront": 1.569,
+     "yrTerm3Standard.noUpfront": 1.182
+    }
+   },
+   "ap-south-1": {
+    "ondemand": 1.131,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.56575,
+     "yrTerm1Standard.partialUpfront": 0.7578850456621005,
+     "yrTerm3Standard.allUpfront": 0.5428799847792999,
+     "yrTerm1Standard.allUpfront": 0.73515,
+     "yrTerm1Standard.noUpfront": 0.78,
+     "yrTerm3Standard.noUpfront": 0.588
+    }
+   },
+   "us-gov-east-1": {
+    "ondemand": 2.167,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.0837500000000002,
+     "yrTerm1Standard.partialUpfront": 1.4519449771689499,
+     "yrTerm3Standard.allUpfront": 1.04016000761035,
+     "yrTerm1Standard.allUpfront": 1.40855,
+     "yrTerm1Standard.noUpfront": 1.495,
+     "yrTerm3Standard.noUpfront": 1.127
+    }
+   },
+   "ap-southeast-4": {
+    "ondemand": 2.359,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.1797499999999999,
+     "yrTerm1Standard.partialUpfront": 1.5802649543378995,
+     "yrTerm3Standard.allUpfront": 1.1323200152207,
+     "yrTerm1Standard.allUpfront": 1.5333500000000002,
+     "yrTerm1Standard.noUpfront": 1.628,
+     "yrTerm3Standard.noUpfront": 1.227
+    }
+   },
+   "eu-south-1": {
+    "ondemand": 2.146,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.0735000000000001,
+     "yrTerm1Standard.partialUpfront": 1.437909817351598,
+     "yrTerm3Standard.allUpfront": 1.030079908675799,
+     "yrTerm1Standard.allUpfront": 1.3948995433789955,
+     "yrTerm1Standard.noUpfront": 1.481,
+     "yrTerm3Standard.noUpfront": 1.116
+    }
+   },
+   "us-east-1": {
+    "ondemand": 1.806,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.9035,
+     "yrTerm1Standard.partialUpfront": 1.2100100456621004,
+     "yrTerm3Standard.allUpfront": 0.8668799847792998,
+     "yrTerm1Standard.allUpfront": 1.1739,
+     "yrTerm1Standard.noUpfront": 1.246,
+     "yrTerm3Standard.noUpfront": 0.939
+    }
+   },
+   "eu-west-3": {
+    "ondemand": 2.151,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.0757500000000002,
+     "yrTerm1Standard.partialUpfront": 1.4415844748858446,
+     "yrTerm3Standard.allUpfront": 1.0324798325722984,
+     "yrTerm1Standard.allUpfront": 1.3981495433789954,
+     "yrTerm1Standard.noUpfront": 1.484,
+     "yrTerm3Standard.noUpfront": 1.119
+    }
+   },
+   "ap-southeast-2": {
+    "ondemand": 2.359,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.1797499999999999,
+     "yrTerm1Standard.partialUpfront": 1.5802649543378995,
+     "yrTerm3Standard.allUpfront": 1.1323200152207,
+     "yrTerm1Standard.allUpfront": 1.5333500000000002,
+     "yrTerm1Standard.noUpfront": 1.628,
+     "yrTerm3Standard.noUpfront": 1.227
+    }
+   },
+   "eu-west-1": {
+    "ondemand": 2.04,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.02,
+     "yrTerm1Standard.partialUpfront": 1.3664,
+     "yrTerm3Standard.allUpfront": 0.9792000000000001,
+     "yrTerm1Standard.allUpfront": 1.326,
+     "yrTerm1Standard.noUpfront": 1.408,
+     "yrTerm3Standard.noUpfront": 1.061
+    }
+   },
+   "us-east-2": {
+    "ondemand": 1.806,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.9035,
+     "yrTerm1Standard.partialUpfront": 1.2100100456621004,
+     "yrTerm3Standard.allUpfront": 0.8668799847792998,
+     "yrTerm1Standard.allUpfront": 1.1739,
+     "yrTerm1Standard.noUpfront": 1.246,
+     "yrTerm3Standard.noUpfront": 0.939
+    }
+   },
+   "eu-central-2": {
+    "ondemand": 2.185,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.092,
+     "yrTerm1Standard.partialUpfront": 1.464,
+     "yrTerm3Standard.allUpfront": 1.0488,
+     "yrTerm1Standard.allUpfront": 1.42025,
+     "yrTerm1Standard.noUpfront": 1.508,
+     "yrTerm3Standard.noUpfront": 1.136
+    }
+   },
+   "eu-south-2": {
+    "ondemand": 2.04,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.02,
+     "yrTerm1Standard.partialUpfront": 1.3664,
+     "yrTerm3Standard.allUpfront": 0.9792000000000001,
+     "yrTerm1Standard.allUpfront": 1.326,
+     "yrTerm1Standard.noUpfront": 1.408,
+     "yrTerm3Standard.noUpfront": 1.061
+    }
+   },
+   "eu-north-1": {
+    "ondemand": 1.939,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.96975,
+     "yrTerm1Standard.partialUpfront": 1.2995649543378995,
+     "yrTerm3Standard.allUpfront": 0.9307200152207001,
+     "yrTerm1Standard.allUpfront": 1.2603499999999999,
+     "yrTerm1Standard.noUpfront": 1.338,
+     "yrTerm3Standard.noUpfront": 1.008
+    }
+   },
+   "eu-west-2": {
+    "ondemand": 2.146,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.0735000000000001,
+     "yrTerm1Standard.partialUpfront": 1.4379100456621003,
+     "yrTerm3Standard.allUpfront": 1.0300799847792999,
+     "yrTerm1Standard.allUpfront": 1.3949,
+     "yrTerm1Standard.noUpfront": 1.481,
+     "yrTerm3Standard.noUpfront": 1.116
+    }
+   },
+   "il-central-1": {
+    "ondemand": 2.142,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.01745,
+     "yrTerm1Standard.partialUpfront": 1.3633834999999999,
+     "yrTerm3Standard.allUpfront": 0.976752,
+     "yrTerm1Standard.allUpfront": 1.322685,
+     "yrTerm1Standard.noUpfront": 1.404081,
+     "yrTerm3Standard.noUpfront": 1.058148
+    }
+   },
+   "ap-southeast-1": {
+    "ondemand": 2.082,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.0415,
+     "yrTerm1Standard.partialUpfront": 1.3944699771689497,
+     "yrTerm3Standard.allUpfront": 0.99936000761035,
+     "yrTerm1Standard.allUpfront": 1.3533,
+     "yrTerm1Standard.noUpfront": 1.437,
+     "yrTerm3Standard.noUpfront": 1.083
+    }
+   },
+   "ap-east-1": {
+    "ondemand": 2.284,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.142,
+     "yrTerm1Standard.partialUpfront": 1.5301399543378995,
+     "yrTerm3Standard.allUpfront": 1.0963200152207002,
+     "yrTerm1Standard.allUpfront": 1.4846000000000001,
+     "yrTerm1Standard.noUpfront": 1.576,
+     "yrTerm3Standard.noUpfront": 1.188
+    }
+   },
+   "ca-central-1": {
+    "ondemand": 1.976,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.988,
+     "yrTerm1Standard.partialUpfront": 1.3239600456621006,
+     "yrTerm3Standard.allUpfront": 0.9484799847792998,
+     "yrTerm1Standard.allUpfront": 1.2844,
+     "yrTerm1Standard.noUpfront": 1.363,
+     "yrTerm3Standard.noUpfront": 1.028
+    }
+   },
+   "us-west-2": {
+    "ondemand": 1.806,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.9035,
+     "yrTerm1Standard.partialUpfront": 1.2100100456621004,
+     "yrTerm3Standard.allUpfront": 0.8668799847792998,
+     "yrTerm1Standard.allUpfront": 1.1739,
+     "yrTerm1Standard.noUpfront": 1.246,
+     "yrTerm3Standard.noUpfront": 0.939
+    }
+   },
+   "ap-northeast-2": {
+    "ondemand": 2.045,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.02225,
+     "yrTerm1Standard.partialUpfront": 1.370075,
+     "yrTerm3Standard.allUpfront": 0.9815999999999999,
+     "yrTerm1Standard.allUpfront": 1.3292499999999998,
+     "yrTerm1Standard.noUpfront": 1.411,
+     "yrTerm3Standard.noUpfront": 1.063
+    }
+   },
+   "ap-northeast-3": {
+    "ondemand": 2.202,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.102,
+     "yrTerm1Standard.partialUpfront": 1.476,
+     "yrTerm3Standard.allUpfront": 1.05696000761035,
+     "yrTerm1Standard.allUpfront": 1.4313,
+     "yrTerm1Standard.noUpfront": 1.519,
+     "yrTerm3Standard.noUpfront": 1.145
+    }
+   },
+   "us-west-1": {
+    "ondemand": 2.252,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.126,
+     "yrTerm1Standard.partialUpfront": 1.5084199771689497,
+     "yrTerm3Standard.allUpfront": 1.08096000761035,
+     "yrTerm1Standard.allUpfront": 1.4638,
+     "yrTerm1Standard.noUpfront": 1.554,
+     "yrTerm3Standard.noUpfront": 1.171
+    }
+   },
+   "sa-east-1": {
+    "ondemand": 2.783,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.39175,
+     "yrTerm1Standard.partialUpfront": 1.8643050228310503,
+     "yrTerm3Standard.allUpfront": 1.3358399923896498,
+     "yrTerm1Standard.allUpfront": 1.80895,
+     "yrTerm1Standard.noUpfront": 1.92,
+     "yrTerm3Standard.noUpfront": 1.447
+    }
+   },
+   "eu-central-1": {
+    "ondemand": 2.061,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.03025,
+     "yrTerm1Standard.partialUpfront": 1.3804350456621006,
+     "yrTerm3Standard.allUpfront": 0.9892799847792998,
+     "yrTerm1Standard.allUpfront": 1.33965,
+     "yrTerm1Standard.noUpfront": 1.422,
+     "yrTerm3Standard.noUpfront": 1.072
+    }
+   }
+  },
+  "regions": {
+   "me-south-1": "Middle East (Bahrain)",
+   "ap-south-2": "Asia Pacific (Hyderabad)",
+   "ap-southeast-3": "Asia Pacific (Jakarta)",
+   "us-gov-west-1": "AWS GovCloud (US-West)",
+   "me-central-1": "Middle East (UAE)",
+   "ap-northeast-1": "Asia Pacific (Tokyo)",
+   "ap-south-1": "Asia Pacific (Mumbai)",
+   "us-gov-east-1": "AWS GovCloud (US-East)",
+   "ap-southeast-4": "Asia Pacific (Melbourne)",
+   "eu-south-1": "Europe (Milan)",
+   "us-east-1": "US East (N. Virginia)",
+   "eu-west-3": "Europe (Paris)",
+   "ap-southeast-2": "Asia Pacific (Sydney)",
+   "eu-west-1": "Europe (Ireland)",
+   "us-east-2": "US East (Ohio)",
+   "eu-central-2": "Europe (Zurich)",
+   "eu-south-2": "Europe (Spain)",
+   "eu-north-1": "Europe (Stockholm)",
+   "eu-west-2": "Europe (London)",
+   "il-central-1": "Israel (Tel Aviv)",
+   "ap-southeast-1": "Asia Pacific (Singapore)",
+   "ap-east-1": "Asia Pacific (Hong Kong)",
+   "ca-central-1": "Canada (Central)",
+   "us-west-2": "US West (Oregon)",
+   "ap-northeast-2": "Asia Pacific (Seoul)",
+   "ap-northeast-3": "Asia Pacific (Osaka)",
+   "us-west-1": "US West (N. California)",
+   "sa-east-1": "South America (Sao Paulo)",
+   "eu-central-1": "Europe (Frankfurt)"
+  },
+  "pretty_name": "C6G Compute Optimized Eight Extra Large",
+  "min_ebs": "10 GiB",
+  "max_ebs_gp2": "3 TiB",
+  "max_ebs_gp3": "3 TiB",
+  "max_http_payload": "100 MiB"
  },
  {
   "servicecode": "AmazonES",
@@ -3917,6 +5013,17 @@
      "yrTerm1Standard.allUpfront": 0.663,
      "yrTerm1Standard.noUpfront": 0.704,
      "yrTerm3Standard.noUpfront": 0.53
+    }
+   },
+   "ap-northeast-3": {
+    "ondemand": 1.101,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.55,
+     "yrTerm1Standard.partialUpfront": 0.738,
+     "yrTerm3Standard.allUpfront": 0.5284799847792998,
+     "yrTerm1Standard.allUpfront": 0.71565,
+     "yrTerm1Standard.noUpfront": 0.76,
+     "yrTerm3Standard.noUpfront": 0.573
     }
    },
    "us-west-2": {
@@ -3961,6 +5068,28 @@
      "yrTerm1Standard.allUpfront": 0.6766495433789954,
      "yrTerm1Standard.noUpfront": 0.718,
      "yrTerm3Standard.noUpfront": 0.541
+    }
+   },
+   "eu-central-2": {
+    "ondemand": 1.093,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.546,
+     "yrTerm1Standard.partialUpfront": 0.732,
+     "yrTerm3Standard.allUpfront": 0.52463999238965,
+     "yrTerm1Standard.allUpfront": 0.7104500000000001,
+     "yrTerm1Standard.noUpfront": 0.754,
+     "yrTerm3Standard.noUpfront": 0.568
+    }
+   },
+   "il-central-1": {
+    "ondemand": 1.071,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.5087254999999999,
+     "yrTerm1Standard.partialUpfront": 0.6816917499999999,
+     "yrTerm3Standard.allUpfront": 0.488376,
+     "yrTerm1Standard.allUpfront": 0.6613425,
+     "yrTerm1Standard.noUpfront": 0.702041,
+     "yrTerm3Standard.noUpfront": 0.529074
     }
    },
    "us-east-2": {
@@ -4060,6 +5189,17 @@
      "yrTerm1Standard.allUpfront": 0.67015,
      "yrTerm1Standard.noUpfront": 0.711,
      "yrTerm3Standard.noUpfront": 0.536
+    }
+   },
+   "me-south-1": {
+    "ondemand": 1.088,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.544,
+     "yrTerm1Standard.partialUpfront": 0.728,
+     "yrTerm3Standard.allUpfront": 0.5222399923896499,
+     "yrTerm1Standard.allUpfront": 0.7071999999999999,
+     "yrTerm1Standard.noUpfront": 0.751,
+     "yrTerm3Standard.noUpfront": 0.566
     }
    },
    "eu-west-3": {
@@ -4185,10 +5325,13 @@
    }
   },
   "regions": {
+   "ap-northeast-3": "Asia Pacific (Osaka)",
    "us-west-2": "US West (Oregon)",
    "ap-southeast-1": "Asia Pacific (Singapore)",
    "ap-south-1": "Asia Pacific (Mumbai)",
    "ap-southeast-3": "Asia Pacific (Jakarta)",
+   "eu-central-2": "Europe (Zurich)",
+   "il-central-1": "Israel (Tel Aviv)",
    "us-east-2": "US East (Ohio)",
    "us-gov-east-1": "AWS GovCloud (US-East)",
    "ap-south-2": "Asia Pacific (Hyderabad)",
@@ -4198,6 +5341,7 @@
    "ap-southeast-2": "Asia Pacific (Sydney)",
    "ca-central-1": "Canada (Central)",
    "eu-central-1": "Europe (Frankfurt)",
+   "me-south-1": "Middle East (Bahrain)",
    "eu-west-3": "Europe (Paris)",
    "ap-southeast-4": "Asia Pacific (Melbourne)",
    "eu-south-1": "Europe (Milan)",
@@ -4309,6 +5453,17 @@
      "yrTerm3Standard.noUpfront": 0.105
     }
    },
+   "il-central-1": {
+    "ondemand": 0.196,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.093266125,
+     "yrTerm1Standard.partialUpfront": 0.12497638755707763,
+     "yrTerm3Standard.allUpfront": 0.08953559999999999,
+     "yrTerm1Standard.allUpfront": 0.121246125,
+     "yrTerm1Standard.noUpfront": 0.128707,
+     "yrTerm3Standard.noUpfront": 0.096997
+    }
+   },
    "eu-south-2": {
     "ondemand": 0.187,
     "reserved": {
@@ -4375,6 +5530,17 @@
      "yrTerm3Standard.noUpfront": 0.105
     }
    },
+   "me-south-1": {
+    "ondemand": 0.199,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.1,
+     "yrTerm1Standard.partialUpfront": 0.134,
+     "yrTerm3Standard.allUpfront": 0.09552001522070015,
+     "yrTerm1Standard.allUpfront": 0.12935,
+     "yrTerm1Standard.noUpfront": 0.137,
+     "yrTerm3Standard.noUpfront": 0.103
+    }
+   },
    "ap-northeast-1": {
     "ondemand": 0.202,
     "reserved": {
@@ -4406,6 +5572,17 @@
      "yrTerm1Standard.allUpfront": 0.1361359589041096,
      "yrTerm1Standard.noUpfront": 0.144,
      "yrTerm3Standard.noUpfront": 0.109
+    }
+   },
+   "af-south-1": {
+    "ondemand": 0.215,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.10799999999999998,
+     "yrTerm1Standard.partialUpfront": 0.144,
+     "yrTerm3Standard.allUpfront": 0.1032,
+     "yrTerm1Standard.allUpfront": 0.13975,
+     "yrTerm1Standard.noUpfront": 0.148,
+     "yrTerm3Standard.noUpfront": 0.112
     }
    },
    "ap-northeast-2": {
@@ -4450,6 +5627,28 @@
      "yrTerm1Standard.allUpfront": 0.13065,
      "yrTerm1Standard.noUpfront": 0.139,
      "yrTerm3Standard.noUpfront": 0.105
+    }
+   },
+   "ap-northeast-3": {
+    "ondemand": 0.195,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.098,
+     "yrTerm1Standard.partialUpfront": 0.13,
+     "yrTerm3Standard.allUpfront": 0.0936,
+     "yrTerm1Standard.allUpfront": 0.12675,
+     "yrTerm1Standard.noUpfront": 0.135,
+     "yrTerm3Standard.noUpfront": 0.101
+    }
+   },
+   "eu-central-2": {
+    "ondemand": 0.214,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.10799999999999998,
+     "yrTerm1Standard.partialUpfront": 0.144,
+     "yrTerm3Standard.allUpfront": 0.10272001522070016,
+     "yrTerm1Standard.allUpfront": 0.1391,
+     "yrTerm1Standard.noUpfront": 0.148,
+     "yrTerm3Standard.noUpfront": 0.111
     }
    },
    "ap-east-1": {
@@ -4515,20 +5714,25 @@
    "us-west-1": "US West (N. California)",
    "eu-west-3": "Europe (Paris)",
    "us-gov-east-1": "AWS GovCloud (US-East)",
+   "il-central-1": "Israel (Tel Aviv)",
    "eu-south-2": "Europe (Spain)",
    "ap-southeast-1": "Asia Pacific (Singapore)",
    "eu-central-1": "Europe (Frankfurt)",
    "ap-southeast-2": "Asia Pacific (Sydney)",
    "eu-west-2": "Europe (London)",
    "us-gov-west-1": "AWS GovCloud (US-West)",
+   "me-south-1": "Middle East (Bahrain)",
    "ap-northeast-1": "Asia Pacific (Tokyo)",
    "ap-south-2": "Asia Pacific (Hyderabad)",
    "me-central-1": "Middle East (UAE)",
+   "af-south-1": "Africa (Cape Town)",
    "ap-northeast-2": "Asia Pacific (Seoul)",
    "eu-south-1": "Europe (Milan)",
    "ap-south-1": "Asia Pacific (Mumbai)",
    "ap-southeast-3": "Asia Pacific (Jakarta)",
    "ap-southeast-4": "Asia Pacific (Melbourne)",
+   "ap-northeast-3": "Asia Pacific (Osaka)",
+   "eu-central-2": "Europe (Zurich)",
    "ap-east-1": "Asia Pacific (Hong Kong)",
    "us-west-2": "US West (Oregon)",
    "us-east-1": "US East (N. Virginia)",
@@ -4691,7 +5895,11 @@
    "eu-west-2": "Europe (London)",
    "us-east-2": "US East (Ohio)"
   },
-  "pretty_name": "IM4GN Eight Extra Large"
+  "pretty_name": "IM4GN Eight Extra Large",
+  "min_ebs": "N/A",
+  "max_ebs_gp2": "N/A",
+  "max_ebs_gp3": "N/A",
+  "max_http_payload": "100 MiB"
  },
  {
   "servicecode": "AmazonES",
@@ -5105,6 +6313,28 @@
      "yrTerm3Standard.noUpfront": 0.21
     }
    },
+   "il-central-1": {
+    "ondemand": 0.393,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.18653225,
+     "yrTerm1Standard.partialUpfront": 0.249953775,
+     "yrTerm3Standard.allUpfront": 0.17907119999999999,
+     "yrTerm1Standard.allUpfront": 0.24249225,
+     "yrTerm1Standard.noUpfront": 0.257415,
+     "yrTerm3Standard.noUpfront": 0.193994
+    }
+   },
+   "ap-northeast-3": {
+    "ondemand": 0.389,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.194,
+     "yrTerm1Standard.partialUpfront": 0.26,
+     "yrTerm3Standard.allUpfront": 0.18672001522070017,
+     "yrTerm1Standard.allUpfront": 0.25284999999999996,
+     "yrTerm1Standard.noUpfront": 0.268,
+     "yrTerm3Standard.noUpfront": 0.202
+    }
+   },
    "us-west-1": {
     "ondemand": 0.372,
     "reserved": {
@@ -5202,6 +6432,17 @@
      "yrTerm1Standard.allUpfront": 0.2626,
      "yrTerm1Standard.noUpfront": 0.279,
      "yrTerm3Standard.noUpfront": 0.21
+    }
+   },
+   "me-south-1": {
+    "ondemand": 0.397,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.198,
+     "yrTerm1Standard.partialUpfront": 0.266,
+     "yrTerm3Standard.allUpfront": 0.19056000761035008,
+     "yrTerm1Standard.allUpfront": 0.25805,
+     "yrTerm1Standard.noUpfront": 0.274,
+     "yrTerm3Standard.noUpfront": 0.206
     }
    },
    "ap-southeast-1": {
@@ -5314,6 +6555,17 @@
      "yrTerm3Standard.noUpfront": 0.204
     }
    },
+   "eu-central-2": {
+    "ondemand": 0.428,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.214,
+     "yrTerm1Standard.partialUpfront": 0.28600000000000003,
+     "yrTerm3Standard.allUpfront": 0.2054399923896499,
+     "yrTerm1Standard.allUpfront": 0.2782,
+     "yrTerm1Standard.noUpfront": 0.295,
+     "yrTerm3Standard.noUpfront": 0.223
+    }
+   },
    "ap-southeast-4": {
     "ondemand": 0.401,
     "reserved": {
@@ -5336,6 +6588,17 @@
      "yrTerm3Standard.noUpfront": 0.174
     }
    },
+   "af-south-1": {
+    "ondemand": 0.43,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.21599999999999997,
+     "yrTerm1Standard.partialUpfront": 0.288,
+     "yrTerm3Standard.allUpfront": 0.2064,
+     "yrTerm1Standard.allUpfront": 0.2795,
+     "yrTerm1Standard.noUpfront": 0.297,
+     "yrTerm3Standard.noUpfront": 0.224
+    }
+   },
    "us-east-2": {
     "ondemand": 0.335,
     "reserved": {
@@ -5351,6 +6614,8 @@
   "regions": {
    "us-gov-west-1": "AWS GovCloud (US-West)",
    "ap-northeast-1": "Asia Pacific (Tokyo)",
+   "il-central-1": "Israel (Tel Aviv)",
+   "ap-northeast-3": "Asia Pacific (Osaka)",
    "us-west-1": "US West (N. California)",
    "us-west-2": "US West (Oregon)",
    "eu-south-2": "Europe (Spain)",
@@ -5360,6 +6625,7 @@
    "me-central-1": "Middle East (UAE)",
    "ap-southeast-3": "Asia Pacific (Jakarta)",
    "eu-central-1": "Europe (Frankfurt)",
+   "me-south-1": "Middle East (Bahrain)",
    "ap-southeast-1": "Asia Pacific (Singapore)",
    "eu-west-1": "Europe (Ireland)",
    "ap-south-2": "Asia Pacific (Hyderabad)",
@@ -5370,9 +6636,11 @@
    "ap-east-1": "Asia Pacific (Hong Kong)",
    "sa-east-1": "South America (Sao Paulo)",
    "eu-south-1": "Europe (Milan)",
+   "eu-central-2": "Europe (Zurich)",
    "ap-south-1": "Asia Pacific (Mumbai)",
    "ap-southeast-4": "Asia Pacific (Melbourne)",
    "us-east-1": "US East (N. Virginia)",
+   "af-south-1": "Africa (Cape Town)",
    "us-east-2": "US East (Ohio)"
   },
   "pretty_name": "R6G Memory Optimized Extra Large",
@@ -5429,6 +6697,17 @@
      "yrTerm3Standard.noUpfront": 0.139
     }
    },
+   "eu-central-2": {
+    "ondemand": 0.273,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.136,
+     "yrTerm1Standard.partialUpfront": 0.182,
+     "yrTerm3Standard.allUpfront": 0.13103999238964995,
+     "yrTerm1Standard.allUpfront": 0.17745,
+     "yrTerm1Standard.noUpfront": 0.188,
+     "yrTerm3Standard.noUpfront": 0.142
+    }
+   },
    "ca-central-1": {
     "ondemand": 0.247,
     "reserved": {
@@ -5460,6 +6739,17 @@
      "yrTerm1Standard.allUpfront": 0.1677,
      "yrTerm1Standard.noUpfront": 0.178,
      "yrTerm3Standard.noUpfront": 0.134
+    }
+   },
+   "ap-northeast-3": {
+    "ondemand": 0.275,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.138,
+     "yrTerm1Standard.partialUpfront": 0.184,
+     "yrTerm3Standard.allUpfront": 0.132,
+     "yrTerm1Standard.allUpfront": 0.17875,
+     "yrTerm1Standard.noUpfront": 0.19,
+     "yrTerm3Standard.noUpfront": 0.143
     }
    },
    "eu-west-1": {
@@ -5537,6 +6827,17 @@
      "yrTerm1Standard.allUpfront": 0.22619999999999998,
      "yrTerm1Standard.noUpfront": 0.24,
      "yrTerm3Standard.noUpfront": 0.181
+    }
+   },
+   "me-south-1": {
+    "ondemand": 0.272,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.136,
+     "yrTerm1Standard.partialUpfront": 0.182,
+     "yrTerm3Standard.allUpfront": 0.13056000761035008,
+     "yrTerm1Standard.allUpfront": 0.17679999999999998,
+     "yrTerm1Standard.noUpfront": 0.188,
+     "yrTerm3Standard.noUpfront": 0.141
     }
    },
    "us-gov-west-1": {
@@ -5649,6 +6950,17 @@
      "yrTerm3Standard.noUpfront": 0.073
     }
    },
+   "il-central-1": {
+    "ondemand": 0.268,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.127181625,
+     "yrTerm1Standard.partialUpfront": 0.17042243755707762,
+     "yrTerm3Standard.allUpfront": 0.122094,
+     "yrTerm1Standard.allUpfront": 0.165335625,
+     "yrTerm1Standard.noUpfront": 0.17551,
+     "yrTerm3Standard.noUpfront": 0.132269
+    }
+   },
    "us-east-2": {
     "ondemand": 0.226,
     "reserved": {
@@ -5675,9 +6987,11 @@
   "regions": {
    "ap-southeast-2": "Asia Pacific (Sydney)",
    "eu-south-1": "Europe (Milan)",
+   "eu-central-2": "Europe (Zurich)",
    "ca-central-1": "Canada (Central)",
    "us-east-1": "US East (N. Virginia)",
    "eu-central-1": "Europe (Frankfurt)",
+   "ap-northeast-3": "Asia Pacific (Osaka)",
    "eu-west-1": "Europe (Ireland)",
    "ap-south-2": "Asia Pacific (Hyderabad)",
    "ap-southeast-1": "Asia Pacific (Singapore)",
@@ -5685,6 +6999,7 @@
    "eu-north-1": "Europe (Stockholm)",
    "eu-south-2": "Europe (Spain)",
    "sa-east-1": "South America (Sao Paulo)",
+   "me-south-1": "Middle East (Bahrain)",
    "eu-west-2": "Europe (London)",
    "us-gov-west-1": "AWS GovCloud (US-West)",
    "us-west-1": "US West (N. California)",
@@ -5696,6 +7011,7 @@
    "us-gov-east-1": "AWS GovCloud (US-East)",
    "ap-southeast-4": "Asia Pacific (Melbourne)",
    "ap-south-1": "Asia Pacific (Mumbai)",
+   "il-central-1": "Israel (Tel Aviv)",
    "us-east-2": "US East (Ohio)",
    "eu-west-3": "Europe (Paris)"
   },
@@ -6375,6 +7691,17 @@
      "yrTerm3Standard.noUpfront": 0.099
     }
    },
+   "ap-northeast-3": {
+    "ondemand": 0.223,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.112,
+     "yrTerm1Standard.partialUpfront": 0.15,
+     "yrTerm3Standard.allUpfront": 0.10703999238964991,
+     "yrTerm1Standard.allUpfront": 0.14495,
+     "yrTerm1Standard.noUpfront": 0.154,
+     "yrTerm3Standard.noUpfront": 0.116
+    }
+   },
    "us-west-1": {
     "ondemand": 0.216,
     "reserved": {
@@ -6384,6 +7711,17 @@
      "yrTerm1Standard.allUpfront": 0.1404,
      "yrTerm1Standard.noUpfront": 0.149,
      "yrTerm3Standard.noUpfront": 0.112
+    }
+   },
+   "us-gov-west-1": {
+    "ondemand": 0.221,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.11,
+     "yrTerm1Standard.partialUpfront": 0.148,
+     "yrTerm3Standard.allUpfront": 0.10607998477929985,
+     "yrTerm1Standard.allUpfront": 0.14365,
+     "yrTerm1Standard.noUpfront": 0.152,
+     "yrTerm3Standard.noUpfront": 0.115
     }
    },
    "us-east-2": {
@@ -6469,7 +7807,9 @@
    "ap-northeast-1": "Asia Pacific (Tokyo)",
    "eu-west-3": "Europe (Paris)",
    "us-east-1": "US East (N. Virginia)",
+   "ap-northeast-3": "Asia Pacific (Osaka)",
    "us-west-1": "US West (N. California)",
+   "us-gov-west-1": "AWS GovCloud (US-West)",
    "us-east-2": "US East (Ohio)",
    "ap-southeast-1": "Asia Pacific (Singapore)",
    "us-west-2": "US West (Oregon)",
@@ -6748,6 +8088,17 @@
      "yrTerm3Standard.noUpfront": 1.477
     }
    },
+   "ca-west-1": {
+    "ondemand": 2.469,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.234,
+     "yrTerm1Standard.partialUpfront": 1.654,
+     "yrTerm3Standard.allUpfront": 1.1851200152207002,
+     "yrTerm1Standard.allUpfront": 1.60485,
+     "yrTerm1Standard.noUpfront": 1.704,
+     "yrTerm3Standard.noUpfront": 1.284
+    }
+   },
    "eu-west-1": {
     "ondemand": 2.549,
     "reserved": {
@@ -7000,6 +8351,7 @@
    "us-gov-east-1": "AWS GovCloud (US-East)",
    "ap-southeast-1": "Asia Pacific (Singapore)",
    "ap-northeast-1": "Asia Pacific (Tokyo)",
+   "ca-west-1": "Canada West (Calgary)",
    "eu-west-1": "Europe (Ireland)",
    "ap-east-1": "Asia Pacific (Hong Kong)",
    "il-central-1": "Israel (Tel Aviv)",
@@ -7516,6 +8868,17 @@
      "yrTerm3Standard.noUpfront": 0.463
     }
    },
+   "ca-west-1": {
+    "ondemand": 0.814,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.408,
+     "yrTerm1Standard.partialUpfront": 0.546,
+     "yrTerm3Standard.allUpfront": 0.39072001522070016,
+     "yrTerm1Standard.allUpfront": 0.5291,
+     "yrTerm1Standard.noUpfront": 0.562,
+     "yrTerm3Standard.noUpfront": 0.423
+    }
+   },
    "us-east-1": {
     "ondemand": 0.743,
     "reserved": {
@@ -7767,6 +9130,7 @@
    "ap-south-1": "Asia Pacific (Mumbai)",
    "eu-west-2": "Europe (London)",
    "us-gov-west-1": "AWS GovCloud (US-West)",
+   "ca-west-1": "Canada West (Calgary)",
    "us-east-1": "US East (N. Virginia)",
    "sa-east-1": "South America (Sao Paulo)",
    "af-south-1": "Africa (Cape Town)",
@@ -7795,330 +9159,6 @@
   "min_ebs": "10 GiB",
   "max_ebs_gp2": "3 TiB",
   "max_ebs_gp3": "6 TiB",
-  "max_http_payload": "100 MiB"
- },
- {
-  "servicecode": "AmazonES",
-  "instanceType": "c6g.8xlarge.search",
-  "currentGeneration": "Yes",
-  "instanceFamily": "Compute optimized",
-  "vcpu": "32",
-  "storage": "EBS Only",
-  "ecu": "variable",
-  "memoryGib": "64",
-  "regionCode": "eu-central-1",
-  "servicename": "Amazon OpenSearch Service",
-  "memory": "64",
-  "family": "Compute optimized",
-  "instance_type": "c6g.8xlarge.search",
-  "pricing": {
-   "eu-central-1": {
-    "ondemand": 2.061,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 1.03025,
-     "yrTerm1Standard.partialUpfront": 1.3804350456621006,
-     "yrTerm3Standard.allUpfront": 0.9892799847792998,
-     "yrTerm1Standard.allUpfront": 1.33965,
-     "yrTerm1Standard.noUpfront": 1.422,
-     "yrTerm3Standard.noUpfront": 1.072
-    }
-   },
-   "ap-south-2": {
-    "ondemand": 1.131,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.56575,
-     "yrTerm1Standard.partialUpfront": 0.7578850456621005,
-     "yrTerm3Standard.allUpfront": 0.5428799847792999,
-     "yrTerm1Standard.allUpfront": 0.73515,
-     "yrTerm1Standard.noUpfront": 0.78,
-     "yrTerm3Standard.noUpfront": 0.588
-    }
-   },
-   "ap-southeast-3": {
-    "ondemand": 2.082,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 1.0415,
-     "yrTerm1Standard.partialUpfront": 1.3944703196347032,
-     "yrTerm3Standard.allUpfront": 0.9993599695585997,
-     "yrTerm1Standard.allUpfront": 1.3533002283105022,
-     "yrTerm1Standard.noUpfront": 1.437,
-     "yrTerm3Standard.noUpfront": 1.083
-    }
-   },
-   "us-gov-west-1": {
-    "ondemand": 2.167,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 1.0837500000000002,
-     "yrTerm1Standard.partialUpfront": 1.4519449771689499,
-     "yrTerm3Standard.allUpfront": 1.04016000761035,
-     "yrTerm1Standard.allUpfront": 1.40855,
-     "yrTerm1Standard.noUpfront": 1.495,
-     "yrTerm3Standard.noUpfront": 1.127
-    }
-   },
-   "me-central-1": {
-    "ondemand": 2.2848,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 1.1421999999999999,
-     "yrTerm1Standard.partialUpfront": 1.5304079908675798,
-     "yrTerm3Standard.allUpfront": 1.09670399543379,
-     "yrTerm1Standard.allUpfront": 1.4851199771689496,
-     "yrTerm1Standard.noUpfront": 1.577,
-     "yrTerm3Standard.noUpfront": 1.188
-    }
-   },
-   "ap-northeast-1": {
-    "ondemand": 2.274,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 1.1375,
-     "yrTerm1Standard.partialUpfront": 1.5237899543378997,
-     "yrTerm3Standard.allUpfront": 1.0915200152207,
-     "yrTerm1Standard.allUpfront": 1.4781000000000002,
-     "yrTerm1Standard.noUpfront": 1.569,
-     "yrTerm3Standard.noUpfront": 1.182
-    }
-   },
-   "ap-south-1": {
-    "ondemand": 1.131,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.56575,
-     "yrTerm1Standard.partialUpfront": 0.7578850456621005,
-     "yrTerm3Standard.allUpfront": 0.5428799847792999,
-     "yrTerm1Standard.allUpfront": 0.73515,
-     "yrTerm1Standard.noUpfront": 0.78,
-     "yrTerm3Standard.noUpfront": 0.588
-    }
-   },
-   "us-gov-east-1": {
-    "ondemand": 2.167,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 1.0837500000000002,
-     "yrTerm1Standard.partialUpfront": 1.4519449771689499,
-     "yrTerm3Standard.allUpfront": 1.04016000761035,
-     "yrTerm1Standard.allUpfront": 1.40855,
-     "yrTerm1Standard.noUpfront": 1.495,
-     "yrTerm3Standard.noUpfront": 1.127
-    }
-   },
-   "ap-southeast-4": {
-    "ondemand": 2.359,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 1.1797499999999999,
-     "yrTerm1Standard.partialUpfront": 1.5802649543378995,
-     "yrTerm3Standard.allUpfront": 1.1323200152207,
-     "yrTerm1Standard.allUpfront": 1.5333500000000002,
-     "yrTerm1Standard.noUpfront": 1.628,
-     "yrTerm3Standard.noUpfront": 1.227
-    }
-   },
-   "eu-south-1": {
-    "ondemand": 2.146,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 1.0735000000000001,
-     "yrTerm1Standard.partialUpfront": 1.437909817351598,
-     "yrTerm3Standard.allUpfront": 1.030079908675799,
-     "yrTerm1Standard.allUpfront": 1.3948995433789955,
-     "yrTerm1Standard.noUpfront": 1.481,
-     "yrTerm3Standard.noUpfront": 1.116
-    }
-   },
-   "us-east-1": {
-    "ondemand": 1.806,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.9035,
-     "yrTerm1Standard.partialUpfront": 1.2100100456621004,
-     "yrTerm3Standard.allUpfront": 0.8668799847792998,
-     "yrTerm1Standard.allUpfront": 1.1739,
-     "yrTerm1Standard.noUpfront": 1.246,
-     "yrTerm3Standard.noUpfront": 0.939
-    }
-   },
-   "eu-west-3": {
-    "ondemand": 2.151,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 1.0757500000000002,
-     "yrTerm1Standard.partialUpfront": 1.4415844748858446,
-     "yrTerm3Standard.allUpfront": 1.0324798325722984,
-     "yrTerm1Standard.allUpfront": 1.3981495433789954,
-     "yrTerm1Standard.noUpfront": 1.484,
-     "yrTerm3Standard.noUpfront": 1.119
-    }
-   },
-   "ap-southeast-2": {
-    "ondemand": 2.359,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 1.1797499999999999,
-     "yrTerm1Standard.partialUpfront": 1.5802649543378995,
-     "yrTerm3Standard.allUpfront": 1.1323200152207,
-     "yrTerm1Standard.allUpfront": 1.5333500000000002,
-     "yrTerm1Standard.noUpfront": 1.628,
-     "yrTerm3Standard.noUpfront": 1.227
-    }
-   },
-   "eu-west-1": {
-    "ondemand": 2.04,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 1.02,
-     "yrTerm1Standard.partialUpfront": 1.3664,
-     "yrTerm3Standard.allUpfront": 0.9792000000000001,
-     "yrTerm1Standard.allUpfront": 1.326,
-     "yrTerm1Standard.noUpfront": 1.408,
-     "yrTerm3Standard.noUpfront": 1.061
-    }
-   },
-   "us-east-2": {
-    "ondemand": 1.806,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.9035,
-     "yrTerm1Standard.partialUpfront": 1.2100100456621004,
-     "yrTerm3Standard.allUpfront": 0.8668799847792998,
-     "yrTerm1Standard.allUpfront": 1.1739,
-     "yrTerm1Standard.noUpfront": 1.246,
-     "yrTerm3Standard.noUpfront": 0.939
-    }
-   },
-   "eu-south-2": {
-    "ondemand": 2.04,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 1.02,
-     "yrTerm1Standard.partialUpfront": 1.3664,
-     "yrTerm3Standard.allUpfront": 0.9792000000000001,
-     "yrTerm1Standard.allUpfront": 1.326,
-     "yrTerm1Standard.noUpfront": 1.408,
-     "yrTerm3Standard.noUpfront": 1.061
-    }
-   },
-   "eu-north-1": {
-    "ondemand": 1.939,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.96975,
-     "yrTerm1Standard.partialUpfront": 1.2995649543378995,
-     "yrTerm3Standard.allUpfront": 0.9307200152207001,
-     "yrTerm1Standard.allUpfront": 1.2603499999999999,
-     "yrTerm1Standard.noUpfront": 1.338,
-     "yrTerm3Standard.noUpfront": 1.008
-    }
-   },
-   "eu-west-2": {
-    "ondemand": 2.146,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 1.0735000000000001,
-     "yrTerm1Standard.partialUpfront": 1.4379100456621003,
-     "yrTerm3Standard.allUpfront": 1.0300799847792999,
-     "yrTerm1Standard.allUpfront": 1.3949,
-     "yrTerm1Standard.noUpfront": 1.481,
-     "yrTerm3Standard.noUpfront": 1.116
-    }
-   },
-   "ap-southeast-1": {
-    "ondemand": 2.082,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 1.0415,
-     "yrTerm1Standard.partialUpfront": 1.3944699771689497,
-     "yrTerm3Standard.allUpfront": 0.99936000761035,
-     "yrTerm1Standard.allUpfront": 1.3533,
-     "yrTerm1Standard.noUpfront": 1.437,
-     "yrTerm3Standard.noUpfront": 1.083
-    }
-   },
-   "ap-east-1": {
-    "ondemand": 2.284,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 1.142,
-     "yrTerm1Standard.partialUpfront": 1.5301399543378995,
-     "yrTerm3Standard.allUpfront": 1.0963200152207002,
-     "yrTerm1Standard.allUpfront": 1.4846000000000001,
-     "yrTerm1Standard.noUpfront": 1.576,
-     "yrTerm3Standard.noUpfront": 1.188
-    }
-   },
-   "ca-central-1": {
-    "ondemand": 1.976,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.988,
-     "yrTerm1Standard.partialUpfront": 1.3239600456621006,
-     "yrTerm3Standard.allUpfront": 0.9484799847792998,
-     "yrTerm1Standard.allUpfront": 1.2844,
-     "yrTerm1Standard.noUpfront": 1.363,
-     "yrTerm3Standard.noUpfront": 1.028
-    }
-   },
-   "us-west-2": {
-    "ondemand": 1.806,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.9035,
-     "yrTerm1Standard.partialUpfront": 1.2100100456621004,
-     "yrTerm3Standard.allUpfront": 0.8668799847792998,
-     "yrTerm1Standard.allUpfront": 1.1739,
-     "yrTerm1Standard.noUpfront": 1.246,
-     "yrTerm3Standard.noUpfront": 0.939
-    }
-   },
-   "ap-northeast-2": {
-    "ondemand": 2.045,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 1.02225,
-     "yrTerm1Standard.partialUpfront": 1.370075,
-     "yrTerm3Standard.allUpfront": 0.9815999999999999,
-     "yrTerm1Standard.allUpfront": 1.3292499999999998,
-     "yrTerm1Standard.noUpfront": 1.411,
-     "yrTerm3Standard.noUpfront": 1.063
-    }
-   },
-   "us-west-1": {
-    "ondemand": 2.252,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 1.126,
-     "yrTerm1Standard.partialUpfront": 1.5084199771689497,
-     "yrTerm3Standard.allUpfront": 1.08096000761035,
-     "yrTerm1Standard.allUpfront": 1.4638,
-     "yrTerm1Standard.noUpfront": 1.554,
-     "yrTerm3Standard.noUpfront": 1.171
-    }
-   },
-   "sa-east-1": {
-    "ondemand": 2.783,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 1.39175,
-     "yrTerm1Standard.partialUpfront": 1.8643050228310503,
-     "yrTerm3Standard.allUpfront": 1.3358399923896498,
-     "yrTerm1Standard.allUpfront": 1.80895,
-     "yrTerm1Standard.noUpfront": 1.92,
-     "yrTerm3Standard.noUpfront": 1.447
-    }
-   }
-  },
-  "regions": {
-   "ap-south-2": "Asia Pacific (Hyderabad)",
-   "ap-southeast-3": "Asia Pacific (Jakarta)",
-   "us-gov-west-1": "AWS GovCloud (US-West)",
-   "me-central-1": "Middle East (UAE)",
-   "ap-northeast-1": "Asia Pacific (Tokyo)",
-   "ap-south-1": "Asia Pacific (Mumbai)",
-   "us-gov-east-1": "AWS GovCloud (US-East)",
-   "ap-southeast-4": "Asia Pacific (Melbourne)",
-   "eu-south-1": "Europe (Milan)",
-   "us-east-1": "US East (N. Virginia)",
-   "eu-west-3": "Europe (Paris)",
-   "ap-southeast-2": "Asia Pacific (Sydney)",
-   "eu-west-1": "Europe (Ireland)",
-   "us-east-2": "US East (Ohio)",
-   "eu-south-2": "Europe (Spain)",
-   "eu-north-1": "Europe (Stockholm)",
-   "eu-west-2": "Europe (London)",
-   "ap-southeast-1": "Asia Pacific (Singapore)",
-   "ap-east-1": "Asia Pacific (Hong Kong)",
-   "ca-central-1": "Canada (Central)",
-   "us-west-2": "US West (Oregon)",
-   "ap-northeast-2": "Asia Pacific (Seoul)",
-   "us-west-1": "US West (N. California)",
-   "sa-east-1": "South America (Sao Paulo)",
-   "eu-central-1": "Europe (Frankfurt)"
-  },
-  "pretty_name": "C6G Compute Optimized Eight Extra Large",
-  "min_ebs": "10 GiB",
-  "max_ebs_gp2": "3 TiB",
-  "max_ebs_gp3": "3 TiB",
   "max_http_payload": "100 MiB"
  },
  {
@@ -8757,6 +9797,17 @@
      "yrTerm3Standard.noUpfront": 0.113
     }
    },
+   "ca-west-1": {
+    "ondemand": 0.204,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.102,
+     "yrTerm1Standard.partialUpfront": 0.136,
+     "yrTerm3Standard.allUpfront": 0.09792001522070015,
+     "yrTerm1Standard.allUpfront": 0.1326,
+     "yrTerm1Standard.noUpfront": 0.141,
+     "yrTerm3Standard.noUpfront": 0.106
+    }
+   },
    "us-east-2": {
     "ondemand": 0.186,
     "reserved": {
@@ -9058,6 +10109,7 @@
   "regions": {
    "sa-east-1": "South America (Sao Paulo)",
    "eu-west-3": "Europe (Paris)",
+   "ca-west-1": "Canada West (Calgary)",
    "us-east-2": "US East (Ohio)",
    "us-west-2": "US West (Oregon)",
    "us-gov-west-1": "AWS GovCloud (US-West)",
@@ -9163,6 +10215,39 @@
      "yrTerm3Standard.noUpfront": 0.331
     }
    },
+   "me-south-1": {
+    "ondemand": 0.602,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.302,
+     "yrTerm1Standard.partialUpfront": 0.404,
+     "yrTerm3Standard.allUpfront": 0.28896000761035007,
+     "yrTerm1Standard.allUpfront": 0.3913,
+     "yrTerm1Standard.noUpfront": 0.415,
+     "yrTerm3Standard.noUpfront": 0.313
+    }
+   },
+   "ap-northeast-3": {
+    "ondemand": 0.635,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.318,
+     "yrTerm1Standard.partialUpfront": 0.426,
+     "yrTerm3Standard.allUpfront": 0.3048,
+     "yrTerm1Standard.allUpfront": 0.41275,
+     "yrTerm1Standard.noUpfront": 0.438,
+     "yrTerm3Standard.noUpfront": 0.33
+    }
+   },
+   "il-central-1": {
+    "ondemand": 0.6,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.284786125,
+     "yrTerm1Standard.partialUpfront": 0.38161378755707764,
+     "yrTerm3Standard.allUpfront": 0.2733948,
+     "yrTerm1Standard.allUpfront": 0.37022212499999996,
+     "yrTerm1Standard.noUpfront": 0.393005,
+     "yrTerm3Standard.noUpfront": 0.296178
+    }
+   },
    "eu-central-1": {
     "ondemand": 0.611,
     "reserved": {
@@ -9174,6 +10259,17 @@
      "yrTerm3Standard.noUpfront": 0.318
     }
    },
+   "af-south-1": {
+    "ondemand": 0.65,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.326,
+     "yrTerm1Standard.partialUpfront": 0.436,
+     "yrTerm3Standard.allUpfront": 0.312,
+     "yrTerm1Standard.allUpfront": 0.42250000000000004,
+     "yrTerm1Standard.noUpfront": 0.449,
+     "yrTerm3Standard.noUpfront": 0.338
+    }
+   },
    "eu-west-2": {
     "ondemand": 0.59,
     "reserved": {
@@ -9183,6 +10279,17 @@
      "yrTerm1Standard.allUpfront": 0.3835,
      "yrTerm1Standard.noUpfront": 0.407,
      "yrTerm3Standard.noUpfront": 0.307
+    }
+   },
+   "eu-central-2": {
+    "ondemand": 0.648,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.324,
+     "yrTerm1Standard.partialUpfront": 0.434,
+     "yrTerm3Standard.allUpfront": 0.3110399923896499,
+     "yrTerm1Standard.allUpfront": 0.4212,
+     "yrTerm1Standard.noUpfront": 0.447,
+     "yrTerm3Standard.noUpfront": 0.337
     }
    },
    "us-west-2": {
@@ -9389,8 +10496,13 @@
    "ca-central-1": "Canada (Central)",
    "ap-northeast-2": "Asia Pacific (Seoul)",
    "ap-southeast-4": "Asia Pacific (Melbourne)",
+   "me-south-1": "Middle East (Bahrain)",
+   "ap-northeast-3": "Asia Pacific (Osaka)",
+   "il-central-1": "Israel (Tel Aviv)",
    "eu-central-1": "Europe (Frankfurt)",
+   "af-south-1": "Africa (Cape Town)",
    "eu-west-2": "Europe (London)",
+   "eu-central-2": "Europe (Zurich)",
    "us-west-2": "US West (Oregon)",
    "eu-south-1": "Europe (Milan)",
    "us-west-1": "US West (N. California)",
@@ -9652,6 +10764,17 @@
      "yrTerm3Standard.noUpfront": 0.1804
     }
    },
+   "ca-west-1": {
+    "ondemand": 0.316,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.158,
+     "yrTerm1Standard.partialUpfront": 0.212,
+     "yrTerm3Standard.allUpfront": 0.15167998477929986,
+     "yrTerm1Standard.allUpfront": 0.20540000000000003,
+     "yrTerm1Standard.noUpfront": 0.218,
+     "yrTerm3Standard.noUpfront": 0.164
+    }
+   },
    "ca-central-1": {
     "ondemand": 0.316,
     "reserved": {
@@ -9783,6 +10906,7 @@
    "eu-central-2": "Europe (Zurich)",
    "ap-northeast-1": "Asia Pacific (Tokyo)",
    "me-central-1": "Middle East (UAE)",
+   "ca-west-1": "Canada West (Calgary)",
    "ca-central-1": "Canada (Central)",
    "ap-south-2": "Asia Pacific (Hyderabad)",
    "eu-south-1": "Europe (Milan)",
@@ -10191,6 +11315,17 @@
      "yrTerm3Standard.noUpfront": 2.855
     }
    },
+   "ca-west-1": {
+    "ondemand": 4.885,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 2.442,
+     "yrTerm1Standard.partialUpfront": 3.2720000000000002,
+     "yrTerm3Standard.allUpfront": 2.3447999999999998,
+     "yrTerm1Standard.allUpfront": 3.17525,
+     "yrTerm1Standard.noUpfront": 3.371,
+     "yrTerm3Standard.noUpfront": 2.54
+    }
+   },
    "eu-south-2": {
     "ondemand": 4.991,
     "reserved": {
@@ -10512,6 +11647,7 @@
    }
   },
   "regions": {
+   "ca-west-1": "Canada West (Calgary)",
    "eu-south-2": "Europe (Spain)",
    "us-east-2": "US East (Ohio)",
    "us-gov-west-1": "AWS GovCloud (US-West)",
@@ -10773,6 +11909,17 @@
      "yrTerm3Standard.noUpfront": 0.064
     }
    },
+   "ap-northeast-3": {
+    "ondemand": 0.138,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.07,
+     "yrTerm1Standard.partialUpfront": 0.092,
+     "yrTerm3Standard.allUpfront": 0.06623999238964992,
+     "yrTerm1Standard.allUpfront": 0.0897,
+     "yrTerm1Standard.noUpfront": 0.095,
+     "yrTerm3Standard.noUpfront": 0.072
+    }
+   },
    "ap-northeast-2": {
     "ondemand": 0.128,
     "reserved": {
@@ -10782,6 +11929,28 @@
      "yrTerm1Standard.allUpfront": 0.0832,
      "yrTerm1Standard.noUpfront": 0.088,
      "yrTerm3Standard.noUpfront": 0.067
+    }
+   },
+   "me-south-1": {
+    "ondemand": 0.136,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.068,
+     "yrTerm1Standard.partialUpfront": 0.092,
+     "yrTerm3Standard.allUpfront": 0.06527998477929985,
+     "yrTerm1Standard.allUpfront": 0.08839999999999999,
+     "yrTerm1Standard.noUpfront": 0.094,
+     "yrTerm3Standard.noUpfront": 0.071
+    }
+   },
+   "il-central-1": {
+    "ondemand": 0.133,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.063341625,
+     "yrTerm1Standard.partialUpfront": 0.08487763755707763,
+     "yrTerm3Standard.allUpfront": 0.060807599999999996,
+     "yrTerm1Standard.allUpfront": 0.08234362499999999,
+     "yrTerm1Standard.noUpfront": 0.087411,
+     "yrTerm3Standard.noUpfront": 0.065875
     }
    },
    "eu-north-1": {
@@ -10828,6 +11997,17 @@
      "yrTerm3Standard.noUpfront": 0.07
     }
    },
+   "eu-central-2": {
+    "ondemand": 0.137,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.068,
+     "yrTerm1Standard.partialUpfront": 0.092,
+     "yrTerm3Standard.allUpfront": 0.06576000761035007,
+     "yrTerm1Standard.allUpfront": 0.08905,
+     "yrTerm1Standard.noUpfront": 0.095,
+     "yrTerm3Standard.noUpfront": 0.071
+    }
+   },
    "eu-west-2": {
     "ondemand": 0.134,
     "reserved": {
@@ -10859,12 +12039,16 @@
    "eu-west-1": "Europe (Ireland)",
    "sa-east-1": "South America (Sao Paulo)",
    "ca-central-1": "Canada (Central)",
+   "ap-northeast-3": "Asia Pacific (Osaka)",
    "ap-northeast-2": "Asia Pacific (Seoul)",
+   "me-south-1": "Middle East (Bahrain)",
+   "il-central-1": "Israel (Tel Aviv)",
    "eu-north-1": "Europe (Stockholm)",
    "ap-east-1": "Asia Pacific (Hong Kong)",
    "ap-southeast-3": "Asia Pacific (Jakarta)",
    "us-east-1": "US East (N. Virginia)",
    "eu-west-3": "Europe (Paris)",
+   "eu-central-2": "Europe (Zurich)",
    "eu-west-2": "Europe (London)"
   },
   "pretty_name": "C6G Compute Optimized Large",
@@ -10910,6 +12094,17 @@
      "yrTerm3Standard.noUpfront": 1.989
     }
    },
+   "il-central-1": {
+    "ondemand": 3.597,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.70871775,
+     "yrTerm1Standard.partialUpfront": 2.2896817248858445,
+     "yrTerm3Standard.allUpfront": 1.640368799847793,
+     "yrTerm1Standard.allUpfront": 2.2213327499999997,
+     "yrTerm1Standard.noUpfront": 2.35803,
+     "yrTerm3Standard.noUpfront": 1.777066
+    }
+   },
    "sa-east-1": {
     "ondemand": 4.876,
     "reserved": {
@@ -10943,6 +12138,17 @@
      "yrTerm3Standard.noUpfront": 1.84
     }
    },
+   "eu-central-2": {
+    "ondemand": 3.886,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.944,
+     "yrTerm1Standard.partialUpfront": 2.604,
+     "yrTerm3Standard.allUpfront": 1.8652799847792998,
+     "yrTerm1Standard.allUpfront": 2.5258999999999996,
+     "yrTerm1Standard.noUpfront": 2.681,
+     "yrTerm3Standard.noUpfront": 2.021
+    }
+   },
    "me-central-1": {
     "ondemand": 3.8371,
     "reserved": {
@@ -10952,6 +12158,17 @@
      "yrTerm1Standard.allUpfront": 2.49412796803653,
      "yrTerm1Standard.noUpfront": 2.648,
      "yrTerm3Standard.noUpfront": 1.996
+    }
+   },
+   "ap-northeast-3": {
+    "ondemand": 3.809,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.904,
+     "yrTerm1Standard.partialUpfront": 2.552,
+     "yrTerm3Standard.allUpfront": 1.8283200152207002,
+     "yrTerm1Standard.allUpfront": 2.47585,
+     "yrTerm1Standard.noUpfront": 2.628,
+     "yrTerm3Standard.noUpfront": 1.981
     }
    },
    "us-west-2": {
@@ -10974,6 +12191,17 @@
      "yrTerm1Standard.allUpfront": 2.50705,
      "yrTerm1Standard.noUpfront": 2.661,
      "yrTerm3Standard.noUpfront": 2.006
+    }
+   },
+   "af-south-1": {
+    "ondemand": 3.901,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.95,
+     "yrTerm1Standard.partialUpfront": 2.614,
+     "yrTerm3Standard.allUpfront": 1.8724799847792999,
+     "yrTerm1Standard.allUpfront": 2.53565,
+     "yrTerm1Standard.noUpfront": 2.692,
+     "yrTerm3Standard.noUpfront": 2.029
     }
    },
    "ap-south-2": {
@@ -11029,6 +12257,17 @@
      "yrTerm1Standard.allUpfront": 2.2165000000000004,
      "yrTerm1Standard.noUpfront": 2.353,
      "yrTerm3Standard.noUpfront": 1.773
+    }
+   },
+   "me-south-1": {
+    "ondemand": 3.61,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.806,
+     "yrTerm1Standard.partialUpfront": 2.418,
+     "yrTerm3Standard.allUpfront": 1.7328,
+     "yrTerm1Standard.allUpfront": 2.3465000000000003,
+     "yrTerm1Standard.noUpfront": 2.491,
+     "yrTerm3Standard.noUpfront": 1.877
     }
    },
    "ap-south-1": {
@@ -11166,18 +12405,23 @@
   },
   "regions": {
    "ap-southeast-2": "Asia Pacific (Sydney)",
+   "il-central-1": "Israel (Tel Aviv)",
    "sa-east-1": "South America (Sao Paulo)",
    "eu-north-1": "Europe (Stockholm)",
    "eu-west-2": "Europe (London)",
+   "eu-central-2": "Europe (Zurich)",
    "me-central-1": "Middle East (UAE)",
+   "ap-northeast-3": "Asia Pacific (Osaka)",
    "us-west-2": "US West (Oregon)",
    "us-gov-east-1": "AWS GovCloud (US-East)",
+   "af-south-1": "Africa (Cape Town)",
    "ap-south-2": "Asia Pacific (Hyderabad)",
    "ap-northeast-1": "Asia Pacific (Tokyo)",
    "ap-southeast-4": "Asia Pacific (Melbourne)",
    "ap-southeast-3": "Asia Pacific (Jakarta)",
    "eu-west-3": "Europe (Paris)",
    "ca-central-1": "Canada (Central)",
+   "me-south-1": "Middle East (Bahrain)",
    "ap-south-1": "Asia Pacific (Mumbai)",
    "eu-central-1": "Europe (Frankfurt)",
    "us-east-1": "US East (N. Virginia)",
@@ -11607,6 +12851,28 @@
      "yrTerm3Standard.noUpfront": 1.392
     }
    },
+   "il-central-1": {
+    "ondemand": 3.146,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.4942555,
+     "yrTerm1Standard.partialUpfront": 2.00230185,
+     "yrTerm3Standard.allUpfront": 1.434484799847793,
+     "yrTerm1Standard.allUpfront": 1.9425315,
+     "yrTerm1Standard.noUpfront": 2.062072,
+     "yrTerm3Standard.noUpfront": 1.554025
+    }
+   },
+   "eu-central-2": {
+    "ondemand": 3.424,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.712,
+     "yrTerm1Standard.partialUpfront": 2.294,
+     "yrTerm3Standard.allUpfront": 1.6435200152207001,
+     "yrTerm1Standard.allUpfront": 2.2256,
+     "yrTerm1Standard.noUpfront": 2.363,
+     "yrTerm3Standard.noUpfront": 1.78
+    }
+   },
    "us-gov-west-1": {
     "ondemand": 3.208,
     "reserved": {
@@ -11627,6 +12893,17 @@
      "yrTerm1Standard.allUpfront": 1.8473,
      "yrTerm1Standard.noUpfront": 1.961,
      "yrTerm3Standard.noUpfront": 1.478
+    }
+   },
+   "ap-northeast-3": {
+    "ondemand": 3.113,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.556,
+     "yrTerm1Standard.partialUpfront": 2.086,
+     "yrTerm3Standard.allUpfront": 1.4942399923896499,
+     "yrTerm1Standard.allUpfront": 2.02345,
+     "yrTerm1Standard.noUpfront": 2.148,
+     "yrTerm3Standard.noUpfront": 1.619
     }
    },
    "ap-south-2": {
@@ -11849,6 +13126,17 @@
      "yrTerm3Standard.noUpfront": 1.685
     }
    },
+   "af-south-1": {
+    "ondemand": 3.441,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.72,
+     "yrTerm1Standard.partialUpfront": 2.306,
+     "yrTerm3Standard.allUpfront": 1.6516799847792998,
+     "yrTerm1Standard.allUpfront": 2.23665,
+     "yrTerm1Standard.noUpfront": 2.374,
+     "yrTerm3Standard.noUpfront": 1.789
+    }
+   },
    "eu-west-3": {
     "ondemand": 3.134,
     "reserved": {
@@ -11870,11 +13158,25 @@
      "yrTerm1Standard.noUpfront": 2.229,
      "yrTerm3Standard.noUpfront": 1.68
     }
+   },
+   "me-south-1": {
+    "ondemand": 3.176,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.588,
+     "yrTerm1Standard.partialUpfront": 2.128,
+     "yrTerm3Standard.allUpfront": 1.5244799847793,
+     "yrTerm1Standard.allUpfront": 2.0644,
+     "yrTerm1Standard.noUpfront": 2.191,
+     "yrTerm3Standard.noUpfront": 1.652
+    }
    }
   },
   "regions": {
+   "il-central-1": "Israel (Tel Aviv)",
+   "eu-central-2": "Europe (Zurich)",
    "us-gov-west-1": "AWS GovCloud (US-West)",
    "eu-north-1": "Europe (Stockholm)",
+   "ap-northeast-3": "Asia Pacific (Osaka)",
    "ap-south-2": "Asia Pacific (Hyderabad)",
    "eu-south-2": "Europe (Spain)",
    "ca-central-1": "Canada (Central)",
@@ -11896,8 +13198,10 @@
    "us-gov-east-1": "AWS GovCloud (US-East)",
    "eu-south-1": "Europe (Milan)",
    "ap-northeast-2": "Asia Pacific (Seoul)",
+   "af-south-1": "Africa (Cape Town)",
    "eu-west-3": "Europe (Paris)",
-   "ap-southeast-1": "Asia Pacific (Singapore)"
+   "ap-southeast-1": "Asia Pacific (Singapore)",
+   "me-south-1": "Middle East (Bahrain)"
   },
   "pretty_name": "R6G Memory Optimized Eight Extra Large",
   "min_ebs": "10 GiB",
@@ -12052,6 +13356,28 @@
      "yrTerm3Standard.noUpfront": 0.834
     }
    },
+   "me-south-1": {
+    "ondemand": 1.588,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.794,
+     "yrTerm1Standard.partialUpfront": 1.064,
+     "yrTerm3Standard.allUpfront": 0.76223999238965,
+     "yrTerm1Standard.allUpfront": 1.0322,
+     "yrTerm1Standard.noUpfront": 1.096,
+     "yrTerm3Standard.noUpfront": 0.826
+    }
+   },
+   "ap-northeast-3": {
+    "ondemand": 1.556,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.778,
+     "yrTerm1Standard.partialUpfront": 1.042,
+     "yrTerm3Standard.allUpfront": 0.7468799847792998,
+     "yrTerm1Standard.allUpfront": 1.0113999999999999,
+     "yrTerm1Standard.noUpfront": 1.074,
+     "yrTerm3Standard.noUpfront": 0.809
+    }
+   },
    "sa-east-1": {
     "ondemand": 2.135,
     "reserved": {
@@ -12151,6 +13477,28 @@
      "yrTerm3Standard.noUpfront": 0.762
     }
    },
+   "af-south-1": {
+    "ondemand": 1.72,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.86,
+     "yrTerm1Standard.partialUpfront": 1.152,
+     "yrTerm3Standard.allUpfront": 0.8256,
+     "yrTerm1Standard.allUpfront": 1.118,
+     "yrTerm1Standard.noUpfront": 1.187,
+     "yrTerm3Standard.noUpfront": 0.894
+    }
+   },
+   "il-central-1": {
+    "ondemand": 1.573,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.74712775,
+     "yrTerm1Standard.partialUpfront": 1.001150425,
+     "yrTerm3Standard.allUpfront": 0.7172423999238965,
+     "yrTerm1Standard.allUpfront": 0.97126575,
+     "yrTerm1Standard.noUpfront": 1.031036,
+     "yrTerm3Standard.noUpfront": 0.777013
+    }
+   },
    "eu-south-2": {
     "ondemand": 1.498,
     "reserved": {
@@ -12160,6 +13508,17 @@
      "yrTerm1Standard.allUpfront": 0.9736999999999999,
      "yrTerm1Standard.noUpfront": 1.034,
      "yrTerm3Standard.noUpfront": 0.779
+    }
+   },
+   "eu-central-2": {
+    "ondemand": 1.712,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.856,
+     "yrTerm1Standard.partialUpfront": 1.148,
+     "yrTerm3Standard.allUpfront": 0.8217600076103501,
+     "yrTerm1Standard.allUpfront": 1.1128,
+     "yrTerm1Standard.noUpfront": 1.181,
+     "yrTerm3Standard.noUpfront": 0.89
     }
    },
    "us-east-2": {
@@ -12208,6 +13567,8 @@
    "ap-southeast-1": "Asia Pacific (Singapore)",
    "ap-southeast-3": "Asia Pacific (Jakarta)",
    "us-gov-west-1": "AWS GovCloud (US-West)",
+   "me-south-1": "Middle East (Bahrain)",
+   "ap-northeast-3": "Asia Pacific (Osaka)",
    "sa-east-1": "South America (Sao Paulo)",
    "us-west-1": "US West (N. California)",
    "ap-south-2": "Asia Pacific (Hyderabad)",
@@ -12218,7 +13579,10 @@
    "eu-west-1": "Europe (Ireland)",
    "ap-south-1": "Asia Pacific (Mumbai)",
    "ca-central-1": "Canada (Central)",
+   "af-south-1": "Africa (Cape Town)",
+   "il-central-1": "Israel (Tel Aviv)",
    "eu-south-2": "Europe (Spain)",
+   "eu-central-2": "Europe (Zurich)",
    "us-east-2": "US East (Ohio)",
    "ap-east-1": "Asia Pacific (Hong Kong)",
    "ap-southeast-2": "Asia Pacific (Sydney)"
@@ -12253,6 +13617,17 @@
      "yrTerm1Standard.allUpfront": 1.6627520547945205,
      "yrTerm1Standard.noUpfront": 1.765,
      "yrTerm3Standard.noUpfront": 1.331
+    }
+   },
+   "eu-central-2": {
+    "ondemand": 2.591,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.296,
+     "yrTerm1Standard.partialUpfront": 1.736,
+     "yrTerm3Standard.allUpfront": 1.2436799847792999,
+     "yrTerm1Standard.allUpfront": 1.68415,
+     "yrTerm1Standard.noUpfront": 1.788,
+     "yrTerm3Standard.noUpfront": 1.347
     }
    },
    "ap-northeast-2": {
@@ -12321,6 +13696,17 @@
      "yrTerm3Standard.noUpfront": 1.326
     }
    },
+   "il-central-1": {
+    "ondemand": 2.398,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.1391455,
+     "yrTerm1Standard.partialUpfront": 1.5264541500000002,
+     "yrTerm3Standard.allUpfront": 1.093579200152207,
+     "yrTerm1Standard.allUpfront": 1.4808884999999998,
+     "yrTerm1Standard.noUpfront": 1.57202,
+     "yrTerm3Standard.noUpfront": 1.184711
+    }
+   },
    "ap-southeast-4": {
     "ondemand": 2.55,
     "reserved": {
@@ -12363,6 +13749,17 @@
      "yrTerm1Standard.allUpfront": 1.5886000000000002,
      "yrTerm1Standard.noUpfront": 1.686,
      "yrTerm3Standard.noUpfront": 1.271
+    }
+   },
+   "me-south-1": {
+    "ondemand": 2.406,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.204,
+     "yrTerm1Standard.partialUpfront": 1.612,
+     "yrTerm3Standard.allUpfront": 1.1548799847792999,
+     "yrTerm1Standard.allUpfront": 1.5639,
+     "yrTerm1Standard.noUpfront": 1.66,
+     "yrTerm3Standard.noUpfront": 1.251
     }
    },
    "ca-central-1": {
@@ -12442,6 +13839,17 @@
      "yrTerm3Standard.noUpfront": 1.243
     }
    },
+   "af-south-1": {
+    "ondemand": 2.601,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.3,
+     "yrTerm1Standard.partialUpfront": 1.742,
+     "yrTerm3Standard.allUpfront": 1.2484799847792998,
+     "yrTerm1Standard.allUpfront": 1.6906499999999998,
+     "yrTerm1Standard.noUpfront": 1.795,
+     "yrTerm3Standard.noUpfront": 1.353
+    }
+   },
    "us-gov-east-1": {
     "ondemand": 2.571,
     "reserved": {
@@ -12518,19 +13926,33 @@
      "yrTerm1Standard.noUpfront": 2.243,
      "yrTerm3Standard.noUpfront": 1.691
     }
+   },
+   "ap-northeast-3": {
+    "ondemand": 2.54,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.27,
+     "yrTerm1Standard.partialUpfront": 1.702,
+     "yrTerm3Standard.allUpfront": 1.2192,
+     "yrTerm1Standard.allUpfront": 1.651,
+     "yrTerm1Standard.noUpfront": 1.753,
+     "yrTerm3Standard.noUpfront": 1.321
+    }
    }
   },
   "regions": {
+   "eu-central-2": "Europe (Zurich)",
    "ap-northeast-2": "Asia Pacific (Seoul)",
    "ap-northeast-1": "Asia Pacific (Tokyo)",
    "eu-north-1": "Europe (Stockholm)",
    "eu-south-1": "Europe (Milan)",
    "eu-west-1": "Europe (Ireland)",
    "ap-southeast-1": "Asia Pacific (Singapore)",
+   "il-central-1": "Israel (Tel Aviv)",
    "ap-southeast-4": "Asia Pacific (Melbourne)",
    "us-east-2": "US East (Ohio)",
    "ap-east-1": "Asia Pacific (Hong Kong)",
    "eu-central-1": "Europe (Frankfurt)",
+   "me-south-1": "Middle East (Bahrain)",
    "ca-central-1": "Canada (Central)",
    "us-east-1": "US East (N. Virginia)",
    "ap-southeast-2": "Asia Pacific (Sydney)",
@@ -12539,13 +13961,15 @@
    "me-central-1": "Middle East (UAE)",
    "ap-south-2": "Asia Pacific (Hyderabad)",
    "eu-west-3": "Europe (Paris)",
+   "af-south-1": "Africa (Cape Town)",
    "us-gov-east-1": "AWS GovCloud (US-East)",
    "ap-south-1": "Asia Pacific (Mumbai)",
    "us-gov-west-1": "AWS GovCloud (US-West)",
    "us-west-1": "US West (N. California)",
    "eu-west-2": "Europe (London)",
    "us-west-2": "US West (Oregon)",
-   "sa-east-1": "South America (Sao Paulo)"
+   "sa-east-1": "South America (Sao Paulo)",
+   "ap-northeast-3": "Asia Pacific (Osaka)"
   },
   "pretty_name": "M6G General Purpose Eight Extra Large",
   "min_ebs": "10 GiB",
@@ -13060,6 +14484,17 @@
      "yrTerm3Standard.noUpfront": 0.092
     }
    },
+   "ca-west-1": {
+    "ondemand": 0.158,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.08,
+     "yrTerm1Standard.partialUpfront": 0.106,
+     "yrTerm3Standard.allUpfront": 0.07583999238964993,
+     "yrTerm1Standard.allUpfront": 0.10270000000000001,
+     "yrTerm1Standard.noUpfront": 0.109,
+     "yrTerm3Standard.noUpfront": 0.082
+    }
+   },
    "ap-northeast-2": {
     "ondemand": 0.174,
     "reserved": {
@@ -13151,6 +14586,7 @@
    "ap-northeast-1": "Asia Pacific (Tokyo)",
    "us-east-1": "US East (N. Virginia)",
    "ap-southeast-4": "Asia Pacific (Melbourne)",
+   "ca-west-1": "Canada West (Calgary)",
    "ap-east-1": "Asia Pacific (Hong Kong)",
    "ap-northeast-2": "Asia Pacific (Seoul)",
    "us-gov-west-1": "AWS GovCloud (US-West)",
@@ -13422,6 +14858,17 @@
      "yrTerm3Standard.noUpfront": 0.743
     }
    },
+   "ca-west-1": {
+    "ondemand": 1.263,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.632,
+     "yrTerm1Standard.partialUpfront": 0.846,
+     "yrTerm3Standard.allUpfront": 0.6062399923896499,
+     "yrTerm1Standard.allUpfront": 0.82095,
+     "yrTerm1Standard.noUpfront": 0.871,
+     "yrTerm3Standard.noUpfront": 0.657
+    }
+   },
    "ap-northeast-3": {
     "ondemand": 1.463,
     "reserved": {
@@ -13534,6 +14981,7 @@
    "us-east-1": "US East (N. Virginia)",
    "us-east-2": "US East (Ohio)",
    "us-gov-east-1": "AWS GovCloud (US-East)",
+   "ca-west-1": "Canada West (Calgary)",
    "ap-northeast-3": "Asia Pacific (Osaka)",
    "eu-central-2": "Europe (Zurich)",
    "eu-south-1": "Europe (Milan)",
@@ -13935,6 +15383,390 @@
  },
  {
   "servicecode": "AmazonES",
+  "instanceType": "m6g.large.search",
+  "currentGeneration": "Yes",
+  "instanceFamily": "General purpose",
+  "vcpu": "2",
+  "storage": "EBS Only",
+  "ecu": "variable",
+  "memoryGib": "8",
+  "regionCode": "ap-northeast-3",
+  "servicename": "Amazon OpenSearch Service",
+  "memory": "8",
+  "family": "General purpose",
+  "instance_type": "m6g.large.search",
+  "pricing": {
+   "ap-northeast-3": {
+    "ondemand": 0.159,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.08,
+     "yrTerm1Standard.partialUpfront": 0.106,
+     "yrTerm3Standard.allUpfront": 0.07632001522070016,
+     "yrTerm1Standard.allUpfront": 0.10335,
+     "yrTerm1Standard.noUpfront": 0.11,
+     "yrTerm3Standard.noUpfront": 0.083
+    }
+   },
+   "il-central-1": {
+    "ondemand": 0.15,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.071321625,
+     "yrTerm1Standard.partialUpfront": 0.09557023755707762,
+     "yrTerm3Standard.allUpfront": 0.0684684,
+     "yrTerm1Standard.allUpfront": 0.09271762500000001,
+     "yrTerm1Standard.noUpfront": 0.098423,
+     "yrTerm3Standard.noUpfront": 0.074174
+    }
+   },
+   "ap-east-1": {
+    "ondemand": 0.176,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.088,
+     "yrTerm1Standard.partialUpfront": 0.11796004566210044,
+     "yrTerm3Standard.allUpfront": 0.08447998477929985,
+     "yrTerm1Standard.allUpfront": 0.1144,
+     "yrTerm1Standard.noUpfront": 0.121,
+     "yrTerm3Standard.noUpfront": 0.092
+    }
+   },
+   "ap-northeast-1": {
+    "ondemand": 0.164,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.082,
+     "yrTerm1Standard.partialUpfront": 0.10993995433789955,
+     "yrTerm3Standard.allUpfront": 0.07872001522070016,
+     "yrTerm1Standard.allUpfront": 0.10660000000000001,
+     "yrTerm1Standard.noUpfront": 0.113,
+     "yrTerm3Standard.noUpfront": 0.085
+    }
+   },
+   "us-west-1": {
+    "ondemand": 0.149,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.07425,
+     "yrTerm1Standard.partialUpfront": 0.09991495433789954,
+     "yrTerm3Standard.allUpfront": 0.07152001522070016,
+     "yrTerm1Standard.allUpfront": 0.09684999999999999,
+     "yrTerm1Standard.noUpfront": 0.103,
+     "yrTerm3Standard.noUpfront": 0.077
+    }
+   },
+   "eu-west-3": {
+    "ondemand": 0.149,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.07425,
+     "yrTerm1Standard.partialUpfront": 0.09991552511415525,
+     "yrTerm3Standard.allUpfront": 0.07152016742770168,
+     "yrTerm1Standard.allUpfront": 0.09685045662100455,
+     "yrTerm1Standard.noUpfront": 0.103,
+     "yrTerm3Standard.noUpfront": 0.077
+    }
+   },
+   "eu-central-1": {
+    "ondemand": 0.153,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.07625,
+     "yrTerm1Standard.partialUpfront": 0.10225502283105023,
+     "yrTerm3Standard.allUpfront": 0.07343999238964992,
+     "yrTerm1Standard.allUpfront": 0.09945,
+     "yrTerm1Standard.noUpfront": 0.106,
+     "yrTerm3Standard.noUpfront": 0.08
+    }
+   },
+   "ca-central-1": {
+    "ondemand": 0.142,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.07150000000000001,
+     "yrTerm1Standard.partialUpfront": 0.09556997716894977,
+     "yrTerm3Standard.allUpfront": 0.06816000761035007,
+     "yrTerm1Standard.allUpfront": 0.0923,
+     "yrTerm1Standard.noUpfront": 0.098,
+     "yrTerm3Standard.noUpfront": 0.074
+    }
+   },
+   "eu-west-2": {
+    "ondemand": 0.147,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.07375,
+     "yrTerm1Standard.partialUpfront": 0.09824497716894978,
+     "yrTerm3Standard.allUpfront": 0.07056000761035007,
+     "yrTerm1Standard.allUpfront": 0.09555000000000001,
+     "yrTerm1Standard.noUpfront": 0.101,
+     "yrTerm3Standard.noUpfront": 0.076
+    }
+   },
+   "ap-southeast-2": {
+    "ondemand": 0.159,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.07975,
+     "yrTerm1Standard.partialUpfront": 0.10626495433789954,
+     "yrTerm3Standard.allUpfront": 0.07632001522070016,
+     "yrTerm1Standard.allUpfront": 0.10335,
+     "yrTerm1Standard.noUpfront": 0.11,
+     "yrTerm3Standard.noUpfront": 0.083
+    }
+   },
+   "eu-west-1": {
+    "ondemand": 0.143,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.07175,
+     "yrTerm1Standard.partialUpfront": 0.09590502283105024,
+     "yrTerm3Standard.allUpfront": 0.06863999238964992,
+     "yrTerm1Standard.allUpfront": 0.09294999999999999,
+     "yrTerm1Standard.noUpfront": 0.099,
+     "yrTerm3Standard.noUpfront": 0.074
+    }
+   },
+   "ap-south-2": {
+    "ondemand": 0.084,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.042,
+     "yrTerm1Standard.partialUpfront": 0.05613995433789954,
+     "yrTerm3Standard.allUpfront": 0.040320015220700146,
+     "yrTerm1Standard.allUpfront": 0.0546,
+     "yrTerm1Standard.noUpfront": 0.058,
+     "yrTerm3Standard.noUpfront": 0.044
+    }
+   },
+   "us-gov-west-1": {
+    "ondemand": 0.161,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.08025,
+     "yrTerm1Standard.partialUpfront": 0.10793504566210045,
+     "yrTerm3Standard.allUpfront": 0.07727998477929984,
+     "yrTerm1Standard.allUpfront": 0.10465,
+     "yrTerm1Standard.noUpfront": 0.111,
+     "yrTerm3Standard.noUpfront": 0.084
+    }
+   },
+   "us-west-2": {
+    "ondemand": 0.128,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.064,
+     "yrTerm1Standard.partialUpfront": 0.08588002283105023,
+     "yrTerm3Standard.allUpfront": 0.06143999238964992,
+     "yrTerm1Standard.allUpfront": 0.0832,
+     "yrTerm1Standard.noUpfront": 0.088,
+     "yrTerm3Standard.noUpfront": 0.067
+    }
+   },
+   "af-south-1": {
+    "ondemand": 0.163,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.082,
+     "yrTerm1Standard.partialUpfront": 0.11,
+     "yrTerm3Standard.allUpfront": 0.07823999238964992,
+     "yrTerm1Standard.allUpfront": 0.10594999999999999,
+     "yrTerm1Standard.noUpfront": 0.112,
+     "yrTerm3Standard.noUpfront": 0.085
+    }
+   },
+   "ap-southeast-4": {
+    "ondemand": 0.159,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.07975,
+     "yrTerm1Standard.partialUpfront": 0.10626495433789954,
+     "yrTerm3Standard.allUpfront": 0.07632001522070016,
+     "yrTerm1Standard.allUpfront": 0.10335,
+     "yrTerm1Standard.noUpfront": 0.11,
+     "yrTerm3Standard.noUpfront": 0.083
+    }
+   },
+   "ap-southeast-1": {
+    "ondemand": 0.159,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.07975,
+     "yrTerm1Standard.partialUpfront": 0.10626495433789954,
+     "yrTerm3Standard.allUpfront": 0.07632001522070016,
+     "yrTerm1Standard.allUpfront": 0.10335,
+     "yrTerm1Standard.noUpfront": 0.11,
+     "yrTerm3Standard.noUpfront": 0.083
+    }
+   },
+   "eu-south-2": {
+    "ondemand": 0.143,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.07175,
+     "yrTerm1Standard.partialUpfront": 0.09590502283105024,
+     "yrTerm3Standard.allUpfront": 0.06863999238964992,
+     "yrTerm1Standard.allUpfront": 0.09294999999999999,
+     "yrTerm1Standard.noUpfront": 0.099,
+     "yrTerm3Standard.noUpfront": 0.074
+    }
+   },
+   "me-central-1": {
+    "ondemand": 0.1602,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.08003999238964993,
+     "yrTerm1Standard.partialUpfront": 0.10765365296803653,
+     "yrTerm3Standard.allUpfront": 0.07687678843226788,
+     "yrTerm1Standard.allUpfront": 0.10410399543378995,
+     "yrTerm1Standard.noUpfront": 0.111,
+     "yrTerm3Standard.noUpfront": 0.083
+    }
+   },
+   "sa-east-1": {
+    "ondemand": 0.203,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.10175,
+     "yrTerm1Standard.partialUpfront": 0.13600502283105026,
+     "yrTerm3Standard.allUpfront": 0.09743999238964991,
+     "yrTerm1Standard.allUpfront": 0.13195,
+     "yrTerm1Standard.noUpfront": 0.14,
+     "yrTerm3Standard.noUpfront": 0.106
+    }
+   },
+   "us-east-1": {
+    "ondemand": 0.128,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.064,
+     "yrTerm1Standard.partialUpfront": 0.08588002283105023,
+     "yrTerm3Standard.allUpfront": 0.06143999238964992,
+     "yrTerm1Standard.allUpfront": 0.0832,
+     "yrTerm1Standard.noUpfront": 0.088,
+     "yrTerm3Standard.noUpfront": 0.067
+    }
+   },
+   "ap-southeast-3": {
+    "ondemand": 0.159,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.07975,
+     "yrTerm1Standard.partialUpfront": 0.1062648401826484,
+     "yrTerm3Standard.allUpfront": 0.07632001522070016,
+     "yrTerm1Standard.allUpfront": 0.10335045662100456,
+     "yrTerm1Standard.noUpfront": 0.11,
+     "yrTerm3Standard.noUpfront": 0.083
+    }
+   },
+   "us-east-2": {
+    "ondemand": 0.128,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.064,
+     "yrTerm1Standard.partialUpfront": 0.08588002283105023,
+     "yrTerm3Standard.allUpfront": 0.06143999238964992,
+     "yrTerm1Standard.allUpfront": 0.0832,
+     "yrTerm1Standard.noUpfront": 0.088,
+     "yrTerm3Standard.noUpfront": 0.067
+    }
+   },
+   "ap-south-1": {
+    "ondemand": 0.084,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.042,
+     "yrTerm1Standard.partialUpfront": 0.05613995433789954,
+     "yrTerm3Standard.allUpfront": 0.040320015220700146,
+     "yrTerm1Standard.allUpfront": 0.0546,
+     "yrTerm1Standard.noUpfront": 0.058,
+     "yrTerm3Standard.noUpfront": 0.044
+    }
+   },
+   "us-gov-east-1": {
+    "ondemand": 0.161,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.08025,
+     "yrTerm1Standard.partialUpfront": 0.10793504566210045,
+     "yrTerm3Standard.allUpfront": 0.07727998477929984,
+     "yrTerm1Standard.allUpfront": 0.10465,
+     "yrTerm1Standard.noUpfront": 0.111,
+     "yrTerm3Standard.noUpfront": 0.084
+    }
+   },
+   "me-south-1": {
+    "ondemand": 0.15,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.076,
+     "yrTerm1Standard.partialUpfront": 0.1,
+     "yrTerm3Standard.allUpfront": 0.072,
+     "yrTerm1Standard.allUpfront": 0.09749999999999999,
+     "yrTerm1Standard.noUpfront": 0.104,
+     "yrTerm3Standard.noUpfront": 0.078
+    }
+   },
+   "eu-north-1": {
+    "ondemand": 0.136,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.068,
+     "yrTerm1Standard.partialUpfront": 0.09156004566210046,
+     "yrTerm3Standard.allUpfront": 0.06527998477929985,
+     "yrTerm1Standard.allUpfront": 0.08839999999999999,
+     "yrTerm1Standard.noUpfront": 0.094,
+     "yrTerm3Standard.noUpfront": 0.071
+    }
+   },
+   "eu-central-2": {
+    "ondemand": 0.162,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.082,
+     "yrTerm1Standard.partialUpfront": 0.108,
+     "yrTerm3Standard.allUpfront": 0.07776000761035007,
+     "yrTerm1Standard.allUpfront": 0.1053,
+     "yrTerm1Standard.noUpfront": 0.112,
+     "yrTerm3Standard.noUpfront": 0.084
+    }
+   },
+   "eu-south-1": {
+    "ondemand": 0.149,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.07425,
+     "yrTerm1Standard.partialUpfront": 0.09991552511415525,
+     "yrTerm3Standard.allUpfront": 0.07152016742770168,
+     "yrTerm1Standard.allUpfront": 0.09685045662100455,
+     "yrTerm1Standard.noUpfront": 0.103,
+     "yrTerm3Standard.noUpfront": 0.077
+    }
+   },
+   "ap-northeast-2": {
+    "ondemand": 0.156,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.078,
+     "yrTerm1Standard.partialUpfront": 0.10426004566210045,
+     "yrTerm3Standard.allUpfront": 0.07487998477929984,
+     "yrTerm1Standard.allUpfront": 0.1014,
+     "yrTerm1Standard.noUpfront": 0.108,
+     "yrTerm3Standard.noUpfront": 0.081
+    }
+   }
+  },
+  "regions": {
+   "il-central-1": "Israel (Tel Aviv)",
+   "ap-east-1": "Asia Pacific (Hong Kong)",
+   "ap-northeast-1": "Asia Pacific (Tokyo)",
+   "us-west-1": "US West (N. California)",
+   "eu-west-3": "Europe (Paris)",
+   "eu-central-1": "Europe (Frankfurt)",
+   "ca-central-1": "Canada (Central)",
+   "eu-west-2": "Europe (London)",
+   "ap-southeast-2": "Asia Pacific (Sydney)",
+   "eu-west-1": "Europe (Ireland)",
+   "ap-south-2": "Asia Pacific (Hyderabad)",
+   "us-gov-west-1": "AWS GovCloud (US-West)",
+   "us-west-2": "US West (Oregon)",
+   "af-south-1": "Africa (Cape Town)",
+   "ap-southeast-4": "Asia Pacific (Melbourne)",
+   "ap-southeast-1": "Asia Pacific (Singapore)",
+   "eu-south-2": "Europe (Spain)",
+   "ap-northeast-3": "Asia Pacific (Osaka)",
+   "me-central-1": "Middle East (UAE)",
+   "sa-east-1": "South America (Sao Paulo)",
+   "us-east-1": "US East (N. Virginia)",
+   "ap-southeast-3": "Asia Pacific (Jakarta)",
+   "us-east-2": "US East (Ohio)",
+   "ap-south-1": "Asia Pacific (Mumbai)",
+   "us-gov-east-1": "AWS GovCloud (US-East)",
+   "me-south-1": "Middle East (Bahrain)",
+   "eu-north-1": "Europe (Stockholm)",
+   "eu-central-2": "Europe (Zurich)",
+   "eu-south-1": "Europe (Milan)",
+   "ap-northeast-2": "Asia Pacific (Seoul)"
+  },
+  "pretty_name": "M6G General Purpose Large",
+  "min_ebs": "10 GiB",
+  "max_ebs_gp2": "512 GiB",
+  "max_ebs_gp3": "1 TiB",
+  "max_http_payload": "10 MiB"
+ },
+ {
+  "servicecode": "AmazonES",
   "instanceType": "m5.12xlarge.search",
   "currentGeneration": "Yes",
   "instanceFamily": "General purpose",
@@ -14190,6 +16022,17 @@
      "yrTerm3Standard.noUpfront": 2.043
     }
    },
+   "ca-west-1": {
+    "ondemand": 3.788,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.8940000000000001,
+     "yrTerm1Standard.partialUpfront": 2.5380000000000003,
+     "yrTerm3Standard.allUpfront": 1.81823999238965,
+     "yrTerm1Standard.allUpfront": 2.4621999999999997,
+     "yrTerm1Standard.noUpfront": 2.614,
+     "yrTerm3Standard.noUpfront": 1.97
+    }
+   },
    "eu-central-1": {
     "ondemand": 4.071,
     "reserved": {
@@ -14302,6 +16145,7 @@
    "ap-southeast-4": "Asia Pacific (Melbourne)",
    "ap-south-2": "Asia Pacific (Hyderabad)",
    "eu-west-2": "Europe (London)",
+   "ca-west-1": "Canada West (Calgary)",
    "eu-central-1": "Europe (Frankfurt)",
    "eu-west-1": "Europe (Ireland)",
    "ap-northeast-1": "Asia Pacific (Tokyo)",
@@ -14997,6 +16841,17 @@
      "yrTerm3Standard.noUpfront": 2.347
     }
    },
+   "ca-west-1": {
+    "ondemand": 4.938,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 2.47,
+     "yrTerm1Standard.partialUpfront": 3.308,
+     "yrTerm3Standard.allUpfront": 2.3702399923896498,
+     "yrTerm1Standard.allUpfront": 3.2097,
+     "yrTerm1Standard.noUpfront": 3.407,
+     "yrTerm3Standard.noUpfront": 2.568
+    }
+   },
    "me-south-1": {
     "ondemand": 5.607,
     "reserved": {
@@ -15218,6 +17073,7 @@
    "eu-west-3": "Europe (Paris)",
    "ap-southeast-3": "Asia Pacific (Jakarta)",
    "ap-south-1": "Asia Pacific (Mumbai)",
+   "ca-west-1": "Canada West (Calgary)",
    "me-south-1": "Middle East (Bahrain)",
    "us-east-1": "US East (N. Virginia)",
    "us-west-2": "US West (Oregon)",
@@ -15404,330 +17260,6 @@
   "max_ebs_gp2": "N/A",
   "max_ebs_gp3": "24 TiB",
   "max_http_payload": "100 MiB"
- },
- {
-  "servicecode": "AmazonES",
-  "instanceType": "m6g.large.search",
-  "currentGeneration": "Yes",
-  "instanceFamily": "General purpose",
-  "vcpu": "2",
-  "storage": "EBS Only",
-  "ecu": "variable",
-  "memoryGib": "8",
-  "regionCode": "ap-south-1",
-  "servicename": "Amazon OpenSearch Service",
-  "memory": "8",
-  "family": "General purpose",
-  "instance_type": "m6g.large.search",
-  "pricing": {
-   "ap-south-1": {
-    "ondemand": 0.084,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.042,
-     "yrTerm1Standard.partialUpfront": 0.05613995433789954,
-     "yrTerm3Standard.allUpfront": 0.040320015220700146,
-     "yrTerm1Standard.allUpfront": 0.0546,
-     "yrTerm1Standard.noUpfront": 0.058,
-     "yrTerm3Standard.noUpfront": 0.044
-    }
-   },
-   "ap-east-1": {
-    "ondemand": 0.176,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.088,
-     "yrTerm1Standard.partialUpfront": 0.11796004566210044,
-     "yrTerm3Standard.allUpfront": 0.08447998477929985,
-     "yrTerm1Standard.allUpfront": 0.1144,
-     "yrTerm1Standard.noUpfront": 0.121,
-     "yrTerm3Standard.noUpfront": 0.092
-    }
-   },
-   "ap-northeast-1": {
-    "ondemand": 0.164,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.082,
-     "yrTerm1Standard.partialUpfront": 0.10993995433789955,
-     "yrTerm3Standard.allUpfront": 0.07872001522070016,
-     "yrTerm1Standard.allUpfront": 0.10660000000000001,
-     "yrTerm1Standard.noUpfront": 0.113,
-     "yrTerm3Standard.noUpfront": 0.085
-    }
-   },
-   "us-west-1": {
-    "ondemand": 0.149,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.07425,
-     "yrTerm1Standard.partialUpfront": 0.09991495433789954,
-     "yrTerm3Standard.allUpfront": 0.07152001522070016,
-     "yrTerm1Standard.allUpfront": 0.09684999999999999,
-     "yrTerm1Standard.noUpfront": 0.103,
-     "yrTerm3Standard.noUpfront": 0.077
-    }
-   },
-   "eu-west-3": {
-    "ondemand": 0.149,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.07425,
-     "yrTerm1Standard.partialUpfront": 0.09991552511415525,
-     "yrTerm3Standard.allUpfront": 0.07152016742770168,
-     "yrTerm1Standard.allUpfront": 0.09685045662100455,
-     "yrTerm1Standard.noUpfront": 0.103,
-     "yrTerm3Standard.noUpfront": 0.077
-    }
-   },
-   "eu-central-1": {
-    "ondemand": 0.153,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.07625,
-     "yrTerm1Standard.partialUpfront": 0.10225502283105023,
-     "yrTerm3Standard.allUpfront": 0.07343999238964992,
-     "yrTerm1Standard.allUpfront": 0.09945,
-     "yrTerm1Standard.noUpfront": 0.106,
-     "yrTerm3Standard.noUpfront": 0.08
-    }
-   },
-   "ca-central-1": {
-    "ondemand": 0.142,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.07150000000000001,
-     "yrTerm1Standard.partialUpfront": 0.09556997716894977,
-     "yrTerm3Standard.allUpfront": 0.06816000761035007,
-     "yrTerm1Standard.allUpfront": 0.0923,
-     "yrTerm1Standard.noUpfront": 0.098,
-     "yrTerm3Standard.noUpfront": 0.074
-    }
-   },
-   "eu-west-2": {
-    "ondemand": 0.147,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.07375,
-     "yrTerm1Standard.partialUpfront": 0.09824497716894978,
-     "yrTerm3Standard.allUpfront": 0.07056000761035007,
-     "yrTerm1Standard.allUpfront": 0.09555000000000001,
-     "yrTerm1Standard.noUpfront": 0.101,
-     "yrTerm3Standard.noUpfront": 0.076
-    }
-   },
-   "ap-southeast-2": {
-    "ondemand": 0.159,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.07975,
-     "yrTerm1Standard.partialUpfront": 0.10626495433789954,
-     "yrTerm3Standard.allUpfront": 0.07632001522070016,
-     "yrTerm1Standard.allUpfront": 0.10335,
-     "yrTerm1Standard.noUpfront": 0.11,
-     "yrTerm3Standard.noUpfront": 0.083
-    }
-   },
-   "eu-west-1": {
-    "ondemand": 0.143,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.07175,
-     "yrTerm1Standard.partialUpfront": 0.09590502283105024,
-     "yrTerm3Standard.allUpfront": 0.06863999238964992,
-     "yrTerm1Standard.allUpfront": 0.09294999999999999,
-     "yrTerm1Standard.noUpfront": 0.099,
-     "yrTerm3Standard.noUpfront": 0.074
-    }
-   },
-   "ap-south-2": {
-    "ondemand": 0.084,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.042,
-     "yrTerm1Standard.partialUpfront": 0.05613995433789954,
-     "yrTerm3Standard.allUpfront": 0.040320015220700146,
-     "yrTerm1Standard.allUpfront": 0.0546,
-     "yrTerm1Standard.noUpfront": 0.058,
-     "yrTerm3Standard.noUpfront": 0.044
-    }
-   },
-   "us-gov-west-1": {
-    "ondemand": 0.161,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.08025,
-     "yrTerm1Standard.partialUpfront": 0.10793504566210045,
-     "yrTerm3Standard.allUpfront": 0.07727998477929984,
-     "yrTerm1Standard.allUpfront": 0.10465,
-     "yrTerm1Standard.noUpfront": 0.111,
-     "yrTerm3Standard.noUpfront": 0.084
-    }
-   },
-   "us-west-2": {
-    "ondemand": 0.128,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.064,
-     "yrTerm1Standard.partialUpfront": 0.08588002283105023,
-     "yrTerm3Standard.allUpfront": 0.06143999238964992,
-     "yrTerm1Standard.allUpfront": 0.0832,
-     "yrTerm1Standard.noUpfront": 0.088,
-     "yrTerm3Standard.noUpfront": 0.067
-    }
-   },
-   "ap-southeast-4": {
-    "ondemand": 0.159,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.07975,
-     "yrTerm1Standard.partialUpfront": 0.10626495433789954,
-     "yrTerm3Standard.allUpfront": 0.07632001522070016,
-     "yrTerm1Standard.allUpfront": 0.10335,
-     "yrTerm1Standard.noUpfront": 0.11,
-     "yrTerm3Standard.noUpfront": 0.083
-    }
-   },
-   "ap-southeast-1": {
-    "ondemand": 0.159,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.07975,
-     "yrTerm1Standard.partialUpfront": 0.10626495433789954,
-     "yrTerm3Standard.allUpfront": 0.07632001522070016,
-     "yrTerm1Standard.allUpfront": 0.10335,
-     "yrTerm1Standard.noUpfront": 0.11,
-     "yrTerm3Standard.noUpfront": 0.083
-    }
-   },
-   "eu-south-2": {
-    "ondemand": 0.143,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.07175,
-     "yrTerm1Standard.partialUpfront": 0.09590502283105024,
-     "yrTerm3Standard.allUpfront": 0.06863999238964992,
-     "yrTerm1Standard.allUpfront": 0.09294999999999999,
-     "yrTerm1Standard.noUpfront": 0.099,
-     "yrTerm3Standard.noUpfront": 0.074
-    }
-   },
-   "me-central-1": {
-    "ondemand": 0.1602,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.08003999238964993,
-     "yrTerm1Standard.partialUpfront": 0.10765365296803653,
-     "yrTerm3Standard.allUpfront": 0.07687678843226788,
-     "yrTerm1Standard.allUpfront": 0.10410399543378995,
-     "yrTerm1Standard.noUpfront": 0.111,
-     "yrTerm3Standard.noUpfront": 0.083
-    }
-   },
-   "sa-east-1": {
-    "ondemand": 0.203,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.10175,
-     "yrTerm1Standard.partialUpfront": 0.13600502283105026,
-     "yrTerm3Standard.allUpfront": 0.09743999238964991,
-     "yrTerm1Standard.allUpfront": 0.13195,
-     "yrTerm1Standard.noUpfront": 0.14,
-     "yrTerm3Standard.noUpfront": 0.106
-    }
-   },
-   "us-east-1": {
-    "ondemand": 0.128,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.064,
-     "yrTerm1Standard.partialUpfront": 0.08588002283105023,
-     "yrTerm3Standard.allUpfront": 0.06143999238964992,
-     "yrTerm1Standard.allUpfront": 0.0832,
-     "yrTerm1Standard.noUpfront": 0.088,
-     "yrTerm3Standard.noUpfront": 0.067
-    }
-   },
-   "ap-southeast-3": {
-    "ondemand": 0.159,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.07975,
-     "yrTerm1Standard.partialUpfront": 0.1062648401826484,
-     "yrTerm3Standard.allUpfront": 0.07632001522070016,
-     "yrTerm1Standard.allUpfront": 0.10335045662100456,
-     "yrTerm1Standard.noUpfront": 0.11,
-     "yrTerm3Standard.noUpfront": 0.083
-    }
-   },
-   "us-east-2": {
-    "ondemand": 0.128,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.064,
-     "yrTerm1Standard.partialUpfront": 0.08588002283105023,
-     "yrTerm3Standard.allUpfront": 0.06143999238964992,
-     "yrTerm1Standard.allUpfront": 0.0832,
-     "yrTerm1Standard.noUpfront": 0.088,
-     "yrTerm3Standard.noUpfront": 0.067
-    }
-   },
-   "us-gov-east-1": {
-    "ondemand": 0.161,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.08025,
-     "yrTerm1Standard.partialUpfront": 0.10793504566210045,
-     "yrTerm3Standard.allUpfront": 0.07727998477929984,
-     "yrTerm1Standard.allUpfront": 0.10465,
-     "yrTerm1Standard.noUpfront": 0.111,
-     "yrTerm3Standard.noUpfront": 0.084
-    }
-   },
-   "eu-north-1": {
-    "ondemand": 0.136,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.068,
-     "yrTerm1Standard.partialUpfront": 0.09156004566210046,
-     "yrTerm3Standard.allUpfront": 0.06527998477929985,
-     "yrTerm1Standard.allUpfront": 0.08839999999999999,
-     "yrTerm1Standard.noUpfront": 0.094,
-     "yrTerm3Standard.noUpfront": 0.071
-    }
-   },
-   "eu-south-1": {
-    "ondemand": 0.149,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.07425,
-     "yrTerm1Standard.partialUpfront": 0.09991552511415525,
-     "yrTerm3Standard.allUpfront": 0.07152016742770168,
-     "yrTerm1Standard.allUpfront": 0.09685045662100455,
-     "yrTerm1Standard.noUpfront": 0.103,
-     "yrTerm3Standard.noUpfront": 0.077
-    }
-   },
-   "ap-northeast-2": {
-    "ondemand": 0.156,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.078,
-     "yrTerm1Standard.partialUpfront": 0.10426004566210045,
-     "yrTerm3Standard.allUpfront": 0.07487998477929984,
-     "yrTerm1Standard.allUpfront": 0.1014,
-     "yrTerm1Standard.noUpfront": 0.108,
-     "yrTerm3Standard.noUpfront": 0.081
-    }
-   }
-  },
-  "regions": {
-   "ap-east-1": "Asia Pacific (Hong Kong)",
-   "ap-northeast-1": "Asia Pacific (Tokyo)",
-   "us-west-1": "US West (N. California)",
-   "eu-west-3": "Europe (Paris)",
-   "eu-central-1": "Europe (Frankfurt)",
-   "ca-central-1": "Canada (Central)",
-   "eu-west-2": "Europe (London)",
-   "ap-southeast-2": "Asia Pacific (Sydney)",
-   "eu-west-1": "Europe (Ireland)",
-   "ap-south-2": "Asia Pacific (Hyderabad)",
-   "us-gov-west-1": "AWS GovCloud (US-West)",
-   "us-west-2": "US West (Oregon)",
-   "ap-southeast-4": "Asia Pacific (Melbourne)",
-   "ap-southeast-1": "Asia Pacific (Singapore)",
-   "eu-south-2": "Europe (Spain)",
-   "me-central-1": "Middle East (UAE)",
-   "sa-east-1": "South America (Sao Paulo)",
-   "us-east-1": "US East (N. Virginia)",
-   "ap-southeast-3": "Asia Pacific (Jakarta)",
-   "us-east-2": "US East (Ohio)",
-   "ap-south-1": "Asia Pacific (Mumbai)",
-   "us-gov-east-1": "AWS GovCloud (US-East)",
-   "eu-north-1": "Europe (Stockholm)",
-   "eu-south-1": "Europe (Milan)",
-   "ap-northeast-2": "Asia Pacific (Seoul)"
-  },
-  "pretty_name": "M6G General Purpose Large",
-  "min_ebs": "10 GiB",
-  "max_ebs_gp2": "512 GiB",
-  "max_ebs_gp3": "1 TiB",
-  "max_http_payload": "10 MiB"
  },
  {
   "servicecode": "AmazonES",
@@ -16411,6 +17943,17 @@
      "yrTerm3Standard.noUpfront": 0.15
     }
    },
+   "ca-west-1": {
+    "ondemand": 0.274,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.138,
+     "yrTerm1Standard.partialUpfront": 0.184,
+     "yrTerm3Standard.allUpfront": 0.13152001522070014,
+     "yrTerm1Standard.allUpfront": 0.1781,
+     "yrTerm1Standard.noUpfront": 0.189,
+     "yrTerm3Standard.noUpfront": 0.142
+    }
+   },
    "eu-north-1": {
     "ondemand": 0.268,
     "reserved": {
@@ -16535,7 +18078,9 @@
    "eu-south-2": {
     "ondemand": 0.283,
     "reserved": {
-     "yrTerm3Standard.allUpfront": 0.07073820395738205,
+     "yrTerm3Standard.partialUpfront": 0.14173820395738204,
+     "yrTerm1Standard.partialUpfront": 0.1897488584474886,
+     "yrTerm3Standard.allUpfront": 0.1358447488584475,
      "yrTerm1Standard.allUpfront": 0.1839041095890411,
      "yrTerm1Standard.noUpfront": 0.195,
      "yrTerm3Standard.noUpfront": 0.147
@@ -16691,6 +18236,7 @@
    "ap-southeast-3": "Asia Pacific (Jakarta)",
    "ap-southeast-1": "Asia Pacific (Singapore)",
    "us-east-1": "US East (N. Virginia)",
+   "ca-west-1": "Canada West (Calgary)",
    "eu-north-1": "Europe (Stockholm)",
    "ap-south-1": "Asia Pacific (Mumbai)",
    "ap-northeast-3": "Asia Pacific (Osaka)",
@@ -16769,6 +18315,17 @@
      "yrTerm1Standard.allUpfront": 1.078896,
      "yrTerm1Standard.noUpfront": 1.14529,
      "yrTerm3Standard.noUpfront": 0.863117
+    }
+   },
+   "ca-west-1": {
+    "ondemand": 1.628,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.814,
+     "yrTerm1Standard.partialUpfront": 1.09,
+     "yrTerm3Standard.allUpfront": 0.7814399923896499,
+     "yrTerm1Standard.allUpfront": 1.0582,
+     "yrTerm1Standard.noUpfront": 1.123,
+     "yrTerm3Standard.noUpfront": 0.847
     }
    },
    "ap-southeast-3": {
@@ -17072,6 +18629,7 @@
   "regions": {
    "ap-south-2": "Asia Pacific (Hyderabad)",
    "il-central-1": "Israel (Tel Aviv)",
+   "ca-west-1": "Canada West (Calgary)",
    "ap-southeast-3": "Asia Pacific (Jakarta)",
    "ap-southeast-4": "Asia Pacific (Melbourne)",
    "af-south-1": "Africa (Cape Town)",
@@ -17815,6 +19373,17 @@
      "yrTerm3Standard.noUpfront": 0.24
     }
    },
+   "us-gov-west-1": {
+    "ondemand": 0.443,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.222,
+     "yrTerm1Standard.partialUpfront": 0.296,
+     "yrTerm3Standard.allUpfront": 0.21263999238964992,
+     "yrTerm1Standard.allUpfront": 0.28795,
+     "yrTerm1Standard.noUpfront": 0.306,
+     "yrTerm3Standard.noUpfront": 0.23
+    }
+   },
    "us-east-2": {
     "ondemand": 0.382,
     "reserved": {
@@ -17881,6 +19450,17 @@
      "yrTerm3Standard.noUpfront": 0.221
     }
    },
+   "ap-northeast-3": {
+    "ondemand": 0.445,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.222,
+     "yrTerm1Standard.partialUpfront": 0.298,
+     "yrTerm3Standard.allUpfront": 0.2136,
+     "yrTerm1Standard.allUpfront": 0.28925,
+     "yrTerm1Standard.noUpfront": 0.307,
+     "yrTerm3Standard.noUpfront": 0.231
+    }
+   },
    "sa-east-1": {
     "ondemand": 0.606,
     "reserved": {
@@ -17929,12 +19509,14 @@
   "regions": {
    "ca-central-1": "Canada (Central)",
    "ap-southeast-2": "Asia Pacific (Sydney)",
+   "us-gov-west-1": "AWS GovCloud (US-West)",
    "us-east-2": "US East (Ohio)",
    "ap-south-1": "Asia Pacific (Mumbai)",
    "us-east-1": "US East (N. Virginia)",
    "ap-southeast-1": "Asia Pacific (Singapore)",
    "ap-northeast-1": "Asia Pacific (Tokyo)",
    "eu-west-1": "Europe (Ireland)",
+   "ap-northeast-3": "Asia Pacific (Osaka)",
    "sa-east-1": "South America (Sao Paulo)",
    "us-west-2": "US West (Oregon)",
    "eu-west-3": "Europe (Paris)",
@@ -18830,6 +20412,17 @@
      "yrTerm3Standard.noUpfront": 0.261
     }
    },
+   "ca-west-1": {
+    "ondemand": 0.549,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.274,
+     "yrTerm1Standard.partialUpfront": 0.368,
+     "yrTerm3Standard.allUpfront": 0.2635200152207001,
+     "yrTerm1Standard.allUpfront": 0.35684999999999995,
+     "yrTerm1Standard.noUpfront": 0.379,
+     "yrTerm3Standard.noUpfront": 0.285
+    }
+   },
    "eu-south-2": {
     "ondemand": 0.566,
     "reserved": {
@@ -18922,6 +20515,7 @@
    "ap-southeast-2": "Asia Pacific (Sydney)",
    "sa-east-1": "South America (Sao Paulo)",
    "ap-south-2": "Asia Pacific (Hyderabad)",
+   "ca-west-1": "Canada West (Calgary)",
    "eu-south-2": "Europe (Spain)",
    "eu-west-2": "Europe (London)",
    "us-gov-east-1": "AWS GovCloud (US-East)",
@@ -19016,6 +20610,17 @@
      "yrTerm3Standard.noUpfront": 0.953
     }
    },
+   "ap-northeast-3": {
+    "ondemand": 1.782,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.8919999999999999,
+     "yrTerm1Standard.partialUpfront": 1.194,
+     "yrTerm3Standard.allUpfront": 0.8553600076103501,
+     "yrTerm1Standard.allUpfront": 1.1583,
+     "yrTerm1Standard.noUpfront": 1.23,
+     "yrTerm3Standard.noUpfront": 0.927
+    }
+   },
    "us-east-1": {
     "ondemand": 1.53,
     "reserved": {
@@ -19060,6 +20665,17 @@
      "yrTerm3Standard.noUpfront": 0.933
     }
    },
+   "us-gov-west-1": {
+    "ondemand": 1.772,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.8860000000000001,
+     "yrTerm1Standard.partialUpfront": 1.188,
+     "yrTerm3Standard.allUpfront": 0.85056000761035,
+     "yrTerm1Standard.allUpfront": 1.1518,
+     "yrTerm1Standard.noUpfront": 1.223,
+     "yrTerm3Standard.noUpfront": 0.921
+    }
+   },
    "ap-southeast-1": {
     "ondemand": 1.846,
     "reserved": {
@@ -19100,11 +20716,13 @@
    "ap-southeast-2": "Asia Pacific (Sydney)",
    "sa-east-1": "South America (Sao Paulo)",
    "eu-central-1": "Europe (Frankfurt)",
+   "ap-northeast-3": "Asia Pacific (Osaka)",
    "us-east-1": "US East (N. Virginia)",
    "us-east-2": "US East (Ohio)",
    "us-west-2": "US West (Oregon)",
    "us-west-1": "US West (N. California)",
    "eu-west-3": "Europe (Paris)",
+   "us-gov-west-1": "AWS GovCloud (US-West)",
    "ap-southeast-1": "Asia Pacific (Singapore)",
    "ca-central-1": "Canada (Central)",
    "ap-south-1": "Asia Pacific (Mumbai)"
@@ -19435,6 +21053,28 @@
      "yrTerm3Standard.noUpfront": 2.519
     }
    },
+   "us-gov-west-1": {
+    "ondemand": 3.543,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.7720000000000002,
+     "yrTerm1Standard.partialUpfront": 2.374,
+     "yrTerm3Standard.allUpfront": 1.70063999238965,
+     "yrTerm1Standard.allUpfront": 2.30295,
+     "yrTerm1Standard.noUpfront": 2.445,
+     "yrTerm3Standard.noUpfront": 1.842
+    }
+   },
+   "ap-northeast-3": {
+    "ondemand": 3.564,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.782,
+     "yrTerm1Standard.partialUpfront": 2.388,
+     "yrTerm3Standard.allUpfront": 1.7107200152207003,
+     "yrTerm1Standard.allUpfront": 2.3166,
+     "yrTerm1Standard.noUpfront": 2.459,
+     "yrTerm3Standard.noUpfront": 1.853
+    }
+   },
    "ap-southeast-1": {
     "ondemand": 3.692,
     "reserved": {
@@ -19509,6 +21149,8 @@
    "eu-central-1": "Europe (Frankfurt)",
    "ap-southeast-2": "Asia Pacific (Sydney)",
    "sa-east-1": "South America (Sao Paulo)",
+   "us-gov-west-1": "AWS GovCloud (US-West)",
+   "ap-northeast-3": "Asia Pacific (Osaka)",
    "ap-southeast-1": "Asia Pacific (Singapore)",
    "ap-northeast-1": "Asia Pacific (Tokyo)",
    "us-east-2": "US East (Ohio)",
@@ -19525,326 +21167,206 @@
  },
  {
   "servicecode": "AmazonES",
-  "instanceType": "r6g.2xlarge.search",
+  "instanceType": "r6gd.16xlarge.search",
   "currentGeneration": "Yes",
   "instanceFamily": "Memory optimized",
-  "vcpu": "8",
-  "storage": "EBS Only",
+  "vcpu": "64",
+  "storage": "2 x 1900 NVMe SSD",
   "ecu": "variable",
-  "memoryGib": "64",
+  "memoryGib": "512",
   "regionCode": "us-gov-west-1",
   "servicename": "Amazon OpenSearch Service",
-  "memory": "64",
+  "memory": "512",
   "family": "Memory optimized",
-  "instance_type": "r6g.2xlarge.search",
+  "instance_type": "r6gd.16xlarge.search",
   "pricing": {
    "us-gov-west-1": {
-    "ondemand": 0.802,
+    "ondemand": 7.086,
     "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.4015,
-     "yrTerm1Standard.partialUpfront": 0.5376699771689497,
-     "yrTerm3Standard.allUpfront": 0.3849600076103501,
-     "yrTerm1Standard.allUpfront": 0.5213,
-     "yrTerm1Standard.noUpfront": 0.553,
-     "yrTerm3Standard.noUpfront": 0.417
-    }
-   },
-   "us-east-2": {
-    "ondemand": 0.669,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.33425000000000005,
-     "yrTerm1Standard.partialUpfront": 0.44811495433789955,
-     "yrTerm3Standard.allUpfront": 0.32112001522070016,
-     "yrTerm1Standard.allUpfront": 0.43485,
-     "yrTerm1Standard.noUpfront": 0.462,
-     "yrTerm3Standard.noUpfront": 0.348
-    }
-   },
-   "ap-northeast-1": {
-    "ondemand": 0.807,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.40375,
-     "yrTerm1Standard.partialUpfront": 0.5403449771689498,
-     "yrTerm3Standard.allUpfront": 0.38736000761035005,
-     "yrTerm1Standard.allUpfront": 0.52455,
-     "yrTerm1Standard.noUpfront": 0.557,
-     "yrTerm3Standard.noUpfront": 0.42
-    }
-   },
-   "ap-east-1": {
-    "ondemand": 0.89,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.4455,
-     "yrTerm1Standard.partialUpfront": 0.59615,
-     "yrTerm3Standard.allUpfront": 0.4272,
-     "yrTerm1Standard.allUpfront": 0.5785,
-     "yrTerm1Standard.noUpfront": 0.614,
-     "yrTerm3Standard.noUpfront": 0.463
-    }
-   },
-   "ca-central-1": {
-    "ondemand": 0.733,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.36625,
-     "yrTerm1Standard.partialUpfront": 0.49155502283105024,
-     "yrTerm3Standard.allUpfront": 0.35183999238964986,
-     "yrTerm1Standard.allUpfront": 0.47645000000000004,
-     "yrTerm1Standard.noUpfront": 0.506,
-     "yrTerm3Standard.noUpfront": 0.381
-    }
-   },
-   "us-west-2": {
-    "ondemand": 0.669,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.33425000000000005,
-     "yrTerm1Standard.partialUpfront": 0.44811495433789955,
-     "yrTerm3Standard.allUpfront": 0.32112001522070016,
-     "yrTerm1Standard.allUpfront": 0.43485,
-     "yrTerm1Standard.noUpfront": 0.462,
-     "yrTerm3Standard.noUpfront": 0.348
-    }
-   },
-   "ap-southeast-2": {
-    "ondemand": 0.802,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.4015,
-     "yrTerm1Standard.partialUpfront": 0.5376699771689497,
-     "yrTerm3Standard.allUpfront": 0.3849600076103501,
-     "yrTerm1Standard.allUpfront": 0.5213,
-     "yrTerm1Standard.noUpfront": 0.553,
-     "yrTerm3Standard.noUpfront": 0.417
-    }
-   },
-   "ap-south-1": {
-    "ondemand": 0.432,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.21599999999999997,
-     "yrTerm1Standard.partialUpfront": 0.28971997716894976,
-     "yrTerm3Standard.allUpfront": 0.2073600076103501,
-     "yrTerm1Standard.allUpfront": 0.2808,
-     "yrTerm1Standard.noUpfront": 0.298,
-     "yrTerm3Standard.noUpfront": 0.225
-    }
-   },
-   "me-central-1": {
-    "ondemand": 0.8389,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.4187200152207001,
-     "yrTerm1Standard.partialUpfront": 0.5620247716894977,
-     "yrTerm3Standard.allUpfront": 0.40266240487062405,
-     "yrTerm1Standard.allUpfront": 0.5452720319634703,
-     "yrTerm1Standard.noUpfront": 0.579,
-     "yrTerm3Standard.noUpfront": 0.436
-    }
-   },
-   "eu-south-2": {
-    "ondemand": 0.749,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.37425,
-     "yrTerm1Standard.partialUpfront": 0.5019149543378996,
-     "yrTerm3Standard.allUpfront": 0.35952001522070015,
-     "yrTerm1Standard.allUpfront": 0.48684999999999995,
-     "yrTerm1Standard.noUpfront": 0.517,
-     "yrTerm3Standard.noUpfront": 0.389
-    }
-   },
-   "eu-south-1": {
-    "ondemand": 0.786,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.3935,
-     "yrTerm1Standard.partialUpfront": 0.5263105022831049,
-     "yrTerm3Standard.allUpfront": 0.37728006088280064,
-     "yrTerm1Standard.allUpfront": 0.5108995433789955,
-     "yrTerm1Standard.noUpfront": 0.542,
-     "yrTerm3Standard.noUpfront": 0.409
-    }
-   },
-   "eu-west-1": {
-    "ondemand": 0.749,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.37425,
-     "yrTerm1Standard.partialUpfront": 0.5019149543378996,
-     "yrTerm3Standard.allUpfront": 0.35952001522070015,
-     "yrTerm1Standard.allUpfront": 0.48684999999999995,
-     "yrTerm1Standard.noUpfront": 0.517,
-     "yrTerm3Standard.noUpfront": 0.389
-    }
-   },
-   "ap-south-2": {
-    "ondemand": 0.432,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.21599999999999997,
-     "yrTerm1Standard.partialUpfront": 0.28971997716894976,
-     "yrTerm3Standard.allUpfront": 0.2073600076103501,
-     "yrTerm1Standard.allUpfront": 0.2808,
-     "yrTerm1Standard.noUpfront": 0.298,
-     "yrTerm3Standard.noUpfront": 0.225
-    }
-   },
-   "ap-southeast-1": {
-    "ondemand": 0.807,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.40375,
-     "yrTerm1Standard.partialUpfront": 0.5403449771689498,
-     "yrTerm3Standard.allUpfront": 0.38736000761035005,
-     "yrTerm1Standard.allUpfront": 0.52455,
-     "yrTerm1Standard.noUpfront": 0.557,
-     "yrTerm3Standard.noUpfront": 0.42
-    }
-   },
-   "eu-west-3": {
-    "ondemand": 0.784,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.392,
-     "yrTerm1Standard.partialUpfront": 0.5256404109589041,
-     "yrTerm3Standard.allUpfront": 0.3763200152207002,
-     "yrTerm1Standard.allUpfront": 0.5096004566210046,
-     "yrTerm1Standard.noUpfront": 0.541,
-     "yrTerm3Standard.noUpfront": 0.408
-    }
-   },
-   "eu-central-1": {
-    "ondemand": 0.807,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.40375,
-     "yrTerm1Standard.partialUpfront": 0.5403449771689498,
-     "yrTerm3Standard.allUpfront": 0.38736000761035005,
-     "yrTerm1Standard.allUpfront": 0.52455,
-     "yrTerm1Standard.noUpfront": 0.557,
-     "yrTerm3Standard.noUpfront": 0.42
-    }
-   },
-   "eu-north-1": {
-    "ondemand": 0.71,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.3555,
-     "yrTerm1Standard.partialUpfront": 0.47585,
-     "yrTerm3Standard.allUpfront": 0.3408,
-     "yrTerm1Standard.allUpfront": 0.46149999999999997,
-     "yrTerm1Standard.noUpfront": 0.49,
-     "yrTerm3Standard.noUpfront": 0.369
-    }
-   },
-   "ap-northeast-2": {
-    "ondemand": 0.81,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.40549999999999997,
-     "yrTerm1Standard.partialUpfront": 0.54235,
-     "yrTerm3Standard.allUpfront": 0.38880000000000003,
-     "yrTerm1Standard.allUpfront": 0.5265000000000001,
-     "yrTerm1Standard.noUpfront": 0.559,
-     "yrTerm3Standard.noUpfront": 0.421
-    }
-   },
-   "ap-southeast-4": {
-    "ondemand": 0.802,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.4015,
-     "yrTerm1Standard.partialUpfront": 0.5376699771689497,
-     "yrTerm3Standard.allUpfront": 0.3849600076103501,
-     "yrTerm1Standard.allUpfront": 0.5213,
-     "yrTerm1Standard.noUpfront": 0.553,
-     "yrTerm3Standard.noUpfront": 0.417
-    }
-   },
-   "eu-west-2": {
-    "ondemand": 0.786,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.3935,
-     "yrTerm1Standard.partialUpfront": 0.5263100456621004,
-     "yrTerm3Standard.allUpfront": 0.3772799847792998,
-     "yrTerm1Standard.allUpfront": 0.5109,
-     "yrTerm1Standard.noUpfront": 0.542,
-     "yrTerm3Standard.noUpfront": 0.409
+     "yrTerm3Standard.partialUpfront": 3.5440000000000005,
+     "yrTerm1Standard.partialUpfront": 4.748,
+     "yrTerm3Standard.allUpfront": 3.4012799847793,
+     "yrTerm1Standard.allUpfront": 4.6059,
+     "yrTerm1Standard.noUpfront": 4.889,
+     "yrTerm3Standard.noUpfront": 3.685
     }
    },
    "us-west-1": {
-    "ondemand": 0.744,
+    "ondemand": 6.906,
     "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.372,
-     "yrTerm1Standard.partialUpfront": 0.4982399543378996,
-     "yrTerm3Standard.allUpfront": 0.35712001522070014,
-     "yrTerm1Standard.allUpfront": 0.48360000000000003,
-     "yrTerm1Standard.noUpfront": 0.513,
-     "yrTerm3Standard.noUpfront": 0.387
+     "yrTerm3Standard.partialUpfront": 3.4535,
+     "yrTerm1Standard.partialUpfront": 4.627510045662101,
+     "yrTerm3Standard.allUpfront": 3.3148799847793,
+     "yrTerm1Standard.allUpfront": 4.4889,
+     "yrTerm1Standard.noUpfront": 4.765,
+     "yrTerm3Standard.noUpfront": 3.591
     }
    },
-   "us-gov-east-1": {
-    "ondemand": 0.802,
+   "ap-northeast-3": {
+    "ondemand": 7.127,
     "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.4015,
-     "yrTerm1Standard.partialUpfront": 0.5376699771689497,
-     "yrTerm3Standard.allUpfront": 0.3849600076103501,
-     "yrTerm1Standard.allUpfront": 0.5213,
-     "yrTerm1Standard.noUpfront": 0.553,
-     "yrTerm3Standard.noUpfront": 0.417
+     "yrTerm3Standard.partialUpfront": 3.564,
+     "yrTerm1Standard.partialUpfront": 4.776,
+     "yrTerm3Standard.allUpfront": 3.42096000761035,
+     "yrTerm1Standard.allUpfront": 4.63255,
+     "yrTerm1Standard.noUpfront": 4.918,
+     "yrTerm3Standard.noUpfront": 3.706
+    }
+   },
+   "ap-northeast-1": {
+    "ondemand": 7.384,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 3.692,
+     "yrTerm1Standard.partialUpfront": 4.9476399543379,
+     "yrTerm3Standard.allUpfront": 3.5443200152207,
+     "yrTerm1Standard.allUpfront": 4.7996,
+     "yrTerm1Standard.noUpfront": 5.095,
+     "yrTerm3Standard.noUpfront": 3.84
+    }
+   },
+   "us-west-2": {
+    "ondemand": 6.119,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 3.05975,
+     "yrTerm1Standard.partialUpfront": 4.0998649543378995,
+     "yrTerm3Standard.allUpfront": 2.9371200152207,
+     "yrTerm1Standard.allUpfront": 3.97735,
+     "yrTerm1Standard.noUpfront": 4.222,
+     "yrTerm3Standard.noUpfront": 3.182
     }
    },
    "us-east-1": {
-    "ondemand": 0.669,
+    "ondemand": 6.119,
     "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.33425000000000005,
-     "yrTerm1Standard.partialUpfront": 0.44811495433789955,
-     "yrTerm3Standard.allUpfront": 0.32112001522070016,
-     "yrTerm1Standard.allUpfront": 0.43485,
-     "yrTerm1Standard.noUpfront": 0.462,
-     "yrTerm3Standard.noUpfront": 0.348
+     "yrTerm3Standard.partialUpfront": 3.05975,
+     "yrTerm1Standard.partialUpfront": 4.0998649543378995,
+     "yrTerm3Standard.allUpfront": 2.9371200152207,
+     "yrTerm1Standard.allUpfront": 3.97735,
+     "yrTerm1Standard.noUpfront": 4.222,
+     "yrTerm3Standard.noUpfront": 3.182
     }
    },
    "sa-east-1": {
-    "ondemand": 1.068,
+    "ondemand": 9.689,
     "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.534,
-     "yrTerm1Standard.partialUpfront": 0.7157800228310502,
-     "yrTerm3Standard.allUpfront": 0.51263999238965,
-     "yrTerm1Standard.allUpfront": 0.6941999999999999,
-     "yrTerm1Standard.noUpfront": 0.737,
-     "yrTerm3Standard.noUpfront": 0.555
+     "yrTerm3Standard.partialUpfront": 4.844250000000001,
+     "yrTerm1Standard.partialUpfront": 6.491815068493151,
+     "yrTerm3Standard.allUpfront": 4.6507199391172,
+     "yrTerm1Standard.allUpfront": 6.297850456621004,
+     "yrTerm1Standard.noUpfront": 6.685,
+     "yrTerm3Standard.noUpfront": 5.038
     }
    },
-   "ap-southeast-3": {
-    "ondemand": 0.807,
+   "ap-southeast-2": {
+    "ondemand": 7.384,
     "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.40375,
-     "yrTerm1Standard.partialUpfront": 0.5403447488584474,
-     "yrTerm3Standard.allUpfront": 0.3873599695585997,
-     "yrTerm1Standard.allUpfront": 0.5245502283105024,
-     "yrTerm1Standard.noUpfront": 0.557,
-     "yrTerm3Standard.noUpfront": 0.42
+     "yrTerm3Standard.partialUpfront": 3.692,
+     "yrTerm1Standard.partialUpfront": 4.9476399543379,
+     "yrTerm3Standard.allUpfront": 3.5443200152207,
+     "yrTerm1Standard.allUpfront": 4.7996,
+     "yrTerm1Standard.noUpfront": 5.095,
+     "yrTerm3Standard.noUpfront": 3.84
+    }
+   },
+   "eu-west-1": {
+    "ondemand": 6.799,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 3.39975,
+     "yrTerm1Standard.partialUpfront": 4.5556649543378995,
+     "yrTerm3Standard.allUpfront": 3.2635200152207005,
+     "yrTerm1Standard.allUpfront": 4.4193500000000006,
+     "yrTerm1Standard.noUpfront": 4.691,
+     "yrTerm3Standard.noUpfront": 3.535
+    }
+   },
+   "ap-southeast-1": {
+    "ondemand": 7.384,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 3.692,
+     "yrTerm1Standard.partialUpfront": 4.9476399543379,
+     "yrTerm3Standard.allUpfront": 3.5443200152207,
+     "yrTerm1Standard.allUpfront": 4.7996,
+     "yrTerm1Standard.noUpfront": 5.095,
+     "yrTerm3Standard.noUpfront": 3.84
+    }
+   },
+   "ca-central-1": {
+    "ondemand": 6.714,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 3.3575000000000004,
+     "yrTerm1Standard.partialUpfront": 4.498189497716895,
+     "yrTerm3Standard.allUpfront": 3.2227199391171997,
+     "yrTerm1Standard.allUpfront": 4.364100456621004,
+     "yrTerm1Standard.noUpfront": 4.633,
+     "yrTerm3Standard.noUpfront": 3.491
+    }
+   },
+   "eu-west-3": {
+    "ondemand": 7.182,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 3.5915,
+     "yrTerm1Standard.partialUpfront": 4.811970319634703,
+     "yrTerm3Standard.allUpfront": 3.4473599695585992,
+     "yrTerm1Standard.allUpfront": 4.668300228310502,
+     "yrTerm1Standard.noUpfront": 4.956,
+     "yrTerm3Standard.noUpfront": 3.735
+    }
+   },
+   "ap-south-1": {
+    "ondemand": 3.968,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 1.984,
+     "yrTerm1Standard.partialUpfront": 2.658279680365297,
+     "yrTerm3Standard.allUpfront": 1.9046400304414004,
+     "yrTerm1Standard.allUpfront": 2.5791997716894977,
+     "yrTerm1Standard.noUpfront": 2.738,
+     "yrTerm3Standard.noUpfront": 2.063
+    }
+   },
+   "eu-central-1": {
+    "ondemand": 7.331,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 3.66575,
+     "yrTerm1Standard.partialUpfront": 4.911885045662101,
+     "yrTerm3Standard.allUpfront": 3.5188799847793,
+     "yrTerm1Standard.allUpfront": 4.76515,
+     "yrTerm1Standard.noUpfront": 5.058,
+     "yrTerm3Standard.noUpfront": 3.812
+    }
+   },
+   "us-east-2": {
+    "ondemand": 6.119,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 3.05975,
+     "yrTerm1Standard.partialUpfront": 4.0998649543378995,
+     "yrTerm3Standard.allUpfront": 2.9371200152207,
+     "yrTerm1Standard.allUpfront": 3.97735,
+     "yrTerm1Standard.noUpfront": 4.222,
+     "yrTerm3Standard.noUpfront": 3.182
     }
    }
   },
   "regions": {
-   "us-east-2": "US East (Ohio)",
-   "ap-northeast-1": "Asia Pacific (Tokyo)",
-   "ap-east-1": "Asia Pacific (Hong Kong)",
-   "ca-central-1": "Canada (Central)",
-   "us-west-2": "US West (Oregon)",
-   "ap-southeast-2": "Asia Pacific (Sydney)",
-   "ap-south-1": "Asia Pacific (Mumbai)",
-   "me-central-1": "Middle East (UAE)",
-   "eu-south-2": "Europe (Spain)",
-   "eu-south-1": "Europe (Milan)",
-   "eu-west-1": "Europe (Ireland)",
-   "ap-south-2": "Asia Pacific (Hyderabad)",
-   "ap-southeast-1": "Asia Pacific (Singapore)",
-   "eu-west-3": "Europe (Paris)",
-   "eu-central-1": "Europe (Frankfurt)",
-   "eu-north-1": "Europe (Stockholm)",
-   "ap-northeast-2": "Asia Pacific (Seoul)",
-   "ap-southeast-4": "Asia Pacific (Melbourne)",
-   "eu-west-2": "Europe (London)",
    "us-west-1": "US West (N. California)",
-   "us-gov-east-1": "AWS GovCloud (US-East)",
-   "us-gov-west-1": "AWS GovCloud (US-West)",
+   "ap-northeast-3": "Asia Pacific (Osaka)",
+   "ap-northeast-1": "Asia Pacific (Tokyo)",
+   "us-west-2": "US West (Oregon)",
    "us-east-1": "US East (N. Virginia)",
    "sa-east-1": "South America (Sao Paulo)",
-   "ap-southeast-3": "Asia Pacific (Jakarta)"
+   "ap-southeast-2": "Asia Pacific (Sydney)",
+   "eu-west-1": "Europe (Ireland)",
+   "ap-southeast-1": "Asia Pacific (Singapore)",
+   "ca-central-1": "Canada (Central)",
+   "eu-west-3": "Europe (Paris)",
+   "ap-south-1": "Asia Pacific (Mumbai)",
+   "eu-central-1": "Europe (Frankfurt)",
+   "us-gov-west-1": "AWS GovCloud (US-West)",
+   "us-east-2": "US East (Ohio)"
   },
-  "pretty_name": "R6G Memory Optimized Double Extra Large",
-  "min_ebs": "10 GiB",
-  "max_ebs_gp2": "3 TiB",
-  "max_ebs_gp3": "6 TiB",
+  "pretty_name": "R6GD Memory Optimized (NVME SSD) 16xlarge Extra Large",
+  "min_ebs": "N/A",
+  "max_ebs_gp2": "N/A",
+  "max_ebs_gp3": "N/A",
   "max_http_payload": "100 MiB"
  },
  {
@@ -19997,7 +21519,11 @@
    "eu-west-1": "Europe (Ireland)",
    "ap-southeast-1": "Asia Pacific (Singapore)"
   },
-  "pretty_name": "IM4GN Extra Large"
+  "pretty_name": "IM4GN Extra Large",
+  "min_ebs": "N/A",
+  "max_ebs_gp2": "N/A",
+  "max_ebs_gp3": "N/A",
+  "max_http_payload": "100 MiB"
  },
  {
   "servicecode": "AmazonES",
@@ -20205,179 +21731,203 @@
  },
  {
   "servicecode": "AmazonES",
-  "instanceType": "r6gd.16xlarge.search",
+  "instanceType": "r6gd.2xlarge.search",
   "currentGeneration": "Yes",
   "instanceFamily": "Memory optimized",
-  "vcpu": "64",
-  "storage": "2 x 1900 NVMe SSD",
+  "vcpu": "8",
+  "storage": "1 x 475 NVMe SSD",
   "ecu": "variable",
-  "memoryGib": "512",
-  "regionCode": "us-west-1",
+  "memoryGib": "64",
+  "regionCode": "ap-northeast-3",
   "servicename": "Amazon OpenSearch Service",
-  "memory": "512",
+  "memory": "64",
   "family": "Memory optimized",
-  "instance_type": "r6gd.16xlarge.search",
+  "instance_type": "r6gd.2xlarge.search",
   "pricing": {
-   "us-west-1": {
-    "ondemand": 6.906,
+   "ap-northeast-3": {
+    "ondemand": 0.891,
     "reserved": {
-     "yrTerm3Standard.partialUpfront": 3.4535,
-     "yrTerm1Standard.partialUpfront": 4.627510045662101,
-     "yrTerm3Standard.allUpfront": 3.3148799847793,
-     "yrTerm1Standard.allUpfront": 4.4889,
-     "yrTerm1Standard.noUpfront": 4.765,
-     "yrTerm3Standard.noUpfront": 3.591
+     "yrTerm3Standard.partialUpfront": 0.44599999999999995,
+     "yrTerm1Standard.partialUpfront": 0.596,
+     "yrTerm3Standard.allUpfront": 0.42767998477929986,
+     "yrTerm1Standard.allUpfront": 0.57915,
+     "yrTerm1Standard.noUpfront": 0.615,
+     "yrTerm3Standard.noUpfront": 0.463
     }
    },
-   "ap-northeast-1": {
-    "ondemand": 7.384,
+   "us-gov-west-1": {
+    "ondemand": 0.886,
     "reserved": {
-     "yrTerm3Standard.partialUpfront": 3.692,
-     "yrTerm1Standard.partialUpfront": 4.9476399543379,
-     "yrTerm3Standard.allUpfront": 3.5443200152207,
-     "yrTerm1Standard.allUpfront": 4.7996,
-     "yrTerm1Standard.noUpfront": 5.095,
-     "yrTerm3Standard.noUpfront": 3.84
-    }
-   },
-   "us-west-2": {
-    "ondemand": 6.119,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 3.05975,
-     "yrTerm1Standard.partialUpfront": 4.0998649543378995,
-     "yrTerm3Standard.allUpfront": 2.9371200152207,
-     "yrTerm1Standard.allUpfront": 3.97735,
-     "yrTerm1Standard.noUpfront": 4.222,
-     "yrTerm3Standard.noUpfront": 3.182
-    }
-   },
-   "us-east-1": {
-    "ondemand": 6.119,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 3.05975,
-     "yrTerm1Standard.partialUpfront": 4.0998649543378995,
-     "yrTerm3Standard.allUpfront": 2.9371200152207,
-     "yrTerm1Standard.allUpfront": 3.97735,
-     "yrTerm1Standard.noUpfront": 4.222,
-     "yrTerm3Standard.noUpfront": 3.182
-    }
-   },
-   "sa-east-1": {
-    "ondemand": 9.689,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 4.844250000000001,
-     "yrTerm1Standard.partialUpfront": 6.491815068493151,
-     "yrTerm3Standard.allUpfront": 4.6507199391172,
-     "yrTerm1Standard.allUpfront": 6.297850456621004,
-     "yrTerm1Standard.noUpfront": 6.685,
-     "yrTerm3Standard.noUpfront": 5.038
-    }
-   },
-   "ap-southeast-2": {
-    "ondemand": 7.384,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 3.692,
-     "yrTerm1Standard.partialUpfront": 4.9476399543379,
-     "yrTerm3Standard.allUpfront": 3.5443200152207,
-     "yrTerm1Standard.allUpfront": 4.7996,
-     "yrTerm1Standard.noUpfront": 5.095,
-     "yrTerm3Standard.noUpfront": 3.84
-    }
-   },
-   "eu-west-1": {
-    "ondemand": 6.799,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 3.39975,
-     "yrTerm1Standard.partialUpfront": 4.5556649543378995,
-     "yrTerm3Standard.allUpfront": 3.2635200152207005,
-     "yrTerm1Standard.allUpfront": 4.4193500000000006,
-     "yrTerm1Standard.noUpfront": 4.691,
-     "yrTerm3Standard.noUpfront": 3.535
-    }
-   },
-   "ap-southeast-1": {
-    "ondemand": 7.384,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 3.692,
-     "yrTerm1Standard.partialUpfront": 4.9476399543379,
-     "yrTerm3Standard.allUpfront": 3.5443200152207,
-     "yrTerm1Standard.allUpfront": 4.7996,
-     "yrTerm1Standard.noUpfront": 5.095,
-     "yrTerm3Standard.noUpfront": 3.84
-    }
-   },
-   "ca-central-1": {
-    "ondemand": 6.714,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 3.3575000000000004,
-     "yrTerm1Standard.partialUpfront": 4.498189497716895,
-     "yrTerm3Standard.allUpfront": 3.2227199391171997,
-     "yrTerm1Standard.allUpfront": 4.364100456621004,
-     "yrTerm1Standard.noUpfront": 4.633,
-     "yrTerm3Standard.noUpfront": 3.491
-    }
-   },
-   "eu-west-3": {
-    "ondemand": 7.182,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 3.5915,
-     "yrTerm1Standard.partialUpfront": 4.811970319634703,
-     "yrTerm3Standard.allUpfront": 3.4473599695585992,
-     "yrTerm1Standard.allUpfront": 4.668300228310502,
-     "yrTerm1Standard.noUpfront": 4.956,
-     "yrTerm3Standard.noUpfront": 3.735
-    }
-   },
-   "ap-south-1": {
-    "ondemand": 3.968,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 1.984,
-     "yrTerm1Standard.partialUpfront": 2.658279680365297,
-     "yrTerm3Standard.allUpfront": 1.9046400304414004,
-     "yrTerm1Standard.allUpfront": 2.5791997716894977,
-     "yrTerm1Standard.noUpfront": 2.738,
-     "yrTerm3Standard.noUpfront": 2.063
+     "yrTerm3Standard.partialUpfront": 0.444,
+     "yrTerm1Standard.partialUpfront": 0.594,
+     "yrTerm3Standard.allUpfront": 0.42527998477929985,
+     "yrTerm1Standard.allUpfront": 0.5759,
+     "yrTerm1Standard.noUpfront": 0.611,
+     "yrTerm3Standard.noUpfront": 0.461
     }
    },
    "eu-central-1": {
-    "ondemand": 7.331,
+    "ondemand": 0.916,
     "reserved": {
-     "yrTerm3Standard.partialUpfront": 3.66575,
-     "yrTerm1Standard.partialUpfront": 4.911885045662101,
-     "yrTerm3Standard.allUpfront": 3.5188799847793,
-     "yrTerm1Standard.allUpfront": 4.76515,
-     "yrTerm1Standard.noUpfront": 5.058,
-     "yrTerm3Standard.noUpfront": 3.812
+     "yrTerm3Standard.partialUpfront": 0.45799999999999996,
+     "yrTerm1Standard.partialUpfront": 0.6138600456621004,
+     "yrTerm3Standard.allUpfront": 0.43967998477929987,
+     "yrTerm1Standard.allUpfront": 0.5954,
+     "yrTerm1Standard.noUpfront": 0.632,
+     "yrTerm3Standard.noUpfront": 0.476
+    }
+   },
+   "us-west-2": {
+    "ondemand": 0.765,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.38225,
+     "yrTerm1Standard.partialUpfront": 0.512275,
+     "yrTerm3Standard.allUpfront": 0.36719999999999997,
+     "yrTerm1Standard.allUpfront": 0.49724999999999997,
+     "yrTerm1Standard.noUpfront": 0.528,
+     "yrTerm3Standard.noUpfront": 0.398
     }
    },
    "us-east-2": {
-    "ondemand": 6.119,
+    "ondemand": 0.765,
     "reserved": {
-     "yrTerm3Standard.partialUpfront": 3.05975,
-     "yrTerm1Standard.partialUpfront": 4.0998649543378995,
-     "yrTerm3Standard.allUpfront": 2.9371200152207,
-     "yrTerm1Standard.allUpfront": 3.97735,
-     "yrTerm1Standard.noUpfront": 4.222,
-     "yrTerm3Standard.noUpfront": 3.182
+     "yrTerm3Standard.partialUpfront": 0.38225,
+     "yrTerm1Standard.partialUpfront": 0.512275,
+     "yrTerm3Standard.allUpfront": 0.36719999999999997,
+     "yrTerm1Standard.allUpfront": 0.49724999999999997,
+     "yrTerm1Standard.noUpfront": 0.528,
+     "yrTerm3Standard.noUpfront": 0.398
+    }
+   },
+   "us-west-1": {
+    "ondemand": 0.863,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.43174999999999997,
+     "yrTerm1Standard.partialUpfront": 0.5781050228310503,
+     "yrTerm3Standard.allUpfront": 0.41423999238965,
+     "yrTerm1Standard.allUpfront": 0.56095,
+     "yrTerm1Standard.noUpfront": 0.595,
+     "yrTerm3Standard.noUpfront": 0.449
+    }
+   },
+   "ap-northeast-1": {
+    "ondemand": 0.923,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.46175,
+     "yrTerm1Standard.partialUpfront": 0.6182050228310503,
+     "yrTerm3Standard.allUpfront": 0.44303999238965,
+     "yrTerm1Standard.allUpfront": 0.59995,
+     "yrTerm1Standard.noUpfront": 0.637,
+     "yrTerm3Standard.noUpfront": 0.48
+    }
+   },
+   "eu-west-3": {
+    "ondemand": 0.898,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.4495,
+     "yrTerm1Standard.partialUpfront": 0.6018299086757991,
+     "yrTerm3Standard.allUpfront": 0.43103995433789954,
+     "yrTerm1Standard.allUpfront": 0.5836997716894977,
+     "yrTerm1Standard.noUpfront": 0.62,
+     "yrTerm3Standard.noUpfront": 0.467
+    }
+   },
+   "eu-west-1": {
+    "ondemand": 0.85,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.4255,
+     "yrTerm1Standard.partialUpfront": 0.56975,
+     "yrTerm3Standard.allUpfront": 0.408,
+     "yrTerm1Standard.allUpfront": 0.5525,
+     "yrTerm1Standard.noUpfront": 0.587,
+     "yrTerm3Standard.noUpfront": 0.442
+    }
+   },
+   "ap-south-1": {
+    "ondemand": 0.496,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.248,
+     "yrTerm1Standard.partialUpfront": 0.33215981735159816,
+     "yrTerm3Standard.allUpfront": 0.2380799086757991,
+     "yrTerm1Standard.allUpfront": 0.3223995433789954,
+     "yrTerm1Standard.noUpfront": 0.342,
+     "yrTerm3Standard.noUpfront": 0.258
+    }
+   },
+   "ap-southeast-1": {
+    "ondemand": 0.923,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.46175,
+     "yrTerm1Standard.partialUpfront": 0.6182050228310503,
+     "yrTerm3Standard.allUpfront": 0.44303999238965,
+     "yrTerm1Standard.allUpfront": 0.59995,
+     "yrTerm1Standard.noUpfront": 0.637,
+     "yrTerm3Standard.noUpfront": 0.48
+    }
+   },
+   "us-east-1": {
+    "ondemand": 0.765,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.38225,
+     "yrTerm1Standard.partialUpfront": 0.512275,
+     "yrTerm3Standard.allUpfront": 0.36719999999999997,
+     "yrTerm1Standard.allUpfront": 0.49724999999999997,
+     "yrTerm1Standard.noUpfront": 0.528,
+     "yrTerm3Standard.noUpfront": 0.398
+    }
+   },
+   "ca-central-1": {
+    "ondemand": 0.839,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.41974999999999996,
+     "yrTerm1Standard.partialUpfront": 0.5620650684931507,
+     "yrTerm3Standard.allUpfront": 0.4027199391171994,
+     "yrTerm1Standard.allUpfront": 0.5453504566210047,
+     "yrTerm1Standard.noUpfront": 0.579,
+     "yrTerm3Standard.noUpfront": 0.436
+    }
+   },
+   "sa-east-1": {
+    "ondemand": 1.211,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.60575,
+     "yrTerm1Standard.partialUpfront": 0.8116849315068494,
+     "yrTerm3Standard.allUpfront": 0.5812800608828007,
+     "yrTerm1Standard.allUpfront": 0.7871495433789955,
+     "yrTerm1Standard.noUpfront": 0.836,
+     "yrTerm3Standard.noUpfront": 0.63
+    }
+   },
+   "ap-southeast-2": {
+    "ondemand": 0.923,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 0.46175,
+     "yrTerm1Standard.partialUpfront": 0.6182050228310503,
+     "yrTerm3Standard.allUpfront": 0.44303999238965,
+     "yrTerm1Standard.allUpfront": 0.59995,
+     "yrTerm1Standard.noUpfront": 0.637,
+     "yrTerm3Standard.noUpfront": 0.48
     }
    }
   },
   "regions": {
+   "us-gov-west-1": "AWS GovCloud (US-West)",
+   "eu-central-1": "Europe (Frankfurt)",
+   "us-west-2": "US West (Oregon)",
+   "ap-northeast-3": "Asia Pacific (Osaka)",
+   "us-east-2": "US East (Ohio)",
    "us-west-1": "US West (N. California)",
    "ap-northeast-1": "Asia Pacific (Tokyo)",
-   "us-west-2": "US West (Oregon)",
-   "us-east-1": "US East (N. Virginia)",
-   "sa-east-1": "South America (Sao Paulo)",
-   "ap-southeast-2": "Asia Pacific (Sydney)",
-   "eu-west-1": "Europe (Ireland)",
-   "ap-southeast-1": "Asia Pacific (Singapore)",
-   "ca-central-1": "Canada (Central)",
    "eu-west-3": "Europe (Paris)",
+   "eu-west-1": "Europe (Ireland)",
    "ap-south-1": "Asia Pacific (Mumbai)",
-   "eu-central-1": "Europe (Frankfurt)",
-   "us-east-2": "US East (Ohio)"
+   "ap-southeast-1": "Asia Pacific (Singapore)",
+   "us-east-1": "US East (N. Virginia)",
+   "ca-central-1": "Canada (Central)",
+   "sa-east-1": "South America (Sao Paulo)",
+   "ap-southeast-2": "Asia Pacific (Sydney)"
   },
-  "pretty_name": "R6GD Memory Optimized (NVME SSD) 16xlarge Extra Large",
+  "pretty_name": "R6GD Memory Optimized (NVME SSD) Double Extra Large",
   "min_ebs": "N/A",
   "max_ebs_gp2": "N/A",
   "max_ebs_gp3": "N/A",
@@ -20429,6 +21979,17 @@
      "yrTerm1Standard.allUpfront": 3.5997,
      "yrTerm1Standard.noUpfront": 3.821,
      "yrTerm3Standard.noUpfront": 2.88
+    }
+   },
+   "us-gov-west-1": {
+    "ondemand": 5.315,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 2.658,
+     "yrTerm1Standard.partialUpfront": 3.562,
+     "yrTerm3Standard.allUpfront": 2.5511999999999997,
+     "yrTerm1Standard.allUpfront": 3.45475,
+     "yrTerm1Standard.noUpfront": 3.667,
+     "yrTerm3Standard.noUpfront": 2.764
     }
    },
    "us-west-1": {
@@ -20484,6 +22045,17 @@
      "yrTerm1Standard.allUpfront": 3.5737,
      "yrTerm1Standard.noUpfront": 3.794,
      "yrTerm3Standard.noUpfront": 2.859
+    }
+   },
+   "ap-northeast-3": {
+    "ondemand": 5.345,
+    "reserved": {
+     "yrTerm3Standard.partialUpfront": 2.672,
+     "yrTerm1Standard.partialUpfront": 3.582,
+     "yrTerm3Standard.allUpfront": 2.5656,
+     "yrTerm1Standard.allUpfront": 3.47425,
+     "yrTerm1Standard.noUpfront": 3.688,
+     "yrTerm3Standard.noUpfront": 2.779
     }
    },
    "ap-southeast-1": {
@@ -20545,12 +22117,14 @@
   "regions": {
    "eu-west-1": "Europe (Ireland)",
    "ap-southeast-2": "Asia Pacific (Sydney)",
+   "us-gov-west-1": "AWS GovCloud (US-West)",
    "us-west-1": "US West (N. California)",
    "ap-south-1": "Asia Pacific (Mumbai)",
    "sa-east-1": "South America (Sao Paulo)",
    "us-east-2": "US East (Ohio)",
    "eu-central-1": "Europe (Frankfurt)",
    "ap-northeast-1": "Asia Pacific (Tokyo)",
+   "ap-northeast-3": "Asia Pacific (Osaka)",
    "ap-southeast-1": "Asia Pacific (Singapore)",
    "us-east-1": "US East (N. Virginia)",
    "ca-central-1": "Canada (Central)",
@@ -20873,7 +22447,11 @@
    "eu-central-1": "Europe (Frankfurt)",
    "ap-northeast-1": "Asia Pacific (Tokyo)"
   },
-  "pretty_name": "IM4GN Quadruple Extra Large"
+  "pretty_name": "IM4GN Quadruple Extra Large",
+  "min_ebs": "N/A",
+  "max_ebs_gp2": "N/A",
+  "max_ebs_gp3": "N/A",
+  "max_http_payload": "100 MiB"
  },
  {
   "servicecode": "AmazonES",
@@ -21025,183 +22603,7 @@
    "eu-west-1": "Europe (Ireland)",
    "eu-west-2": "Europe (London)"
   },
-  "pretty_name": "IM4GN Double Extra Large"
- },
- {
-  "servicecode": "AmazonES",
-  "instanceType": "r6gd.2xlarge.search",
-  "currentGeneration": "Yes",
-  "instanceFamily": "Memory optimized",
-  "vcpu": "8",
-  "storage": "1 x 475 NVMe SSD",
-  "ecu": "variable",
-  "memoryGib": "64",
-  "regionCode": "us-east-2",
-  "servicename": "Amazon OpenSearch Service",
-  "memory": "64",
-  "family": "Memory optimized",
-  "instance_type": "r6gd.2xlarge.search",
-  "pricing": {
-   "us-east-2": {
-    "ondemand": 0.765,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.38225,
-     "yrTerm1Standard.partialUpfront": 0.512275,
-     "yrTerm3Standard.allUpfront": 0.36719999999999997,
-     "yrTerm1Standard.allUpfront": 0.49724999999999997,
-     "yrTerm1Standard.noUpfront": 0.528,
-     "yrTerm3Standard.noUpfront": 0.398
-    }
-   },
-   "eu-central-1": {
-    "ondemand": 0.916,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.45799999999999996,
-     "yrTerm1Standard.partialUpfront": 0.6138600456621004,
-     "yrTerm3Standard.allUpfront": 0.43967998477929987,
-     "yrTerm1Standard.allUpfront": 0.5954,
-     "yrTerm1Standard.noUpfront": 0.632,
-     "yrTerm3Standard.noUpfront": 0.476
-    }
-   },
-   "us-west-2": {
-    "ondemand": 0.765,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.38225,
-     "yrTerm1Standard.partialUpfront": 0.512275,
-     "yrTerm3Standard.allUpfront": 0.36719999999999997,
-     "yrTerm1Standard.allUpfront": 0.49724999999999997,
-     "yrTerm1Standard.noUpfront": 0.528,
-     "yrTerm3Standard.noUpfront": 0.398
-    }
-   },
-   "us-west-1": {
-    "ondemand": 0.863,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.43174999999999997,
-     "yrTerm1Standard.partialUpfront": 0.5781050228310503,
-     "yrTerm3Standard.allUpfront": 0.41423999238965,
-     "yrTerm1Standard.allUpfront": 0.56095,
-     "yrTerm1Standard.noUpfront": 0.595,
-     "yrTerm3Standard.noUpfront": 0.449
-    }
-   },
-   "ap-northeast-1": {
-    "ondemand": 0.923,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.46175,
-     "yrTerm1Standard.partialUpfront": 0.6182050228310503,
-     "yrTerm3Standard.allUpfront": 0.44303999238965,
-     "yrTerm1Standard.allUpfront": 0.59995,
-     "yrTerm1Standard.noUpfront": 0.637,
-     "yrTerm3Standard.noUpfront": 0.48
-    }
-   },
-   "eu-west-3": {
-    "ondemand": 0.898,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.4495,
-     "yrTerm1Standard.partialUpfront": 0.6018299086757991,
-     "yrTerm3Standard.allUpfront": 0.43103995433789954,
-     "yrTerm1Standard.allUpfront": 0.5836997716894977,
-     "yrTerm1Standard.noUpfront": 0.62,
-     "yrTerm3Standard.noUpfront": 0.467
-    }
-   },
-   "eu-west-1": {
-    "ondemand": 0.85,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.4255,
-     "yrTerm1Standard.partialUpfront": 0.56975,
-     "yrTerm3Standard.allUpfront": 0.408,
-     "yrTerm1Standard.allUpfront": 0.5525,
-     "yrTerm1Standard.noUpfront": 0.587,
-     "yrTerm3Standard.noUpfront": 0.442
-    }
-   },
-   "ap-south-1": {
-    "ondemand": 0.496,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.248,
-     "yrTerm1Standard.partialUpfront": 0.33215981735159816,
-     "yrTerm3Standard.allUpfront": 0.2380799086757991,
-     "yrTerm1Standard.allUpfront": 0.3223995433789954,
-     "yrTerm1Standard.noUpfront": 0.342,
-     "yrTerm3Standard.noUpfront": 0.258
-    }
-   },
-   "ap-southeast-1": {
-    "ondemand": 0.923,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.46175,
-     "yrTerm1Standard.partialUpfront": 0.6182050228310503,
-     "yrTerm3Standard.allUpfront": 0.44303999238965,
-     "yrTerm1Standard.allUpfront": 0.59995,
-     "yrTerm1Standard.noUpfront": 0.637,
-     "yrTerm3Standard.noUpfront": 0.48
-    }
-   },
-   "us-east-1": {
-    "ondemand": 0.765,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.38225,
-     "yrTerm1Standard.partialUpfront": 0.512275,
-     "yrTerm3Standard.allUpfront": 0.36719999999999997,
-     "yrTerm1Standard.allUpfront": 0.49724999999999997,
-     "yrTerm1Standard.noUpfront": 0.528,
-     "yrTerm3Standard.noUpfront": 0.398
-    }
-   },
-   "ca-central-1": {
-    "ondemand": 0.839,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.41974999999999996,
-     "yrTerm1Standard.partialUpfront": 0.5620650684931507,
-     "yrTerm3Standard.allUpfront": 0.4027199391171994,
-     "yrTerm1Standard.allUpfront": 0.5453504566210047,
-     "yrTerm1Standard.noUpfront": 0.579,
-     "yrTerm3Standard.noUpfront": 0.436
-    }
-   },
-   "sa-east-1": {
-    "ondemand": 1.211,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.60575,
-     "yrTerm1Standard.partialUpfront": 0.8116849315068494,
-     "yrTerm3Standard.allUpfront": 0.5812800608828007,
-     "yrTerm1Standard.allUpfront": 0.7871495433789955,
-     "yrTerm1Standard.noUpfront": 0.836,
-     "yrTerm3Standard.noUpfront": 0.63
-    }
-   },
-   "ap-southeast-2": {
-    "ondemand": 0.923,
-    "reserved": {
-     "yrTerm3Standard.partialUpfront": 0.46175,
-     "yrTerm1Standard.partialUpfront": 0.6182050228310503,
-     "yrTerm3Standard.allUpfront": 0.44303999238965,
-     "yrTerm1Standard.allUpfront": 0.59995,
-     "yrTerm1Standard.noUpfront": 0.637,
-     "yrTerm3Standard.noUpfront": 0.48
-    }
-   }
-  },
-  "regions": {
-   "eu-central-1": "Europe (Frankfurt)",
-   "us-west-2": "US West (Oregon)",
-   "us-east-2": "US East (Ohio)",
-   "us-west-1": "US West (N. California)",
-   "ap-northeast-1": "Asia Pacific (Tokyo)",
-   "eu-west-3": "Europe (Paris)",
-   "eu-west-1": "Europe (Ireland)",
-   "ap-south-1": "Asia Pacific (Mumbai)",
-   "ap-southeast-1": "Asia Pacific (Singapore)",
-   "us-east-1": "US East (N. Virginia)",
-   "ca-central-1": "Canada (Central)",
-   "sa-east-1": "South America (Sao Paulo)",
-   "ap-southeast-2": "Asia Pacific (Sydney)"
-  },
-  "pretty_name": "R6GD Memory Optimized (NVME SSD) Double Extra Large",
+  "pretty_name": "IM4GN Double Extra Large",
   "min_ebs": "N/A",
   "max_ebs_gp2": "N/A",
   "max_ebs_gp3": "N/A",
@@ -21357,7 +22759,11 @@
    "eu-west-3": "Europe (Paris)",
    "us-east-2": "US East (Ohio)"
   },
-  "pretty_name": "IM4GN Large"
+  "pretty_name": "IM4GN Large",
+  "min_ebs": "N/A",
+  "max_ebs_gp2": "N/A",
+  "max_ebs_gp3": "N/A",
+  "max_http_payload": "100 MiB"
  },
  {
   "servicecode": "AmazonES",
@@ -21615,6 +23021,9 @@
    "sa-east-1": {
     "ondemand": 0.076
    },
+   "ca-west-1": {
+    "ondemand": 0.038
+   },
    "eu-west-3": {
     "ondemand": 0.038
    },
@@ -21693,6 +23102,7 @@
    "ap-south-2": "Asia Pacific (Hyderabad)",
    "ap-southeast-3": "Asia Pacific (Jakarta)",
    "sa-east-1": "South America (Sao Paulo)",
+   "ca-west-1": "Canada West (Calgary)",
    "eu-west-3": "Europe (Paris)",
    "ap-southeast-1": "Asia Pacific (Singapore)",
    "af-south-1": "Africa (Cape Town)",
