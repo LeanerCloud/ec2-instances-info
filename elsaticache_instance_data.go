@@ -24,10 +24,11 @@ type ReservedPricing struct {
 	YrTerm3StandardNoUpfront      float64 `json:"yrTerm3Standard.noUpfront"`
 }
 
-// ServicePricing represents the pricing for a particular service (e.g., Memcached, Redis).
+// ServicePricing represents the pricing for a particular service (e.g., Memcached, Redis, Valkey).
 type ServicePricing struct {
 	Memcached PricingDetail `json:"Memcached"`
 	Redis     PricingDetail `json:"Redis"`
+	Valkey    PricingDetail `json:"Valkey"`
 }
 
 // RegionPricing represents the pricing information for each region.

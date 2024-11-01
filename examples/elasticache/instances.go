@@ -14,8 +14,8 @@ func main() {
 		os.Exit(1)
 	}
 
-	instanceType := "cache.m6g.xlarge" // specify the instance type you are interested in
-	region := "us-east-1"              // specify the region
+	instanceType := "cache.r7g.large" // specify the instance type you are interested in
+	region := "us-east-1"             // specify the region
 
 	for _, i := range *data {
 
@@ -35,13 +35,16 @@ func main() {
 
 				// Print On-Demand pricing information
 				fmt.Println("Memcached On-Demand cost:", pricing.Memcached.OnDemand)
-				fmt.Println("Redis On-Demand cost:", pricing.Redis.OnDemand)
+				fmt.Printf("Redis On-Demand cost: %.4f\n", pricing.Redis.OnDemand)
+				fmt.Printf("Valkey On-Demand cost:%.4f\n", pricing.Valkey.OnDemand)
 
 				// Print Reserved Plans pricing information
-				fmt.Println("Memcached 1-Year Standard Partial Upfront cost:", pricing.Memcached.Reserved.YrTerm1StandardNoUpfront)
-				fmt.Println("Memcached 3-Year Standard Partial Upfront cost:", pricing.Memcached.Reserved.YrTerm3StandardPartialUpfront)
-				fmt.Println("Redis 1-Year Standard Partial Upfront cost:", pricing.Redis.Reserved.YrTerm1StandardPartialUpfront)
-				fmt.Println("Redis 3-Year Standard Partial Upfront cost:", pricing.Redis.Reserved.YrTerm3StandardPartialUpfront)
+				fmt.Printf("Memcached 1-Year Standard Partial Upfront cost: %.4f\n", pricing.Memcached.Reserved.YrTerm1StandardNoUpfront)
+				fmt.Printf("Memcached 3-Year Standard Partial Upfront cost: %.4f\n", pricing.Memcached.Reserved.YrTerm3StandardPartialUpfront)
+				fmt.Printf("Redis 1-Year Standard Partial Upfront cost: %.4f\n", pricing.Redis.Reserved.YrTerm1StandardPartialUpfront)
+				fmt.Printf("Redis 3-Year Standard Partial Upfront cost: %.4f\n", pricing.Redis.Reserved.YrTerm3StandardPartialUpfront)
+				fmt.Printf("Valkey 1-Year Standard Partial Upfront cost: %.4f\n", pricing.Valkey.Reserved.YrTerm1StandardPartialUpfront)
+				fmt.Printf("Valkey 3-Year Standard Partial Upfront cost: %.4f\n", pricing.Valkey.Reserved.YrTerm3StandardPartialUpfront)
 				// Add more fields as needed
 
 				break // Stop iterating after finding the desired instance type
