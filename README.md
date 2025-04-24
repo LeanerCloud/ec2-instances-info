@@ -4,7 +4,13 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/LeanerCloud/ec2-instances-info)](https://goreportcard.com/report/github.com/LeanerCloud/ec2-instances-info)
 [![GoDoc](https://godoc.org/github.com/LeanerCloud/ec2-instances-info?status.svg)](http://godoc.org/github.com/LeanerCloud/ec2-instances-info)
 
-Golang library providing specs and pricing information about AWS resources such as EC2 instances, RDS databases, ElastiCache and OpenSearch clusters.
+Golang library providing specs and pricing information about cloud resources such as:
+
+- AWS EC2 instances
+- AWS RDS databases
+- AWS ElastiCache clusters
+- AWS OpenSearch clusters
+- Azure VM instances
 
 It is based on the data that is also powering the comprehensive
 [www.ec2instances.info](http://www.ec2instances.info) instance comparison
@@ -34,7 +40,9 @@ go get -u github.com/LeanerCloud/ec2-instances-info/...
 
 ## Usage
 
-### One-off usage, with static data
+### AWS EC2 Usage
+
+#### One-off usage, with static data
 
 ```golang
 import "github.com/LeanerCloud/ec2-instances-info"
@@ -49,7 +57,7 @@ for _, i := range *data {
 
 See the examples directory for a working code example.
 
-### One-off usage, with updated instance type data
+#### One-off usage, with updated instance type data
 
 ```golang
 import "github.com/LeanerCloud/ec2-instances-info"
@@ -69,7 +77,7 @@ for _, i := range *data {
 }
 ```
 
-### Continuous usage, with instance type data updated every 2 days
+#### Continuous usage, with instance type data updated every 2 days
 
 ```golang
 import "github.com/LeanerCloud/ec2-instances-info"
@@ -85,6 +93,57 @@ for _, i := range *data {
 }
 ```
 
+### Azure VM Usage
+
+#### Basic usage, with static data
+
+```golang
+import "github.com/LeanerCloud/ec2-instances-info"
+
+data, err := ec2instancesinfo.AzureData() // only needed once
+
+// This would print all the available Azure VM instance type names:
+for _, i := range *data {
+  fmt.Println("Azure VM instance type:", i.InstanceType)
+}
+```
+
+#### One-off usage, with updated Azure VM data
+
+```golang
+import "github.com/LeanerCloud/ec2-instances-info"
+
+key := "API_KEY" // API keys are available upon demand from contact@leanercloud.com
+
+err := ec2instancesinfo.UpdateAzureData(nil, &key)
+if err != nil {
+   fmt.Println("Couldn't update Azure VM data, reverting to static compile-time data", err.Error())
+}
+
+data, err := ec2instancesinfo.AzureData() // needs to be called once after data updates
+
+// This would print all the available Azure VM instance type names:
+for _, i := range *data {
+  fmt.Println("Azure VM instance type:", i.InstanceType)
+}
+```
+
+#### Continuous usage, with Azure VM data updated every 2 days
+
+```golang
+import "github.com/LeanerCloud/ec2-instances-info"
+
+key := "API_KEY"
+go ec2instancesinfo.AzureUpdater(2, nil, &key); // use 0 or negative values for weekly updates
+
+data, err := ec2instancesinfo.AzureData() // only needed once
+
+// This would print all the available Azure VM instance type names:
+for _, i := range *data {
+  fmt.Println("Azure VM instance type:", i.InstanceType)
+}
+```
+
 ## Contributing
 
 Pull requests and feedback are welcome.
@@ -97,4 +156,5 @@ The data can be updated for new instance type coverage by running `make`.
 
 - Click on the `Terminal` then `New Terminal` in the top menu
 - In the terminal run `cd ~/cloudshell_open/ec2-instances-info/examples/instances/`
-- `go run .` will run the example code.
+- `go run .` will run the example EC2 code.
+- For Azure VM data: `cd ~/cloudshell_open/ec2-instances-info/examples/azure/` and `go run .`

@@ -1,0 +1,422 @@
+Azure VM Instance Information:
+-----------------------------
+
+Instance Type: a0 (Basic A0)
+Category: generalpurpose
+Family: a
+Architecture: x64
+vCPUs: 1 (Available: 1, Per Core: 1)
+Memory: 0.75 GB
+ACU: 50
+Accelerated Networking: false
+Premium IO: false
+
+Pricing in us-east:
+  Linux:
+    On-Demand: $0.0200
+    Basic: $0.0180
+    Basic Spot: $0.0162
+    Spot Min: $0.0180
+  Windows:
+    On-Demand: $0.0200
+    Hybrid Benefit: $0.0200
+    Basic: $0.0180
+    Basic Spot: $0.0162
+    Spot Min: $0.0180
+
+Storage:
+  Size: 1047552 bytes
+  NVMe SSD: false
+-----------------------------
+
+Instance Type: a1 (Basic A1)
+Category: generalpurpose
+Family: a
+Architecture: x64
+vCPUs: 1 (Available: 1, Per Core: 1)
+Memory: 1.75 GB
+ACU: 100
+Accelerated Networking: false
+Premium IO: false
+
+Pricing in us-east:
+  Linux:
+    On-Demand: $0.0600
+    Basic: $0.0230
+    Basic Spot: $0.0207
+    Spot Min: $0.0540
+  Windows:
+    On-Demand: $0.0900
+    Hybrid Benefit: $0.0600
+    Basic: $0.0320
+    Basic Spot: $0.0288
+    Spot Min: $0.0810
+
+Storage:
+  Size: 1047552 bytes
+  NVMe SSD: false
+-----------------------------
+
+Instance Type: a1v2 (Standard A1 v2)
+Category: generalpurpose
+Family: av2
+Architecture: x64
+vCPUs: 1 (Available: 1, Per Core: 1)
+Memory: 2.00 GB
+ACU: 100
+Accelerated Networking: false
+Premium IO: false
+
+Pricing in us-east:
+  Linux:
+    On-Demand: $0.0430
+    Basic: $0.0000
+    Basic Spot: $0.0000
+    Spot Min: $0.0066
+  Windows:
+    On-Demand: $0.0650
+    Hybrid Benefit: $0.0430
+    Basic: $0.0000
+    Basic Spot: $0.0000
+    Spot Min: $0.0100
+
+Storage:
+  Size: 1047552 bytes
+  NVMe SSD: false
+-----------------------------
+
+Instance Type: a2 (Basic A2)
+Category: generalpurpose
+Family: a
+Architecture: x64
+vCPUs: 2 (Available: 2, Per Core: 1)
+Memory: 3.50 GB
+ACU: 100
+Accelerated Networking: false
+Premium IO: false
+
+Pricing in us-east:
+  Linux:
+    On-Demand: $0.1200
+    Basic: $0.0790
+    Basic Spot: $0.0711
+    Spot Min: $0.1080
+  Windows:
+    On-Demand: $0.1800
+    Hybrid Benefit: $0.1200
+    Basic: $0.1330
+    Basic Spot: $0.1197
+    Spot Min: $0.1620
+
+Storage:
+  Size: 1047552 bytes
+  NVMe SSD: false
+-----------------------------
+
+Instance Type: a2mv2 (Standard A2m v2)
+Category: generalpurpose
+Family: av2
+Architecture: x64
+vCPUs: 2 (Available: 2, Per Core: 1)
+Memory: 16.00 GB
+ACU: 100
+Accelerated Networking: false
+Premium IO: false
+
+Pricing in us-east:
+  Linux:
+    On-Demand: $0.1190
+    Basic: $0.0000
+    Basic Spot: $0.0000
+    Spot Min: $0.0184
+  Windows:
+    On-Demand: $0.1800
+    Hybrid Benefit: $0.1190
+    Basic: $0.0000
+    Basic Spot: $0.0000
+    Spot Min: $0.0278
+
+Storage:
+  Size: 1047552 bytes
+  NVMe SSD: false
+-----------------------------
+
+Instance Type: a2v2 (Standard A2 v2)
+Category: generalpurpose
+Family: av2
+Architecture: x64
+vCPUs: 2 (Available: 2, Per Core: 1)
+Memory: 4.00 GB
+ACU: 100
+Accelerated Networking: false
+Premium IO: false
+
+Pricing in us-east:
+  Linux:
+    On-Demand: $0.0903
+    Basic: $0.0000
+    Basic Spot: $0.0000
+    Spot Min: $0.0139
+  Windows:
+    On-Demand: $0.1360
+    Hybrid Benefit: $0.0903
+    Basic: $0.0000
+    Basic Spot: $0.0000
+    Spot Min: $0.0210
+
+Storage:
+  Size: 1047552 bytes
+  NVMe SSD: false
+-----------------------------
+
+Instance Type: a3 (Basic A3)
+Category: generalpurpose
+Family: a
+Architecture: x64
+vCPUs: 4 (Available: 4, Per Core: 1)
+Memory: 7.00 GB
+ACU: 100
+Accelerated Networking: false
+Premium IO: false
+
+Pricing in us-east:
+  Linux:
+    On-Demand: $0.2400
+    Basic: $0.1760
+    Basic Spot: $0.1584
+    Spot Min: $0.2160
+  Windows:
+    On-Demand: $0.3600
+    Hybrid Benefit: $0.2400
+    Basic: $0.2960
+    Basic Spot: $0.2664
+    Spot Min: $0.3240
+
+Storage:
+  Size: 1047552 bytes
+  NVMe SSD: false
+-----------------------------
+
+Instance Type: a4 (Basic A4)
+Category: generalpurpose
+Family: a
+Architecture: x64
+vCPUs: 8 (Available: 8, Per Core: 1)
+Memory: 14.00 GB
+ACU: 100
+Accelerated Networking: false
+Premium IO: false
+
+Pricing in us-east:
+  Linux:
+    On-Demand: $0.4800
+    Basic: $0.3520
+    Basic Spot: $0.3168
+    Spot Min: $0.4320
+  Windows:
+    On-Demand: $0.7200
+    Hybrid Benefit: $0.4800
+    Basic: $0.5920
+    Basic Spot: $0.5328
+    Spot Min: $0.6480
+
+Storage:
+  Size: 1047552 bytes
+  NVMe SSD: false
+-----------------------------
+
+Instance Type: a4mv2 (Standard A4m v2)
+Category: generalpurpose
+Family: av2
+Architecture: x64
+vCPUs: 4 (Available: 4, Per Core: 1)
+Memory: 32.00 GB
+ACU: 100
+Accelerated Networking: false
+Premium IO: false
+
+Pricing in us-east:
+  Linux:
+    On-Demand: $0.2370
+    Basic: $0.0000
+    Basic Spot: $0.0000
+    Spot Min: $0.0366
+  Windows:
+    On-Demand: $0.3600
+    Hybrid Benefit: $0.2370
+    Basic: $0.0000
+    Basic Spot: $0.0000
+    Spot Min: $0.0555
+
+Storage:
+  Size: 1047552 bytes
+  NVMe SSD: false
+-----------------------------
+
+Instance Type: a4v2 (Standard A4 v2)
+Category: generalpurpose
+Family: av2
+Architecture: x64
+vCPUs: 4 (Available: 4, Per Core: 1)
+Memory: 8.00 GB
+ACU: 100
+Accelerated Networking: false
+Premium IO: false
+
+Pricing in us-east:
+  Linux:
+    On-Demand: $0.1910
+    Basic: $0.0000
+    Basic Spot: $0.0000
+    Spot Min: $0.0295
+  Windows:
+    On-Demand: $0.2860
+    Hybrid Benefit: $0.1910
+    Basic: $0.0000
+    Basic Spot: $0.0000
+    Spot Min: $0.0441
+
+Storage:
+  Size: 1047552 bytes
+  NVMe SSD: false
+-----------------------------
+
+Instance Type: a5 (Standard A5)
+Category: generalpurpose
+Family: a
+Architecture: x64
+vCPUs: 2 (Available: 2, Per Core: 1)
+Memory: 14.00 GB
+ACU: 100
+Accelerated Networking: false
+Premium IO: false
+
+Pricing in us-east:
+  Linux:
+    On-Demand: $0.2500
+    Basic: $0.0000
+    Basic Spot: $0.0000
+    Spot Min: $0.2250
+  Windows:
+    On-Demand: $0.3300
+    Hybrid Benefit: $0.2500
+    Basic: $0.0000
+    Basic Spot: $0.0000
+    Spot Min: $0.2970
+
+Storage:
+  Size: 1047552 bytes
+  NVMe SSD: false
+-----------------------------
+
+Instance Type: a6 (Standard A6)
+Category: generalpurpose
+Family: a
+Architecture: x64
+vCPUs: 4 (Available: 4, Per Core: 1)
+Memory: 28.00 GB
+ACU: 100
+Accelerated Networking: false
+Premium IO: false
+
+Pricing in us-east:
+  Linux:
+    On-Demand: $0.5000
+    Basic: $0.0000
+    Basic Spot: $0.0000
+    Spot Min: $0.4500
+  Windows:
+    On-Demand: $0.6600
+    Hybrid Benefit: $0.5000
+    Basic: $0.0000
+    Basic Spot: $0.0000
+    Spot Min: $0.5940
+
+Storage:
+  Size: 1047552 bytes
+  NVMe SSD: false
+-----------------------------
+
+Instance Type: a7 (Standard A7)
+Category: generalpurpose
+Family: a
+Architecture: x64
+vCPUs: 8 (Available: 8, Per Core: 1)
+Memory: 56.00 GB
+ACU: 100
+Accelerated Networking: false
+Premium IO: false
+
+Pricing in us-east:
+  Linux:
+    On-Demand: $1.0000
+    Basic: $0.0000
+    Basic Spot: $0.0000
+    Spot Min: $0.9000
+  Windows:
+    On-Demand: $1.3200
+    Hybrid Benefit: $1.0000
+    Basic: $0.0000
+    Basic Spot: $0.0000
+    Spot Min: $1.1880
+
+Storage:
+  Size: 1047552 bytes
+  NVMe SSD: false
+-----------------------------
+
+Instance Type: a8mv2 (Standard A8m v2)
+Category: generalpurpose
+Family: av2
+Architecture: x64
+vCPUs: 8 (Available: 8, Per Core: 1)
+Memory: 64.00 GB
+ACU: 100
+Accelerated Networking: false
+Premium IO: false
+
+Pricing in us-east:
+  Linux:
+    On-Demand: $0.4750
+    Basic: $0.0000
+    Basic Spot: $0.0000
+    Spot Min: $0.0733
+  Windows:
+    On-Demand: $0.7200
+    Hybrid Benefit: $0.4750
+    Basic: $0.0000
+    Basic Spot: $0.0000
+    Spot Min: $0.1111
+
+Storage:
+  Size: 1047552 bytes
+  NVMe SSD: false
+-----------------------------
+
+Instance Type: a8v2 (Standard A8 v2)
+Category: generalpurpose
+Family: av2
+Architecture: x64
+vCPUs: 8 (Available: 8, Per Core: 1)
+Memory: 16.00 GB
+ACU: 100
+Accelerated Networking: false
+Premium IO: false
+
+Pricing in us-east:
+  Linux:
+    On-Demand: $0.3990
+    Basic: $0.0000
+    Basic Spot: $0.0000
+    Spot Min: $0.0616
+  Windows:
+    On-Demand: $0.6000
+    Hybrid Benefit: $0.3990
+    Basic: $0.0000
+    Basic Spot: $0.0000
+    Spot Min: $0.0926
+
+Storage:
+  Size: 1047552 bytes
+  NVMe SSD: false
+-----------------------------
