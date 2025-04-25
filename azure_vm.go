@@ -1,6 +1,8 @@
 // azure_vm.go with updated fields
 package ec2instancesinfo
 
+import _ "embed"
+
 // AzureInstanceData represents data about a specific Azure VM instance type
 type AzureInstanceData struct {
 	ACU                   int                     `json:"ACU"`
@@ -68,6 +70,7 @@ type AzureOSPricing struct {
 
 // Global variables for Azure VM data
 var (
+	//go:embed data/azure-instances.json
 	azureDataBody       []byte
 	azureBackupDataBody []byte
 	azureStaticDataBody = []byte(`[]`) // Will be replaced with actual embedded data
