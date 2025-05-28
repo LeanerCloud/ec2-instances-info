@@ -16,7 +16,7 @@ import (
 )
 
 // AWS Instances JSON Structure Definitions
-type jsonInstance struct {
+type EC2Instance struct {
 	Family             string          `json:"family"`
 	EnhancedNetworking bool            `json:"enhanced_networking"`
 	ECURaw             json.RawMessage `json:"ECU"`
@@ -103,7 +103,7 @@ var dataBody, backupDataBody []byte
 
 // InstanceData is a large data structure containing pricing and specs
 // information about all the EC2 instance types from all AWS regions.
-type InstanceData []jsonInstance
+type InstanceData []EC2Instance
 
 // Data generates the InstanceData object based on data sourced from
 // ec2instances.info. The data is available there as a JSON blob, which is

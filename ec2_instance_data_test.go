@@ -5,12 +5,12 @@ import "testing"
 func TestData(t *testing.T) {
 	tests := []struct {
 		name     string
-		instance jsonInstance
+		instance EC2Instance
 		wantErr  bool
 	}{
 		{
 			name: "Parsing t2.nano memory, price, and ebs surcharge",
-			instance: jsonInstance{
+			instance: EC2Instance{
 				InstanceType: "t2.nano",
 				Memory:       0.5,
 				VCPU:         1,
@@ -30,7 +30,7 @@ func TestData(t *testing.T) {
 		},
 		{
 			name: "Parsing m3.2xlarge memory, price, and ebs surcharge",
-			instance: jsonInstance{
+			instance: EC2Instance{
 				InstanceType: "m3.2xlarge",
 				Memory:       30.0,
 				VCPU:         8,
@@ -50,7 +50,7 @@ func TestData(t *testing.T) {
 		},
 		{
 			name: "Parsing p2.16xlarge memory, price, GPUs and EBS surcharge",
-			instance: jsonInstance{
+			instance: EC2Instance{
 				InstanceType: "p2.16xlarge",
 				Memory:       732.0,
 				VCPU:         64,
