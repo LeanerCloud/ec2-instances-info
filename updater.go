@@ -1,10 +1,12 @@
 package ec2instancesinfo
 
 import (
+	"errors"
 	"fmt"
 	"io/ioutil"
 	"log"
 	"net/http"
+	"net/url"
 	"os"
 	"time"
 )
@@ -15,17 +17,30 @@ const (
 	defaultRefreshInterval = 7
 )
 
+// httpClient is replaced in tests.
+var httpClient = &http.Client{}
+
+// withoutURL strips the request URL that net/http embeds in transport errors.
+// The data file URL returned by the API is a signed link, so it must not end
+// up in error text that callers log.
+func withoutURL(err error) error {
+	var ue *url.Error
+	if errors.As(err, &ue) {
+		return ue.Err
+	}
+	return err
+}
+
 func getDataURL(apiHost, apiKey string) (*string, error) {
 	url := fmt.Sprintf("https://%s%s", apiHost, defaultAPIPath)
 
-	client := &http.Client{}
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
 		return nil, fmt.Errorf("error creating request: %s", err)
 	}
 
 	req.Header.Set("Authorization", "Bearer "+apiKey)
-	resp, err := client.Do(req)
+	resp, err := httpClient.Do(req)
 	if err != nil {
 		return nil, fmt.Errorf("error sending request: %s", err)
 	}
@@ -58,17 +73,20 @@ func UpdateData(apiHost, apiKey *string) error {
 		return fmt.Errorf("error getting download URL file: %s", err)
 	}
 
-	client := &http.Client{}
 	req, err := http.NewRequest("GET", *url, nil)
 	if err != nil {
-		return fmt.Errorf("error creating request: %s", err)
+		return fmt.Errorf("error creating request: %s", withoutURL(err))
 	}
-	resp, err := client.Do(req)
+	resp, err := httpClient.Do(req)
 	if err != nil {
-		return fmt.Errorf("error sending request: %s", err)
+		return fmt.Errorf("error sending request: %s", withoutURL(err))
 	}
 
 	defer resp.Body.Close()
+	if resp.StatusCode != http.StatusOK {
+		return fmt.Errorf("received unexpected HTTP status downloading the data file: %s", resp.Status)
+	}
+
 	body, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
 		return fmt.Errorf("error reading response body: %s", err)
@@ -82,13 +100,19 @@ func UpdateData(apiHost, apiKey *string) error {
 	dataBody = body
 	log.Println("Data size after:", len(dataBody))
 
+	// The dump is a debugging aid and the working directory is read-only on
+	// some platforms (e.g. Lambda), so failing to write it must not fail an
+	// update that already succeeded.
 	out, err := os.Create("instances_dump.json")
 	if err != nil {
-		panic("Couldn't create dump file")
+		log.Printf("Couldn't create the dump file, skipping it: %s", err)
+		return nil
 	}
 
 	defer out.Close()
-	out.Write(body)
+	if _, err := out.Write(body); err != nil {
+		log.Printf("Couldn't write the dump file: %s", err)
+	}
 
 	return nil
 }
